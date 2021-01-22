@@ -458,3 +458,28 @@ for nbr,(a,b,c) in enumerate(modelist2):
         print()
 
     print("%3d"%(nbr+1),"%12s"%a,"is of form",romannbr[b],"-",c)
+
+for r in range(24):
+    new_page()
+    print("Scale/Modes Chart for Root Pitch","%33s"%(" = ".join(pitches.getPitchNameCandidates(r))+" =%= "+getName(r)))
+    print("="*66)
+    print()
+    chromaticnames = "".join([(getName(x+r).strip()+" ") if len(getName(x+r).strip()) == 1 else "  " for x in range(25)])
+    print("%10s  "%"",chromaticnames)
+    print()
+    for (cnt,i,name,s0) in interesting_scales:
+        for modenbr in [0,1,2]:
+            s = s0
+            for i in range(modenbr):
+                s = nextMode(s)
+            steps0 = getSteps(s)
+            pitchnames = pitches.getPitchNames([x+r for x in steps0])
+            namedict = dict(zip(steps0,pitchnames))
+            scalenames = "".join([(namedict[x]+" ")[:2] if x in namedict else "  " for x in range(25)])
+            print("%10s  "%(romannbr[cnt]+" - "+str(modenbr)),scalenames)
+    print()
+    print("  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.")
+    print("  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.")
+    print("  6M |+----^/^-----^---|.           7M |+------^-----^-------|.")
+    print("  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.")
+    print("          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.")

@@ -51,7 +51,12 @@ for section in sections:
     pages.append(section)
     
 def augment_page(page):
-    return page + [""]*(printablepagelines - len(page))
+    behind = printablepagelines - len(page)
+    before = 0
+    if behind > 1:
+        behind -= 1
+        before = 1
+    return [""]*before + page + [""]*behind
     
 pages = list(map(augment_page,pages))
 

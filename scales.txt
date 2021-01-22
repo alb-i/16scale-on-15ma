@@ -1,3 +1,4 @@
+
                                                       Jan 22, 2021
 
 16-Tone Scale Generator and Analyzer Report
@@ -49,10 +50,10 @@ Candidate count: 15
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 1 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Generated scales with the desired properties, up to rotation
 ============================================================
 
@@ -103,10 +104,10 @@ IX       12      ECACA   hFhhFFFFhhFFFFh .++.+++++.+++++   4202313
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 2 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   I - 0                  FhFFhhFFhhFFFFh
 =========================================
 Intervals:
@@ -157,10 +158,10 @@ Root-Notes:       C  D D#  F  G G#  A  B C#  D D#  F  G  A  B  C
   8+dom7-5  [ 8]  .  .  .  X  X  .  .  X  .  .  X  X  X  X  X  .
   8+min7-5  [ 5]  .  X  .  .  .  .  X  X  .  .  .  X  .  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 3 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   I - 1                  hFFhhFFFFhFhFFh
 =========================================
 Intervals:
@@ -211,10 +212,10 @@ Root-Notes:       C C# D#  F F#  G  A  B C# D#  E F#  G  A  B  C
   8+dom7-5  [ 8]  .  .  X  .  .  X  X  X  X  X  .  .  .  X  X  .
   8+min7-5  [ 5]  .  X  X  .  .  .  X  .  .  X  .  X  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 4 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   I - 2                  hhFFFFhFhFFhhFF
 =========================================
 Intervals:
@@ -265,10 +266,10 @@ Root-Notes:       C C#  D  E F# G# A#  B C#  D  E F#  G G# A#  C
   8+dom7-5  [ 8]  .  .  X  X  X  X  X  .  .  .  X  X  .  .  X  .
   8+min7-5  [ 5]  .  .  .  X  .  .  X  .  X  .  .  .  .  X  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 5 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   II - 0                 hFFFFhhFFhhFFhF
 =========================================
 Intervals:
@@ -319,10 +320,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  E  F  G  A A#  C
   8+dom7-5  [ 8]  .  .  X  X  .  X  .  .  X  X  .  X  X  X  .  .
   8+min7-5  [ 3]  .  .  .  .  X  X  .  .  .  .  .  .  X  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 6 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   II - 1                 FFhhFFhFhFFFFhh
 =========================================
 Intervals:
@@ -373,10 +374,10 @@ Root-Notes:       C  D  E  F F# G# A#  B C#  D  E F# G# A#  B  C
   8+dom7-5  [ 8]  .  X  X  .  X  X  X  .  .  .  X  X  .  X  .  .
   8+min7-5  [ 3]  .  .  .  .  .  X  .  .  .  .  .  .  X  X  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 7 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   II - 2                 hFFhFhFFFFhhFFh
 =========================================
 Intervals:
@@ -427,10 +428,10 @@ Root-Notes:       C C# D#  F F# G#  A  B C# D#  F F#  G  A  B  C
   8+dom7-5  [ 8]  .  X  X  X  .  .  .  X  X  .  X  .  .  X  X  .
   8+min7-5  [ 3]  .  .  X  .  .  .  .  .  .  X  X  .  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 8 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   III - 0                hFhhFFFFhFhFFFh
 =========================================
 Intervals:
@@ -481,10 +482,10 @@ Root-Notes:       C C# D#  E  F  G  A  B C#  D  E  F  G  A  B  C
   8+dom7-5  [ 8]  .  X  .  .  X  X  X  X  X  .  .  .  X  X  .  .
   8+min7-5  [ 5]  .  X  .  .  .  .  X  .  X  .  X  .  .  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 9 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   III - 1                hhFFFFhFhFFFhhF
 =========================================
 Intervals:
@@ -535,10 +536,10 @@ Root-Notes:       C C#  D  E F# G# A#  B C#  D  E F# G#  A A#  C
   8+dom7-5  [ 8]  .  .  X  X  X  X  X  .  .  .  X  X  .  .  X  .
   8+min7-5  [ 5]  .  .  .  .  X  .  X  .  X  .  .  .  X  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 10 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   III - 2                FhFFFhhFhhFFFFh
 =========================================
 Intervals:
@@ -589,10 +590,10 @@ Root-Notes:       C  D D#  F  G  A A#  B C#  D D#  F  G  A  B  C
   8+dom7-5  [ 8]  .  .  .  X  X  .  .  X  .  .  X  X  X  X  X  .
   8+min7-5  [ 5]  .  X  .  .  .  X  .  X  .  .  .  .  X  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 11 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   IV - 0                 FhFhhFFFhhFFFFh
 =========================================
 Intervals:
@@ -643,10 +644,10 @@ Root-Notes:       C  D D#  F F#  G  A  B C#  D D#  F  G  A  B  C
   8+dom7-5  [ 8]  .  .  .  X  .  X  .  X  .  .  X  X  X  X  X  .
   8+min7-5  [ 5]  .  X  .  .  .  .  X  X  .  .  X  .  .  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 12 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   IV - 1                 hFFFhhFFFFhFhFh
 =========================================
 Intervals:
@@ -697,10 +698,10 @@ Root-Notes:       C C# D#  F  G G#  A  B C# D#  F F# G#  A  B  C
   8+dom7-5  [ 8]  .  X  .  X  .  .  X  X  X  X  X  .  .  .  X  .
   8+min7-5  [ 5]  .  .  X  X  .  .  X  .  .  .  X  .  X  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 13 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   IV - 2                 hhFFFFhFhFhhFFF
 =========================================
 Intervals:
@@ -751,10 +752,10 @@ Root-Notes:       C C#  D  E F# G# A#  B C#  D  E  F F# G# A#  C
   8+dom7-5  [ 8]  .  .  X  X  X  X  X  .  .  .  X  .  X  .  X  .
   8+min7-5  [ 5]  .  .  X  .  .  .  X  .  X  .  .  .  .  X  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 14 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   V - 0                  hFFFhFhFFFFhhFh
 =========================================
 Intervals:
@@ -805,10 +806,10 @@ Root-Notes:       C C# D#  F  G G# A#  B C# D#  F  G G#  A  B  C
   8+dom7-5  [ 8]  .  X  X  X  X  .  .  .  X  X  .  X  .  .  X  .
   8+min7-5  [ 3]  .  .  .  X  .  .  .  .  .  .  X  X  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 15 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   V - 1                  hFFFFhhFhhFFFhF
 =========================================
 Intervals:
@@ -859,10 +860,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A A#  C
   8+dom7-5  [ 8]  .  .  X  X  .  X  .  .  X  .  X  X  X  X  .  .
   8+min7-5  [ 3]  .  .  .  .  X  X  .  .  .  .  .  .  X  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 16 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   V - 2                  FhhFFFhFhFFFFhh
 =========================================
 Intervals:
@@ -913,10 +914,10 @@ Root-Notes:       C  D D#  E F# G# A#  B C#  D  E F# G# A#  B  C
   8+dom7-5  [ 8]  .  X  .  X  X  X  X  .  .  .  X  X  .  X  .  .
   8+min7-5  [ 3]  .  .  .  .  .  X  .  .  .  .  .  .  X  X  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 17 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VI - 0                 hFFFFhhFFFhhFhF
 =========================================
 Intervals:
@@ -967,10 +968,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  F F#  G  A A#  C
   8+dom7-5  [ 8]  .  .  X  X  .  X  .  .  X  X  X  .  X  X  .  .
   8+min7-5  [ 4]  .  .  X  .  X  X  .  .  .  .  .  .  X  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 18 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VI - 1                 FFFhhFhFhFFFFhh
 =========================================
 Intervals:
@@ -1021,10 +1022,10 @@ Root-Notes:       C  D  E F#  G G# A#  B C#  D  E F# G# A#  B  C
   8+dom7-5  [ 8]  .  X  X  X  .  X  X  .  .  .  X  X  .  X  .  .
   8+min7-5  [ 4]  .  .  .  .  .  X  .  .  .  .  X  .  X  X  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 19 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VI - 2                 hFhFhFFFFhhFFFh
 =========================================
 Intervals:
@@ -1075,10 +1076,10 @@ Root-Notes:       C C# D#  E F#  G  A  B C# D#  E  F  G  A  B  C
   8+dom7-5  [ 8]  .  X  X  .  .  .  X  X  .  X  .  .  X  X  X  .
   8+min7-5  [ 4]  .  X  .  .  .  .  X  .  X  X  .  .  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 20 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VII - 0                hFFhhFFFhhFFFFh
 =========================================
 Intervals:
@@ -1129,10 +1130,10 @@ Root-Notes:       C C# D#  F F#  G  A  B C#  D D#  F  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  .  X  X  X  X  .  X  X  X  X  X  .
   8+min7-5  [ 3]  .  .  .  .  .  .  X  .  .  .  X  .  .  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 21 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VII - 1                hFFFhhFFFFhhFFh
 =========================================
 Intervals:
@@ -1183,10 +1184,10 @@ Root-Notes:       C C# D#  F  G G#  A  B C# D#  F F#  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  X  .  X  X  X  X  X  .  X  X  X  .
   8+min7-5  [ 3]  .  .  X  .  .  .  X  .  .  .  X  .  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 22 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VII - 2                hFFFFhhFFhhFFFh
 =========================================
 Intervals:
@@ -1237,10 +1238,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  E  F  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  X  X  .  X  X  X  .  X  X  X  X  .
   8+min7-5  [ 3]  .  X  .  .  .  X  .  .  .  .  .  .  X  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 23 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VIII - 0               hFFFhhFFhhFFFFh
 =========================================
 Intervals:
@@ -1291,10 +1292,10 @@ Root-Notes:       C C# D#  F  G G#  A  B C#  D D#  F  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  X  .  X  X  X  .  X  X  X  X  X  .
   8+min7-5  [ 3]  .  .  .  .  .  .  X  .  .  .  .  X  .  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 24 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VIII - 1               hFFhhFFFFhhFFFh
 =========================================
 Intervals:
@@ -1345,10 +1346,10 @@ Root-Notes:       C C# D#  F F#  G  A  B C# D#  E  F  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  .  X  X  X  X  X  .  X  X  X  X  .
   8+min7-5  [ 3]  .  X  .  .  .  .  X  .  .  X  .  .  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 25 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   VIII - 2               hFFFFhhFFFhhFFh
 =========================================
 Intervals:
@@ -1399,10 +1400,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  F F#  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  X  X  .  X  X  X  X  .  X  X  X  .
   8+min7-5  [ 3]  .  .  X  .  .  X  .  .  .  .  .  .  X  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 26 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   IX - 0                 hFhhFFFFhhFFFFh
 =========================================
 Intervals:
@@ -1453,10 +1454,10 @@ Root-Notes:       C C# D#  E  F  G  A  B C#  D D#  F  G  A  B  C
   8+dom7-5  [12]  .  X  X  .  X  X  X  X  X  .  X  X  X  X  X  .
   8+min7-5  [ 3]  .  .  .  .  .  .  X  .  X  .  .  .  .  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 27 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   IX - 1                 hFFFFhhFFFFhhFh
 =========================================
 Intervals:
@@ -1507,10 +1508,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  F  G G#  A  B  C
   8+dom7-5  [12]  .  X  X  X  X  X  .  X  X  X  X  X  .  X  X  .
   8+min7-5  [ 3]  .  .  .  X  .  X  .  .  .  .  .  X  .  .  .  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 28 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
   IX - 2                 hFFFFhhFhhFFFFh
 =========================================
 Intervals:
@@ -1561,10 +1562,10 @@ Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A  B  C
   8+dom7-5  [12]  .  X  X  X  X  X  .  X  X  .  X  X  X  X  X  .
   8+min7-5  [ 3]  .  .  .  .  .  X  .  .  .  .  .  .  X  .  X  .
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 29 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Chromatic Mode Representants:
 
       I - 0:  C-G#-C#|C#- A- D| D-A#-D#|D#- B- E| E- C- F| F-C#-F#
@@ -1615,10 +1616,10 @@ Chromatic Mode Representants:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 30 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Chromatic Mode Representants:
 
      VI - 0:  C- B-F#|C#- C- G| D-C#-G#|D#- D- A| E-D#-A#| F- E- B
@@ -1669,10 +1670,9 @@ Chromatic Mode Representants:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 31 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
   1      A- C- B is of form III - 0
@@ -1725,8 +1725,8 @@ Chromatic Representant to Type and Mode Conversion Chart:
  48      B-A#-C# is of form V - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 32 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
  49      B-A#-D# is of form II - 0
@@ -1779,8 +1779,8 @@ Chromatic Representant to Type and Mode Conversion Chart:
  96      D-A#-D# is of form I - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 33 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
  97      D-A#-G# is of form VII - 1
@@ -1833,8 +1833,8 @@ Chromatic Representant to Type and Mode Conversion Chart:
 144      F- E- B is of form VI - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 34 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
 145      F- E- C is of form I - 2
@@ -1887,8 +1887,8 @@ Chromatic Representant to Type and Mode Conversion Chart:
 192     A#- A- E is of form VI - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 35 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
 193     A#- A- F is of form I - 2
@@ -1941,8 +1941,8 @@ Chromatic Representant to Type and Mode Conversion Chart:
 240     C#-F#- D is of form II - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 36 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
 241     C#-F#- F is of form I - 1
@@ -1995,8 +1995,9 @@ Chromatic Representant to Type and Mode Conversion Chart:
 288     F#- E-G# is of form IX - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 37 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Chromatic Representant to Type and Mode Conversion Chart:
 
 289     F#- F- B is of form IV - 2
@@ -2047,10 +2048,10 @@ Chromatic Representant to Type and Mode Conversion Chart:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 38 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Hexdecimal Mode Representants:
 
        I - 0  J- O- R| K- P-R#|K#-P#- S| L- Q- T| M-Q#-T#|M#- R- U
@@ -2101,10 +2102,10 @@ Hexdecimal Mode Representants:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 39 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Hexdecimal Mode Representants:
 
       IV - 0  J- N- R| K-N#-R#|K#- O- S| L- P- T| M-P#-T#|M#- Q- U
@@ -2155,10 +2156,10 @@ Hexdecimal Mode Representants:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 40 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Hexdecimal Mode Representants:
 
      VII - 0  J- N-Sb| K-N#- S|K#- O- T| L- P-T#| M-P#- U|M#- Q-Vb
@@ -2209,10 +2210,9 @@ Hexdecimal Mode Representants:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 41 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
   1      J- L- R is of form V - 2
@@ -2265,8 +2265,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
  48      K-Rb-Vb is of form VI - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 42 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
  49      K-Rb-Yb is of form III - 1
@@ -2319,8 +2319,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
  96      M-R#-T# is of form III - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 43 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
  97      M-Sb- J is of form IX - 1
@@ -2373,8 +2373,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 144      O-Q#-X# is of form IX - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 44 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 145      O-Sb- J is of form VIII - 1
@@ -2427,8 +2427,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 192      Q-R#- K is of form III - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 45 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 193      Q-Sb- J is of form V - 2
@@ -2481,8 +2481,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 240      S- U-M# is of form III - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 46 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 241      S- V- M is of form II - 1
@@ -2535,8 +2535,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 288      U- J- O is of form VII - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 47 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 289      U- J- Q is of form VI - 2
@@ -2589,8 +2589,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 336      V-Ob-Q# is of form II - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 48 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 337      V-Ob-R# is of form VI - 0
@@ -2643,8 +2643,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 384      Y-P#- R is of form V - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 49 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 385      Y-P#- S is of form II - 0
@@ -2697,8 +2697,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 432     M#- Q- X is of form VIII - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 50 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 433     M#- Q-Vb is of form VII - 0
@@ -2751,8 +2751,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 480     Ob-Q#- V is of form II - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 51 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 481     Ob-R#- V is of form VI - 1
@@ -2805,8 +2805,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 528     Q#-X#- M is of form VII - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 52 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 529     Q#-X#- N is of form VIII - 2
@@ -2859,8 +2859,8 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 576     T#- M-P# is of form IV - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 53 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 577     T#- M-Q# is of form I - 2
@@ -2913,8 +2913,9 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 624     X#- P-T# is of form I - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 54 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
-                                                      Jan 22, 2021
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
 Hexdecimal Representant to Type and Mode Conversion Chart:
 
 625     X#-K#-Q# is of form IX - 0
@@ -2965,6 +2966,1301 @@ Hexdecimal Representant to Type and Mode Conversion Chart:
 
 
 
-
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 55 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                J = Kb = Y# =%=  C
+==================================================================
+
+             C   D   E F   G   A   B C   D   E F   G   A   B C
+
+     I - 0   J   K#L   M#  N#O P   Q   R SbTb  Ub  Vb  X   Y J
+     I - 1   J K   L   M#N Ob  P   Q   R   S T   U Vb  X   Y J
+     I - 2   J K Lb  M   N   O   P#Q   R Sb  T   U VbXb  Yb  J
+    II - 0   J K   L   M#  N#  O#P#Q   R   S T Ub  Vb  X Yb  J
+    II - 1   J   K#  L#M#N   O   P#Q   R Sb  T   U   V   X#Y J
+    II - 2   J K   L   M#N   O P   Q   R   S   T#U Vb  X   Y J
+   III - 0   J K   L M Nb  Ob  P   Q   R Sb  T Ub  Vb  X   Y J
+   III - 1   J K Lb  M   N   O   P#Q   R Sb  T   U   V X Yb  J
+   III - 2   J   K#L   M#  N#  O#P#Q   R SbTb  Ub  Vb  X   Y J
+    IV - 0   J   K#L   M#N Ob  P   Q   R SbTb  Ub  Vb  X   Y J
+    IV - 1   J K   L   M#  N#O P   Q   R   S   T#U   V X   Y J
+    IV - 2   J K Lb  M   N   O   P#Q   R Sb  T T#U   V   X#  J
+     V - 0   J K   L   M#  N#O   P#Q   R   S   T#  U#V X   Y J
+     V - 1   J K   L   M#  N#  O#P#Q   R SbTb  Ub  Vb  X Yb  J
+     V - 2   J   K#L M   N   O   P#Q   R Sb  T   U   V   X#Y J
+    VI - 0   J K   L   M#  N#  O#P#Q   R   S   T#U Vb  X Yb  J
+    VI - 1   J   K#  M   N N#O   P#Q   R Sb  T   U   V   X#Y J
+    VI - 2   J K   L M   N Ob  P   Q   R   S T Ub  Vb  X   Y J
+   VII - 0   J K   L   M#N Ob  P   Q   R SbTb  Ub  Vb  X   Y J
+   VII - 1   J K   L   M#  N#O P   Q   R   S   T#U Vb  X   Y J
+   VII - 2   J K   L   M#  N#  O#P#Q   R   S T Ub  Vb  X   Y J
+  VIII - 0   J K   L   M#  N#O P   Q   R SbTb  Ub  Vb  X   Y J
+  VIII - 1   J K   L   M#N Ob  P   Q   R   S T Ub  Vb  X   Y J
+  VIII - 2   J K   L   M#  N#  O#P#Q   R   S   T#U Vb  X   Y J
+    IX - 0   J K   L M Nb  Ob  P   Q   R SbTb  Ub  Vb  X   Y J
+    IX - 1   J K   L   M#  N#  O#P#Q   R   S   T#  U#V X   Y J
+    IX - 2   J K   L   M#  N#  O#P#Q   R SbTb  Ub  Vb  X   Y J
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 56 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     K = J# =%= C#
+==================================================================
+
+               D   E F   G   A   B C   D   E F   G   A   B C
+
+     I - 0   K   L M   N   O P P#  Q#  R#S T   U   V   X#  J K
+     I - 1   K Lb  M   N ObPb  Qb  Rb  Sb  T Ub  VbXb  Yb  J K
+     I - 2   J#K#L   M#  N#  P   Q Q#  R#S   T#  U#V X   Y   J#
+    II - 0   K Lb  M   N   O   P#Q Rb  Sb  T T#U   V   X#Y   K
+    II - 1   K   L   M#N Ob  P   Q Rb  SbTb  Ub  Vb  X   Y J K
+    II - 2   K Lb  M   N Ob  P Qb  Rb  Sb  T   U VbXb  Yb  J K
+   III - 0   J#K#  L#M#N   O   P#  Q#  R#S   T#U   V   X#  Y#J#
+   III - 1   K LbMb  Nb  Ob  P   Q Rb  SbTb  Ub  Vb  X YbJb  K
+   III - 2   K   L M   N   O   P#Q Q#  R#S T   U   V   X#  J K
+    IV - 0   K   L M   N N#O   P#  Q#  R#S T   U   V   X#  J K
+    IV - 1   K Lb  M   N   O P Qb  Rb  Sb  T   U Vb  X Yb  J K
+    IV - 2   J#K#L   M#  N#  P   Q Q#  R#S   T#U Vb  X   Y   J#
+     V - 0   K Lb  M   N   O P   Q Rb  Sb  T   U   V X Yb  J K
+     V - 1   K Lb  M   N   O   P#Q Q#  R#S T   U   V   X#Y   K
+     V - 2   K   L M Nb  Ob  P   Q Rb  SbTb  Ub  Vb  X   Y J K
+    VI - 0   K Lb  M   N   O   P#Q Rb  Sb  T   U VbXb  YbJb  K
+    VI - 1   K   L   M#  N#O P   Q Rb  SbTb  Ub  Vb  X   Y J K
+    VI - 2   J#K#  L#M#  N#O   P#  Q#  R#  S#T#U   V   X#  Y#J#
+   VII - 0   K Lb  M   N N#O   P#  Q#  R#S T   U   V   X#  J K
+   VII - 1   K Lb  M   N   O P Qb  Rb  Sb  T   U VbXb  Yb  J K
+   VII - 2   K Lb  M   N   O   P#Q Rb  Sb  T T#U   V   X#  J K
+  VIII - 0   K Lb  M   N   O P P#  Q#  R#S T   U   V   X#  J K
+  VIII - 1   K Lb  M   N N#O   P#  Q#  R#  S#T#U   V   X#  J K
+  VIII - 2   K Lb  M   N   O   P#Q Rb  Sb  T   U VbXb  Yb  J K
+    IX - 0   J#K#  L#M#N   O   P#  Q#  R#S T   U   V   X#  Y#J#
+    IX - 1   K Lb  M   N   O   P#Q Rb  Sb  T   U   V X Yb  J K
+    IX - 2   K Lb  M   N   O   P#Q Q#  R#S T   U   V   X#  J K
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 57 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Lb = K# =%=  D
+==================================================================
+
+             D   E F   G   A   B C   D   E F   G   A   B C   D
+
+     I - 0   K#  L#M#  N#  O#P#Q   R   S T Ub  Vb  X   Y   J#K#
+     I - 1   K#L   M#  N#O P   Q   R   S   T#U   V X   Y   J#K#
+     I - 2   K#L M   N   O   P#  Q#R   S T   U   V X Yb  J   K#
+    II - 0   K#L   M#  N#  P   Q Q#R   S   T#U Vb  X   Y J   K#
+    II - 1   Lb  M   N N#O   P#  Q#R   S T   U   V   X#  J K Lb
+    II - 2   K#L   M#  N#O   P#Q   R   S   T#  U#V X   Y   J#K#
+   III - 0   K#L   M#N Ob  P   Q   R   S T   U Vb  X   Y   J#K#
+   III - 1   K#L M   N   O   P#  Q#R   S T   U   V   X#Y J   K#
+   III - 2   Lb  M Nb  Ob  P   Q Q#R   S T Ub  Vb  X   Y   K Lb
+    IV - 0   K#  L#M#  N#O P   Q   R   S T Ub  Vb  X   Y   J#K#
+    IV - 1   K#L   M#  N#  O#P#Q   R   S   T#  U#V   X#Y   J#K#
+    IV - 2   K#L M   N   O   P#  Q#R   S T   U VbXb  Yb  J   K#
+     V - 0   K#L   M#  N#  O#P#  Q#R   S   T#  U#  V#X#Y   J#K#
+     V - 1   K#L   M#  N#  P   Q Q#R   S T Ub  Vb  X   Y J   K#
+     V - 2   K#  L#M#N   O   P#  Q#R   S T   U   V   X#  Y#J#K#
+    VI - 0   K#L   M#  N#  P   Q Q#R   S   T#  U#V X   Y J   K#
+    VI - 1   Lb  M   N   O P P#  Q#R   S T   U   V   X#  J K Lb
+    VI - 2   K#L   M#N   O P   Q   R   S   T#U Vb  X   Y   J#K#
+   VII - 0   K#L   M#  N#O P   Q   R   S T Ub  Vb  X   Y   J#K#
+   VII - 1   K#L   M#  N#  O#P#Q   R   S   T#  U#V X   Y   J#K#
+   VII - 2   K#L   M#  N#  P   Q Q#R   S   T#U Vb  X   Y   J#K#
+  VIII - 0   K#L   M#  N#  O#P#Q   R   S T Ub  Vb  X   Y   J#K#
+  VIII - 1   K#L   M#  N#O P   Q   R   S   T#U Vb  X   Y   J#K#
+  VIII - 2   K#L   M#  N#  P   Q Q#R   S   T#  U#V X   Y   J#K#
+    IX - 0   K#L   M#N Ob  P   Q   R   S T Ub  Vb  X   Y   J#K#
+    IX - 1   K#L   M#  N#  P   Q Q#R   S   T#  U#  V#X#Y   J#K#
+    IX - 2   K#L   M#  N#  P   Q Q#R   S T Ub  Vb  X   Y   J#K#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 58 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     L = Mb =%= D#
+==================================================================
+
+               E F   G   A   B C   D   E F   G   A   B C   D
+
+     I - 0   L   M#N   O   P#Q Rb  Sb  T T#U   V   X#  J   K#L
+     I - 1   L M   N   O P Qb  Rb  Sb  T   U Vb  X Yb  J   K#L
+     I - 2   L M Nb  Ob  P   Q   R Sb  T Ub  Vb  X YbJb  K   L
+    II - 0   L M   N   O   P#  Q#R Sb  T   U VbXb  Yb  J K   L
+    II - 1   L   M#  N#O P   Q   R Sb  T Ub  Vb  X   Y   J#K#L
+    II - 2   L M   N   O P   Q Rb  Sb  T   U   V X Yb  J   K#L
+   III - 0   L M   N ObPb  Qb  Rb  Sb  T Ub  VbXb  Yb  J   K#L
+   III - 1   L M Nb  Ob  P   Q   R Sb  T Ub  Vb  X   Y J K   L
+   III - 2   L   M#N   O   P#  Q#R Sb  T T#U   V   X#  J   K#L
+    IV - 0   L   M#N   O P Qb  Rb  Sb  T T#U   V   X#  J   K#L
+    IV - 1   L M   N   O   P#Q Rb  Sb  T   U   V X   Y J   K#L
+    IV - 2   L M Nb  Ob  P   Q   R Sb  T T#  U#V X   Y   K   L
+     V - 0   L M   N   O   P#Q   R Sb  T   U   V   X#Y J   K#L
+     V - 1   L M   N   O   P#  Q#R Sb  T T#U   V   X#  J K   L
+     V - 2   L   M#N Ob  P   Q   R Sb  T Ub  Vb  X   Y   J#K#L
+    VI - 0   L M   N   O   P#  Q#R Sb  T   U   V X Yb  J K   L
+    VI - 1   L   M#  N#  O#P#Q   R Sb  T Ub  Vb  X   Y   J#K#L
+    VI - 2   L M   N Ob  P Qb  Rb  Sb  T   U VbXb  Yb  J   K#L
+   VII - 0   L M   N   O P Qb  Rb  Sb  T T#U   V   X#  J   K#L
+   VII - 1   L M   N   O   P#Q Rb  Sb  T   U   V X Yb  J   K#L
+   VII - 2   L M   N   O   P#  Q#R Sb  T   U VbXb  Yb  J   K#L
+  VIII - 0   L M   N   O   P#Q Rb  Sb  T T#U   V   X#  J   K#L
+  VIII - 1   L M   N   O P Qb  Rb  Sb  T   U VbXb  Yb  J   K#L
+  VIII - 2   L M   N   O   P#  Q#R Sb  T   U   V X Yb  J   K#L
+    IX - 0   L M   N N#O   P#  Q#  R#  S#T#U   V   X#  J   K#L
+    IX - 1   L M   N   O   P#  Q#R Sb  T   U   V   X#Y J   K#L
+    IX - 2   L M   N   O   P#  Q#R Sb  T T#U   V   X#  J   K#L
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 59 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     M = L# =%=  E
+==================================================================
+
+             E F   G   A   B C   D   E F   G   A   B C   D   E
+
+     I - 0   M   N Ob  P   Q Q#R   S   T#U Vb  X   Y   K   L M
+     I - 1   M Nb  Ob  P P#Q   R   S   T#  U#V   X#Y   K   L M
+     I - 2   L#M#N   O   P#  Q#  R#S   T#U   V   X#Y J   K#  L#
+    II - 0   M Nb  Ob  P   Q   R R#S   T#  U#V X   Y   K Lb  M
+    II - 1   M   N   O P P#  Q#  R#S   T#U   V   X#  J   K#L M
+    II - 2   M Nb  Ob  P P#  Q#R   S   T#  U#  V#X#Y   K   L M
+   III - 0   M M#  N#O P   Q   R   S   T#U   V X   Y   K   L M
+   III - 1   L#M#N   O   P#  Q#  R#S   T#U   V   X#  Y#J#K#  L#
+   III - 2   M   N Ob  P   Q   R R#S   T#U Vb  X   Y   K   L M
+    IV - 0   M   N Ob  P P#Q   R   S   T#U Vb  X   Y   K   L M
+    IV - 1   M Nb  Ob  P   Q Q#R   S   T#  U#  X Yb  J K   L M
+    IV - 2   L#M#N   O   P#  Q#  R#S   T#U   V X Yb  J   K#  L#
+     V - 0   M Nb  Ob  P   Q Rb  SbTb  Ub  Vb  X   Y J K   L M
+     V - 1   M Nb  Ob  P   Q   R R#S   T#U Vb  X   Y   K Lb  M
+     V - 2   M   N N#O   P#  Q#  R#S   T#U   V   X#  J   K#L M
+    VI - 0   M Nb  Ob  P   Q   R SbTb  Ub  Vb  X YbJb  K Lb  M
+    VI - 1   M   N   O   P#Q Q#  R#S   T#U   V   X#  J   K#L M
+    VI - 2   M M#  N#O   P#Q   R   S   T#  U#V X   Y   K   L M
+   VII - 0   M Nb  Ob  P P#Q   R   S   T#U Vb  X   Y   K   L M
+   VII - 1   M Nb  Ob  P   Q Q#R   S   T#  U#  V#X#Y   K   L M
+   VII - 2   M Nb  Ob  P   Q   R R#S   T#  U#V X   Y   K   L M
+  VIII - 0   M Nb  Ob  P   Q Q#R   S   T#U Vb  X   Y   K   L M
+  VIII - 1   M Nb  Ob  P P#Q   R   S   T#  U#V X   Y   K   L M
+  VIII - 2   M Nb  Ob  P   Q   R SbTb  Ub  Vb  X YbJb  K   L M
+    IX - 0   M M#  N#O P   Q   R   S   T#U Vb  X   Y   K   L M
+    IX - 1   M Nb  Ob  P   Q   R SbTb  Ub  Vb  X   Y J K   L M
+    IX - 2   M Nb  Ob  P   Q   R R#S   T#U Vb  X   Y   K   L M
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 60 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Nb = M# =%=  F
+==================================================================
+
+             F   G   A   B C   D   E F   G   A   B C   D   E F
+
+     I - 0   M#  N#O   P#  Q#R Sb  T   U VbXb  Yb  J   K#  L#M#
+     I - 1   M#N   O   P#Q Rb  Sb  T   U   V X   Y J   K#  L#M#
+     I - 2   M#N Ob  P   Q   R   S T   U Vb  X   Y J K   L   M#
+    II - 0   M#N   O   P#  Q#  R#S T   U   V X Yb  J   K#L   M#
+    II - 1   Nb  Ob  P P#Q   R   S T   U Vb  X   Y   K   L M Nb
+    II - 2   M#N   O   P#Q   R Sb  T   U   V   X#Y J   K#  L#M#
+   III - 0   M#N   O P Qb  Rb  Sb  T   U Vb  X Yb  J   K#  L#M#
+   III - 1   M#N Ob  P   Q   R   S T   U Vb  X   Y   J#K#L   M#
+   III - 2   M#  N#O   P#  Q#  R#S T   U VbXb  Yb  J   K#  L#M#
+    IV - 0   M#  N#O   P#Q Rb  Sb  T   U VbXb  Yb  J   K#  L#M#
+    IV - 1   M#N   O   P#  Q#R Sb  T   U   V   X#Y   J#K#  L#M#
+    IV - 2   M#N Ob  P   Q   R   S T   U Vb  X YbJb  K   L   M#
+     V - 0   M#N   O   P#  Q#R   S T   U   V   X#  Y#J#K#  L#M#
+     V - 1   M#N   O   P#  Q#  R#S T   U VbXb  Yb  J   K#L   M#
+     V - 2   M#  N#O P   Q   R   S T   U Vb  X   Y   K   L M M#
+    VI - 0   M#N   O   P#  Q#  R#S T   U   V   X#Y J   K#L   M#
+    VI - 1   Nb  Ob  P   Q Q#R   S T   U Vb  X   Y   K   L M Nb
+    VI - 2   M#N   O P   Q Rb  Sb  T   U   V X Yb  J   K#  L#M#
+   VII - 0   M#N   O   P#Q Rb  Sb  T   U VbXb  Yb  J   K#  L#M#
+   VII - 1   M#N   O   P#  Q#R Sb  T   U   V   X#Y J   K#  L#M#
+   VII - 2   M#N   O   P#  Q#  R#S T   U   V X Yb  J   K#  L#M#
+  VIII - 0   M#N   O   P#  Q#R Sb  T   U VbXb  Yb  J   K#  L#M#
+  VIII - 1   M#N   O   P#Q Rb  Sb  T   U   V X Yb  J   K#  L#M#
+  VIII - 2   M#N   O   P#  Q#  R#S T   U   V   X#Y J   K#  L#M#
+    IX - 0   M#N   O P Qb  Rb  Sb  T   U VbXb  Yb  J   K#  L#M#
+    IX - 1   M#N   O   P#  Q#  R#S T   U   V   X#  Y#J#K#  L#M#
+    IX - 2   M#N   O   P#  Q#  R#S T   U VbXb  Yb  J   K#  L#M#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 61 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                          N =%= F#
+==================================================================
+
+               G   A   B C   D   E F   G   A   B C   D   E F
+
+     I - 0   N   O P   Q   R R#S   T#  U#V X   Y   K   L   M#N
+     I - 1   N Ob  P   Q Q#R   S   T#  U#  X Yb  J K   L   M#N
+     I - 2   N ObPb  Qb  Rb  Sb  T Ub  VbXb  Yb  J K Lb  M   N
+    II - 0   N Ob  P   Q   R   S T Ub  Vb  X YbJb  K   L M   N
+    II - 1   N   O   P#Q Rb  Sb  T Ub  VbXb  Yb  J   K#  L#M#N
+    II - 2   N Ob  P   Q Rb  SbTb  Ub  Vb  X   Y J K   L   M#N
+   III - 0   N Ob  P P#Q   R   S   T#  U#V   X#Y   K   L   M#N
+   III - 1   N ObPb  Qb  Rb  Sb  T Ub  VbXb  Yb  J   K#L M   N
+   III - 2   N   O P   Q   R   S T T#  U#V X   Y   K   L   M#N
+    IV - 0   N   O P   Q Q#R   S   T#  U#V X   Y   K   L   M#N
+    IV - 1   N Ob  P   Q   R SbTb  Ub  Vb  X   Y J   K#L   M#N
+    IV - 2   N ObPb  Qb  Rb  Sb  T Ub  VbXb  YbJbKb  Lb  M   N
+     V - 0   N Ob  P   Q   R Sb  T Ub  Vb  X   Y   J#K#L   M#N
+     V - 1   N Ob  P   Q   R   S T T#  U#V X   Y   K   L M   N
+     V - 2   N   O P Qb  Rb  Sb  T Ub  VbXb  Yb  J   K#  L#M#N
+    VI - 0   N Ob  P   Q   R   S T Ub  Vb  X   Y J K   L M   N
+    VI - 1   N   O   P#  Q#R Sb  T Ub  VbXb  Yb  J   K#  L#M#N
+    VI - 2   N Ob  P P#  Q#R   S   T#  U#  V#X#Y   K   L   M#N
+   VII - 0   N Ob  P   Q Q#R   S   T#  U#V X   Y   K   L   M#N
+   VII - 1   N Ob  P   Q   R SbTb  Ub  Vb  X   Y J K   L   M#N
+   VII - 2   N Ob  P   Q   R   S T Ub  Vb  X YbJb  K   L   M#N
+  VIII - 0   N Ob  P   Q   R R#S   T#  U#V X   Y   K   L   M#N
+  VIII - 1   N Ob  P   Q Q#R   S   T#  U#  V#X#Y   K   L   M#N
+  VIII - 2   N Ob  P   Q   R   S T Ub  Vb  X   Y J K   L   M#N
+    IX - 0   N Ob  P P#Q   R   S   T#  U#V X   Y   K   L   M#N
+    IX - 1   N Ob  P   Q   R   S T Ub  Vb  X   Y   J#K#L   M#N
+    IX - 2   N Ob  P   Q   R   S T T#  U#V X   Y   K   L   M#N
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 62 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Ob = N# =%=  G
+==================================================================
+
+             G   A   B C   D   E F   G   A   B C   D   E F   G
+
+     I - 0   Ob  P P#  Q#  R#S T   U   V X Yb  J   K#  M   N Ob
+     I - 1   N#O   P#  Q#R Sb  T   U   V   X#Y   K Lb  M   N N#
+     I - 2   N#O P   Q   R   S   T#U   V X   Y   J#K#L   M#  N#
+    II - 0   N#O   P#  Q#  R#  S#T#U   V   X#Y J   K#  L#M#  N#
+    II - 1   Ob  P   Q Q#R   S   T#U   V X   Y   K   L   M#N Ob
+    II - 2   N#O   P#  Q#R   S T   U   V   X#  J K Lb  M   N N#
+   III - 0   N#O   P#Q Rb  Sb  T   U   V X   Y J   K#  M   N N#
+   III - 1   N#O P   Q   R   S   T#U   V X   Y   K   L M M#  N#
+   III - 2   Ob  P Qb  Rb  Sb  T T#U   V X Yb  J   K#  M   N Ob
+    IV - 0   Ob  P P#  Q#R Sb  T   U   V X Yb  J   K#  M   N Ob
+    IV - 1   N#O   P#  Q#  R#S T   U   V   X#  J K   L M   N N#
+    IV - 2   N#O P   Q   R   S   T#U   V X   Y J K   L   M#  N#
+     V - 0   N#O   P#  Q#  R#S   T#U   V   X#  J   K#L M   N N#
+     V - 1   N#O   P#  Q#  R#  S#T#U   V X Yb  J   K#  L#M#  N#
+     V - 2   Ob  P P#Q   R   S   T#U   V X   Y   K   L   M#N Ob
+    VI - 0   N#O   P#  Q#  R#  S#T#U   V   X#  Y#J#K#  L#M#  N#
+    VI - 1   Ob  P   Q   R R#S   T#U   V X   Y   K   L   M#N Ob
+    VI - 2   N#O   P#Q   R Sb  T   U   V   X#Y J   K#  M   N N#
+   VII - 0   N#O   P#  Q#R Sb  T   U   V X Yb  J   K#  M   N N#
+   VII - 1   N#O   P#  Q#  R#S T   U   V   X#  J K Lb  M   N N#
+   VII - 2   N#O   P#  Q#  R#  S#T#U   V   X#Y J   K#  M   N N#
+  VIII - 0   N#O   P#  Q#  R#S T   U   V X Yb  J   K#  M   N N#
+  VIII - 1   N#O   P#  Q#R Sb  T   U   V   X#Y J   K#  M   N N#
+  VIII - 2   N#O   P#  Q#  R#  S#T#U   V   X#  J K Lb  M   N N#
+    IX - 0   N#O   P#Q Rb  Sb  T   U   V X Yb  J   K#  M   N N#
+    IX - 1   N#O   P#  Q#  R#  S#T#U   V   X#  J   K#L M   N N#
+    IX - 2   N#O   P#  Q#  R#  S#T#U   V X Yb  J   K#  M   N N#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 63 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     O = Pb =%= G#
+==================================================================
+
+               A   B C   D   E F   G   A   B C   D   E F   G
+
+     I - 0   O   P#Q   R   S T Ub  Vb  X YbJb  K   L   M#  N#O
+     I - 1   O P   Q   R SbTb  Ub  Vb  X   Y J   K#L   M#  N#O
+     I - 2   O P Qb  Rb  Sb  T   U Vb  X Yb  J   K#L M   N   O
+    II - 0   O P   Q   R   S   T#U Vb  X   Y J K   L   M#N   O
+    II - 1   O   P#  Q#R Sb  T   U Vb  X Yb  J   K#  M   N N#O
+    II - 2   O P   Q   R Sb  T Ub  Vb  X   Y   J#K#L   M#  N#O
+   III - 0   O P   Q Q#R   S   T#  U#  X Yb  J K   L   M#  N#O
+   III - 1   O P Qb  Rb  Sb  T   U Vb  X Yb  J   K#  L#M#N   O
+   III - 2   O   P#Q   R   S   T#U Vb  X YbJb  K   L   M#  N#O
+    IV - 0   O   P#Q   R SbTb  Ub  Vb  X YbJb  K   L   M#  N#O
+    IV - 1   O P   Q   R   S T Ub  Vb  X   Y   J#K#  L#M#  N#O
+    IV - 2   O P Qb  Rb  Sb  T   U Vb  X Yb  J K Lb  M   N   O
+     V - 0   O P   Q   R   S T   U Vb  X   Y   K   L M M#  N#O
+     V - 1   O P   Q   R   S   T#U Vb  X YbJb  K   L   M#N   O
+     V - 2   O   P#Q Rb  Sb  T   U Vb  X Yb  J   K#  M   N N#O
+    VI - 0   O P   Q   R   S   T#U Vb  X   Y   J#K#L   M#N   O
+    VI - 1   O   P#  Q#  R#S T   U Vb  X Yb  J   K#  M   N N#O
+    VI - 2   O P   Q Rb  SbTb  Ub  Vb  X   Y J K   L   M#  N#O
+   VII - 0   O P   Q   R SbTb  Ub  Vb  X YbJb  K   L   M#  N#O
+   VII - 1   O P   Q   R   S T Ub  Vb  X   Y   J#K#L   M#  N#O
+   VII - 2   O P   Q   R   S   T#U Vb  X   Y J K   L   M#  N#O
+  VIII - 0   O P   Q   R   S T Ub  Vb  X YbJb  K   L   M#  N#O
+  VIII - 1   O P   Q   R SbTb  Ub  Vb  X   Y J K   L   M#  N#O
+  VIII - 2   O P   Q   R   S   T#U Vb  X   Y   J#K#L   M#  N#O
+    IX - 0   O P   Q Q#R   S   T#  U#  V#X#Y   K   L   M#  N#O
+    IX - 1   O P   Q   R   S   T#U Vb  X   Y   K   L M M#  N#O
+    IX - 2   O P   Q   R   S   T#U Vb  X YbJb  K   L   M#  N#O
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 64 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     P = O# =%=  A
+==================================================================
+
+             A   B C   D   E F   G   A   B C   D   E F   G   A
+
+     I - 0   P   Q Rb  Sb  T T#U   V   X#Y J   K#  M   N   O P
+     I - 1   P P#  Q#  R#S T   U   V   X#  J K   L M   N   O P
+     I - 2   P P#Q   R   S   T#  U#V   X#Y   K   L M Nb  Ob  P
+    II - 0   P Qb  Rb  Sb  T   U VbXb  Yb  J K Lb  M   N Ob  P
+    II - 1   P   Q   R SbTb  Ub  VbXb  YbJb  K   L   M#  N#O P
+    II - 2   P P#  Q#  R#S   T#U   V   X#  J   K#L M   N   O P
+   III - 0   P P#  Q#R Sb  T   U   V   X#Y   K Lb  M   N   O P
+   III - 1   P P#Q   R   S   T#  U#V   X#Y   K   L   M#N Ob  P
+   III - 2   P   Q Rb  Sb  T   U VbXb  YbJbKb  Lb  M   N   O P
+    IV - 0   P   Q Q#  R#S T   U   V   X#Y J   K#  M   N   O P
+    IV - 1   P Qb  Rb  Sb  T T#U   V   X#  J   K#L   M#N   O P
+    IV - 2   O#P#Q   R   S   T#  U#V   X#Y   J#K#L   M#  N#  O#
+     V - 0   P Qb  Rb  Sb  T Ub  VbXb  Yb  J   K#  L#M#N   O P
+     V - 1   P Qb  Rb  Sb  T   U VbXb  YbJbKb  Lb  M   N Ob  P
+     V - 2   P   Q Q#R   S   T#  U#V   X#Y   K   L   M#  N#O P
+    VI - 0   P Qb  Rb  Sb  T   U VbXb  Yb  J   K#L M   N Ob  P
+    VI - 1   P   Q   R   S T Ub  VbXb  YbJb  K   L   M#  N#O P
+    VI - 2   P P#  Q#R   S T   U   V   X#  J K Lb  M   N   O P
+   VII - 0   P P#  Q#  R#S T   U   V   X#Y J   K#  M   N   O P
+   VII - 1   P Qb  Rb  Sb  T T#U   V   X#  J   K#L M   N   O P
+   VII - 2   P Qb  Rb  Sb  T   U VbXb  Yb  J K Lb  M   N   O P
+  VIII - 0   P Qb  Rb  Sb  T T#U   V   X#Y J   K#  M   N   O P
+  VIII - 1   P P#  Q#  R#S T   U   V   X#  J K Lb  M   N   O P
+  VIII - 2   P Qb  Rb  Sb  T   U VbXb  Yb  J   K#L M   N   O P
+    IX - 0   P P#  Q#R Sb  T   U   V   X#Y J   K#  M   N   O P
+    IX - 1   P Qb  Rb  Sb  T   U VbXb  Yb  J   K#  L#M#N   O P
+    IX - 2   P Qb  Rb  Sb  T   U VbXb  YbJbKb  Lb  M   N   O P
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 65 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Qb = P# =%= A#
+==================================================================
+
+               B C   D   E F   G   A   B C   D   E F   G   A
+
+     I - 0   P#  Q#R   S   T#U Vb  X   Y J K   L   M#  N#  O#P#
+     I - 1   P#Q   R   S T Ub  Vb  X   Y   J#K#  L#M#  N#  O#P#
+     I - 2   P#Q Rb  Sb  T   U   V X   Y J   K#  L#M#N   O   P#
+    II - 0   P#Q   R   S   T#  U#V X   Y   J#K#L   M#  N#O   P#
+    II - 1   P#  Q#  R#S T   U   V X   Y J   K#  M   N   O P P#
+    II - 2   P#Q   R   S T   U Vb  X   Y   K   L M Nb  Ob  P P#
+   III - 0   P#Q   R SbTb  Ub  Vb  X   Y J   K#L   M#  N#  O#P#
+   III - 1   P#Q Rb  Sb  T   U   V X   Y J   K#  M   N N#O   P#
+   III - 2   P#  Q#R   S   T#  U#V X   Y J K   L   M#  N#  O#P#
+    IV - 0   P#  Q#R   S T Ub  Vb  X   Y J K   L   M#  N#  O#P#
+    IV - 1   P#Q   R   S   T#U Vb  X   Y   K   L M   N Ob  P P#
+    IV - 2   P#Q Rb  Sb  T   U   V X   Y J   K#L M   N   O   P#
+     V - 0   P#Q   R   S   T#U   V X   Y   K   L   M#N Ob  P P#
+     V - 1   P#Q   R   S   T#  U#V X   Y J K   L   M#  N#O   P#
+     V - 2   P#  Q#R Sb  T   U   V X   Y J   K#  M   N   O P P#
+    VI - 0   P#Q   R   S   T#  U#V X   Y   K   L M M#  N#O   P#
+    VI - 1   Qb  Rb  Sb  T T#U   V X   Y J   K#  M   N   O P Qb
+    VI - 2   P#Q   R Sb  T Ub  Vb  X   Y   J#K#L   M#  N#  O#P#
+   VII - 0   P#Q   R   S T Ub  Vb  X   Y J K   L   M#  N#  O#P#
+   VII - 1   P#Q   R   S   T#U Vb  X   Y   K   L M Nb  Ob  P P#
+   VII - 2   P#Q   R   S   T#  U#V X   Y   J#K#L   M#  N#  O#P#
+  VIII - 0   P#Q   R   S   T#U Vb  X   Y J K   L   M#  N#  O#P#
+  VIII - 1   P#Q   R   S T Ub  Vb  X   Y   J#K#L   M#  N#  O#P#
+  VIII - 2   P#Q   R   S   T#  U#V X   Y   K   L M Nb  Ob  P P#
+    IX - 0   P#Q   R SbTb  Ub  Vb  X   Y J K   L   M#  N#  O#P#
+    IX - 1   P#Q   R   S   T#  U#V X   Y   K   L   M#N Ob  P P#
+    IX - 2   P#Q   R   S   T#  U#V X   Y J K   L   M#  N#  O#P#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 66 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                          Q =%=  B
+==================================================================
+
+             B C   D   E F   G   A   B C   D   E F   G   A   B
+
+     I - 0   Q   R Sb  T   U VbXb  Yb  J K Lb  M   N   O   P#Q
+     I - 1   Q Rb  Sb  T T#U   V   X#  J   K#L   M#N   O   P#Q
+     I - 2   Q Q#R   S   T#  U#  X Yb  J K   L   M#N Ob  P   Q
+    II - 0   Q Rb  Sb  T   U   V X Yb  J   K#L M   N   O P   Q
+    II - 1   Q   R   S T Ub  Vb  X Yb  J K   L   M#  N#  O#P#Q
+    II - 2   Q Rb  Sb  T Ub  VbXb  Yb  J   K#  L#M#N   O   P#Q
+   III - 0   Q Q#  R#S T   U   V   X#  J K   L M   N   O   P#Q
+   III - 1   Q Q#R   S   T#  U#  X Yb  J K   L   M#  N#O P   Q
+   III - 2   Q   R Sb  T   U   V X Yb  J K Lb  M   N   O   P#Q
+    IV - 0   Q   R Sb  T T#U   V   X#  J K Lb  M   N   O   P#Q
+    IV - 1   Q Rb  Sb  T   U VbXb  Yb  J   K#  L#M#  N#O   P#Q
+    IV - 2   Q Q#R   S   T#  U#  X Yb  J K   L M Nb  Ob  P   Q
+     V - 0   Q Rb  Sb  T   U Vb  X Yb  J   K#  M   N N#O   P#Q
+     V - 1   Q Rb  Sb  T   U   V X Yb  J K Lb  M   N   O P   Q
+     V - 2   Q   R SbTb  Ub  Vb  X Yb  J K   L   M#  N#  O#P#Q
+    VI - 0   Q Rb  Sb  T   U   V X Yb  J   K#  L#M#N   O P   Q
+    VI - 1   Q   R   S   T#U Vb  X Yb  J K   L   M#  N#  O#P#Q
+    VI - 2   Q Q#  R#S   T#U   V   X#  J   K#L M   N   O   P#Q
+   VII - 0   Q Rb  Sb  T T#U   V   X#  J K Lb  M   N   O   P#Q
+   VII - 1   Q Rb  Sb  T   U VbXb  Yb  J   K#  L#M#N   O   P#Q
+   VII - 2   Q Rb  Sb  T   U   V X Yb  J   K#L M   N   O   P#Q
+  VIII - 0   Q Rb  Sb  T   U VbXb  Yb  J K Lb  M   N   O   P#Q
+  VIII - 1   Q Rb  Sb  T T#U   V   X#  J   K#L M   N   O   P#Q
+  VIII - 2   Q Rb  Sb  T   U   V X Yb  J   K#  L#M#N   O   P#Q
+    IX - 0   Q Q#  R#S T   U   V   X#  J K Lb  M   N   O   P#Q
+    IX - 1   Q Rb  Sb  T   U   V X Yb  J   K#  M   N N#O   P#Q
+    IX - 2   Q Rb  Sb  T   U   V X Yb  J K Lb  M   N   O   P#Q
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 67 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Rb = Q# =%=  C
+==================================================================
+
+             C   D   E F   G   A   B C   D   E F   G   A   B C
+
+     I - 0   Q#  R#S   T#  U#V X   Y   J#K#L   M#  N#  P   Q Q#
+     I - 1   Q#R   S   T#U Vb  X   Y   K   L M   N Ob  P   Q Q#
+     I - 2   Q#R Sb  T   U   V   X#Y   K Lb  M   N N#O   P#  Q#
+    II - 0   Q#R   S   T#  U#  V#X#Y   K   L M Nb  Ob  P P#  Q#
+    II - 1   Rb  Sb  T T#U   V   X#Y   K Lb  M   N   O   P#Q Rb
+    II - 2   Q#R   S   T#U   V X   Y   K   L   M#N Ob  P   Q Q#
+   III - 0   Q#R   S T Ub  Vb  X   Y   K Lb  M Nb  Ob  P   Q Q#
+   III - 1   Q#R Sb  T   U   V   X#Y   K Lb  M   N   O P P#  Q#
+   III - 2   Rb  SbTb  Ub  Vb  X YbJb  K LbMb  Nb  Ob  P   Q Rb
+    IV - 0   Q#  R#S   T#U Vb  X   Y   J#K#L   M#  N#  P   Q Q#
+    IV - 1   Q#R   S   T#  U#V X   Y   K   L   M#N   O P   Q Q#
+    IV - 2   Q#R Sb  T   U   V   X#Y   J#K#  L#M#N   O   P#  Q#
+     V - 0   Q#R   S   T#  U#V   X#Y   K   L   M#  N#O P   Q Q#
+     V - 1   Q#R   S   T#  U#  V#X#Y   J#K#L   M#  N#  O#P#  Q#
+     V - 2   Q#  R#S T   U   V   X#Y   K Lb  M   N   O   P#Q Q#
+    VI - 0   Q#R   S   T#  U#  V#X#Y   K   L   M#N Ob  P P#  Q#
+    VI - 1   Rb  Sb  T   U VbXb  YbJb  K Lb  M   N   O   P#Q Rb
+    VI - 2   Q#R   S T   U Vb  X   Y   K   L M Nb  Ob  P   Q Q#
+   VII - 0   Q#R   S   T#U Vb  X   Y   J#K#L   M#  N#  P   Q Q#
+   VII - 1   Q#R   S   T#  U#V X   Y   K   L   M#N Ob  P   Q Q#
+   VII - 2   Q#R   S   T#  U#  V#X#Y   K   L M Nb  Ob  P   Q Q#
+  VIII - 0   Q#R   S   T#  U#V X   Y   J#K#L   M#  N#  P   Q Q#
+  VIII - 1   Q#R   S   T#U Vb  X   Y   K   L M Nb  Ob  P   Q Q#
+  VIII - 2   Q#R   S   T#  U#  V#X#Y   K   L   M#N Ob  P   Q Q#
+    IX - 0   Q#R   S T Ub  Vb  X   Y   J#K#L   M#  N#  P   Q Q#
+    IX - 1   Q#R   S   T#  U#  V#X#Y   K   L   M#  N#O P   Q Q#
+    IX - 2   Q#R   S   T#  U#  V#X#Y   J#K#L   M#  N#  P   Q Q#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 68 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                          R =%= C#
+==================================================================
+
+               D   E F   G   A   B C   D   E F   G   A   B C
+
+     I - 0   R   S T   U   V X Yb  J   K#L M   N   O   P#  Q#R
+     I - 1   R Sb  T   U VbXb  Yb  J   K#  L#M#  N#O   P#  Q#R
+     I - 2   R SbTb  Ub  Vb  X   Y J   K#L   M#  N#O P   Q   R
+    II - 0   R Sb  T   U   V   X#Y J   K#  L#M#N   O   P#Q   R
+    II - 1   R   S   T#U Vb  X   Y J   K#L   M#  N#  P   Q Q#R
+    II - 2   R Sb  T   U Vb  X Yb  J   K#  M   N N#O   P#  Q#R
+   III - 0   R Sb  T T#U   V   X#  J   K#L   M#N   O   P#  Q#R
+   III - 1   R SbTb  Ub  Vb  X   Y J   K#L   M#  N#  O#P#Q   R
+   III - 2   R   S T   U   V   X#Y J   K#L M   N   O   P#  Q#R
+    IV - 0   R   S T   U VbXb  Yb  J   K#L M   N   O   P#  Q#R
+    IV - 1   R Sb  T   U   V X Yb  J   K#  M   N Ob  P P#  Q#R
+    IV - 2   R SbTb  Ub  Vb  X   Y J   K#L   M#N Ob  P   Q   R
+     V - 0   R Sb  T   U   V X   Y J   K#  M   N   O P P#  Q#R
+     V - 1   R Sb  T   U   V   X#Y J   K#L M   N   O   P#Q   R
+     V - 2   R   S T Ub  Vb  X   Y J   K#L   M#  N#  P   Q Q#R
+    VI - 0   R Sb  T   U   V   X#Y J   K#  M   N N#O   P#Q   R
+    VI - 1   R   S   T#  U#V X   Y J   K#L   M#  N#  P   Q Q#R
+    VI - 2   R Sb  T Ub  VbXb  Yb  J   K#  L#M#N   O   P#  Q#R
+   VII - 0   R Sb  T   U VbXb  Yb  J   K#L M   N   O   P#  Q#R
+   VII - 1   R Sb  T   U   V X Yb  J   K#  M   N N#O   P#  Q#R
+   VII - 2   R Sb  T   U   V   X#Y J   K#  L#M#N   O   P#  Q#R
+  VIII - 0   R Sb  T   U   V X Yb  J   K#L M   N   O   P#  Q#R
+  VIII - 1   R Sb  T   U VbXb  Yb  J   K#  L#M#N   O   P#  Q#R
+  VIII - 2   R Sb  T   U   V   X#Y J   K#  M   N N#O   P#  Q#R
+    IX - 0   R Sb  T T#U   V   X#  J   K#L M   N   O   P#  Q#R
+    IX - 1   R Sb  T   U   V   X#Y J   K#  M   N   O P P#  Q#R
+    IX - 2   R Sb  T   U   V   X#Y J   K#L M   N   O   P#  Q#R
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 69 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Sb = R# =%=  D
+==================================================================
+
+             D   E F   G   A   B C   D   E F   G   A   B C   D
+
+     I - 0   Sb  T Ub  Vb  X YbJb  K   L M Nb  Ob  P   Q   R Sb
+     I - 1   R#S   T#  U#V X   Y   K   L   M#N   O P   Q   R R#
+     I - 2   R#S T   U   V   X#  J K   L M   N   O P P#  Q#  R#
+    II - 0   SbTb  Ub  Vb  X   Y J K   L   M#N Ob  P   Q Rb  Sb
+    II - 1   Sb  T   U VbXb  Yb  J K   L M   N   O   P#  Q#R Sb
+    II - 2   SbTb  Ub  VbXb  YbJb  K   L   M#  N#O P   Q   R Sb
+   III - 0   R#S   T#U Vb  X   Y   K   L M   N Ob  P   Q   R R#
+   III - 1   R#S T   U   V   X#  J K   L M   N   O   P#Q Q#  R#
+   III - 2   Sb  T Ub  Vb  X   Y J K   L M Nb  Ob  P   Q   R Sb
+    IV - 0   Sb  T T#  U#V X   Y   K   L M Nb  Ob  P   Q   R Sb
+    IV - 1   SbTb  Ub  Vb  X YbJb  K   L   M#  N#O   P#Q   R Sb
+    IV - 2   R#S T   U   V   X#  J K   L M   N N#O   P#  Q#  R#
+     V - 0   SbTb  Ub  Vb  X Yb  J K   L   M#  N#  O#P#Q   R Sb
+     V - 1   SbTb  Ub  Vb  X   Y J K   L M Nb  Ob  P   Q Rb  Sb
+     V - 2   Sb  T T#U   V   X#  J K   L M   N   O   P#  Q#R Sb
+    VI - 0   SbTb  Ub  Vb  X   Y J K   L   M#  N#O P   Q Rb  Sb
+    VI - 1   Sb  T   U   V X Yb  J K   L M   N   O   P#  Q#R Sb
+    VI - 2   R#S   T#U   V X   Y   K   L   M#N Ob  P   Q   R R#
+   VII - 0   R#S   T#  U#V X   Y   K   L M Nb  Ob  P   Q   R R#
+   VII - 1   SbTb  Ub  Vb  X YbJb  K   L   M#  N#O P   Q   R Sb
+   VII - 2   SbTb  Ub  Vb  X   Y J K   L   M#N Ob  P   Q   R Sb
+  VIII - 0   SbTb  Ub  Vb  X YbJb  K   L M Nb  Ob  P   Q   R Sb
+  VIII - 1   R#S   T#  U#V X   Y   K   L   M#N Ob  P   Q   R R#
+  VIII - 2   SbTb  Ub  Vb  X   Y J K   L   M#  N#O P   Q   R Sb
+    IX - 0   R#S   T#U Vb  X   Y   K   L M Nb  Ob  P   Q   R R#
+    IX - 1   SbTb  Ub  Vb  X   Y J K   L   M#  N#  O#P#Q   R Sb
+    IX - 2   SbTb  Ub  Vb  X   Y J K   L M Nb  Ob  P   Q   R Sb
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 70 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     S = Tb =%= D#
+==================================================================
+
+               E F   G   A   B C   D   E F   G   A   B C   D
+
+     I - 0   S   T#U   V   X#Y J   K#  L#M#N   O   P#  Q#  R#S
+     I - 1   S T   U   V X Yb  J   K#  M   N Ob  P P#  Q#  R#S
+     I - 2   S T Ub  Vb  X   Y   J#K#  L#M#  N#  O#P#Q   R   S
+    II - 0   S T   U   V   X#  J K Lb  M   N N#O   P#  Q#R   S
+    II - 1   S   T#  U#V X   Y   K Lb  M Nb  Ob  P   Q   R R#S
+    II - 2   S T   U   V X   Y J   K#  M   N   O P P#  Q#  R#S
+   III - 0   S T   U VbXb  Yb  J   K#  L#M#  N#O   P#  Q#  R#S
+   III - 1   S T Ub  Vb  X   Y   K Lb  M Nb  Ob  P   Q Q#R   S
+   III - 2   S   T#U   V   X#  Y#J#K#  L#M#N   O   P#  Q#  R#S
+    IV - 0   S   T#U   V X Yb  J   K#  L#M#N   O   P#  Q#  R#S
+    IV - 1   S T   U   V   X#Y J   K#  M   N   O P   Q Q#  R#S
+    IV - 2   S T Ub  Vb  X   Y   J#K#  L#M#  N#O P   Q   R   S
+     V - 0   S T   U   V   X#Y   K Lb  M   N   O   P#Q Q#  R#S
+     V - 1   S T   U   V   X#  Y#J#K#  L#M#N   O   P#  Q#R   S
+     V - 2   S   T#U Vb  X   Y   K Lb  M Nb  Ob  P   Q   R R#S
+    VI - 0   S T   U   V   X#  J K Lb  M   N   O P P#  Q#R   S
+    VI - 1   Tb  Ub  Vb  X YbJb  K Lb  M Nb  Ob  P   Q   R SbTb
+    VI - 2   S T   U Vb  X Yb  J   K#  M   N N#O   P#  Q#  R#S
+   VII - 0   S T   U   V X Yb  J   K#  L#M#N   O   P#  Q#  R#S
+   VII - 1   S T   U   V   X#Y J   K#  M   N   O P P#  Q#  R#S
+   VII - 2   S T   U   V   X#  J K Lb  M   N N#O   P#  Q#  R#S
+  VIII - 0   S T   U   V   X#Y J   K#  L#M#N   O   P#  Q#  R#S
+  VIII - 1   S T   U   V X Yb  J   K#  M   N N#O   P#  Q#  R#S
+  VIII - 2   S T   U   V   X#  J K Lb  M   N   O P P#  Q#  R#S
+    IX - 0   S T   U VbXb  Yb  J   K#  L#M#N   O   P#  Q#  R#S
+    IX - 1   S T   U   V   X#  J K Lb  M   N   O   P#Q Q#  R#S
+    IX - 2   S T   U   V   X#  Y#J#K#  L#M#N   O   P#  Q#  R#S
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 71 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     T = S# =%=  E
+==================================================================
+
+             E F   G   A   B C   D   E F   G   A   B C   D   E
+
+     I - 0   T   U Vb  X   Y J K   L   M#N Ob  P   Q   R   S T
+     I - 1   T Ub  Vb  X YbJb  K   L   M#  N#O   P#Q   R   S T
+     I - 2   T T#U   V   X#  J   K#L   M#N   O   P#Q Rb  Sb  T
+    II - 0   T Ub  Vb  X   Y   J#K#L   M#  N#O P   Q   R Sb  T
+    II - 1   T   U   V X Yb  J   K#L   M#N   O   P#  Q#  R#S T
+    II - 2   T Ub  Vb  X Yb  J K   L   M#  N#  O#P#Q   R   S T
+   III - 0   T T#  U#V X   Y   K   L   M#N   O P   Q   R   S T
+   III - 1   T T#U   V   X#  J   K#L   M#N   O   P#  Q#R Sb  T
+   III - 2   T   U Vb  X   Y   J#K#L   M#N Ob  P   Q   R   S T
+    IV - 0   T   U Vb  X YbJb  K   L   M#N Ob  P   Q   R   S T
+    IV - 1   T Ub  Vb  X   Y J K   L   M#  N#  O#P#  Q#R   S T
+    IV - 2   T T#U   V   X#  J   K#L   M#N   O P Qb  Rb  Sb  T
+     V - 0   T Ub  Vb  X   Y J   K#L   M#  N#  P   Q Q#R   S T
+     V - 1   T Ub  Vb  X   Y   J#K#L   M#N Ob  P   Q   R Sb  T
+     V - 2   T   U VbXb  Yb  J   K#L   M#N   O   P#  Q#  R#S T
+    VI - 0   T Ub  Vb  X   Y   J#K#L   M#  N#  O#P#Q   R Sb  T
+    VI - 1   T   U   V   X#Y J   K#L   M#N   O   P#  Q#  R#S T
+    VI - 2   T Ub  VbXb  YbJb  K   L   M#  N#O P   Q   R   S T
+   VII - 0   T Ub  Vb  X YbJb  K   L   M#N Ob  P   Q   R   S T
+   VII - 1   T Ub  Vb  X   Y J K   L   M#  N#  O#P#Q   R   S T
+   VII - 2   T Ub  Vb  X   Y   J#K#L   M#  N#O P   Q   R   S T
+  VIII - 0   T Ub  Vb  X   Y J K   L   M#N Ob  P   Q   R   S T
+  VIII - 1   T Ub  Vb  X YbJb  K   L   M#  N#O P   Q   R   S T
+  VIII - 2   T Ub  Vb  X   Y   J#K#L   M#  N#  O#P#Q   R   S T
+    IX - 0   T T#  U#V X   Y   K   L   M#N Ob  P   Q   R   S T
+    IX - 1   T Ub  Vb  X   Y   J#K#L   M#  N#  P   Q Q#R   S T
+    IX - 2   T Ub  Vb  X   Y   J#K#L   M#N Ob  P   Q   R   S T
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 72 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Ub = T# =%=  F
+==================================================================
+
+             F   G   A   B C   D   E F   G   A   B C   D   E F
+
+     I - 0   Ub  VbXb  Yb  J K Lb  M   N ObPb  Qb  Rb  Sb  T Ub
+     I - 1   T#U   V   X#Y J   K#  M   N   O P   Q Rb  Sb  T T#
+     I - 2   T#U Vb  X   Y   K   L M   N Ob  P   Q Q#R   S   T#
+    II - 0   T#U   V   X#  J   K#L M   N   O P P#  Q#  R#S   T#
+    II - 1   Ub  Vb  X YbJb  K   L M   N Ob  P   Q   R   S T Ub
+    II - 2   T#U   V   X#Y   K Lb  M   N   O   P#Q Rb  Sb  T T#
+   III - 0   T#U   V X Yb  J   K#  M   N Ob  P Qb  Rb  Sb  T T#
+   III - 1   T#U Vb  X   Y   K   L M   N Ob  P   Q   R R#S   T#
+   III - 2   Ub  VbXb  Yb  J   K#L M   N ObPb  Qb  Rb  Sb  T Ub
+    IV - 0   Ub  VbXb  YbJbKb  Lb  M   N ObPb  Qb  Rb  Sb  T Ub
+    IV - 1   T#U   V   X#  J K Lb  M   N   O   P#Q   R Sb  T T#
+    IV - 2   T#U Vb  X   Y   K   L M   N Ob  P P#Q   R   S   T#
+     V - 0   T#U   V   X#  J K   L M   N   O   P#  Q#R Sb  T T#
+     V - 1   T#U   V   X#  J   K#L M   N N#O   P#  Q#  R#S   T#
+     V - 2   T#  U#V X   Y   K   L M   N Ob  P   Q   R   S T T#
+    VI - 0   T#U   V   X#  J   K#L M   N   O   P#Q Q#  R#S   T#
+    VI - 1   Ub  Vb  X   Y J K   L M   N Ob  P   Q   R   S T Ub
+    VI - 2   T#U   V X   Y J   K#  M   N   O P Qb  Rb  Sb  T T#
+   VII - 0   T#U   V   X#Y J   K#  M   N N#O   P#  Q#  R#  S#T#
+   VII - 1   T#U   V   X#  J K Lb  M   N   O   P#Q Rb  Sb  T T#
+   VII - 2   T#U   V   X#  J   K#L M   N   O P Qb  Rb  Sb  T T#
+  VIII - 0   T#U   V   X#  J K Lb  M   N N#O   P#  Q#  R#  S#T#
+  VIII - 1   T#U   V   X#Y J   K#  M   N   O P Qb  Rb  Sb  T T#
+  VIII - 2   T#U   V   X#  J   K#L M   N   O   P#Q Rb  Sb  T T#
+    IX - 0   T#U   V X Yb  J   K#  M   N N#O   P#  Q#  R#  S#T#
+    IX - 1   T#U   V   X#  J   K#L M   N   O   P#  Q#R Sb  T T#
+    IX - 2   T#U   V   X#  J   K#L M   N N#O   P#  Q#  R#  S#T#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 73 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                          U =%= F#
+==================================================================
+
+               G   A   B C   D   E F   G   A   B C   D   E F
+
+     I - 0   U   V X   Y   J#K#L   M#  N#O P   Q   R   S   T#U
+     I - 1   U Vb  X   Y J K   L   M#  N#  O#P#  Q#R   S   T#U
+     I - 2   U VbXb  Yb  J   K#  L#M#  N#O   P#  Q#R Sb  T   U
+    II - 0   U Vb  X   Y   K   L M Nb  Ob  P P#Q   R   S T   U
+    II - 1   U   V   X#Y J   K#  L#M#  N#O   P#  Q#  R#  S#T#U
+    II - 2   U Vb  X   Y J   K#L   M#  N#  P   Q Q#R   S   T#U
+   III - 0   U Vb  X YbJb  K   L   M#  N#O   P#Q   R   S   T#U
+   III - 1   U VbXb  Yb  J   K#  L#M#  N#O   P#  Q#  R#S T   U
+   III - 2   U   V X   Y   K   L M M#  N#O P   Q   R   S   T#U
+    IV - 0   U   V X   Y J K   L   M#  N#O P   Q   R   S   T#U
+    IV - 1   U Vb  X   Y   J#K#L   M#  N#  P   Q Q#  R#S   T#U
+    IV - 2   U VbXb  Yb  J   K#  L#M#  N#O   P#Q Rb  Sb  T   U
+     V - 0   U Vb  X   Y   K Lb  M Nb  Ob  P   Q   R R#S   T#U
+     V - 1   U Vb  X   Y   K   L M M#  N#O P   Q   R   S T   U
+     V - 2   U   V X Yb  J   K#  L#M#  N#O   P#  Q#  R#  S#T#U
+    VI - 0   U Vb  X   Y   K   L M Nb  Ob  P   Q Q#R   S T   U
+    VI - 1   U   V   X#  Y#J#K#  L#M#  N#O   P#  Q#  R#  S#T#U
+    VI - 2   U Vb  X Yb  J K   L   M#  N#  O#P#Q   R   S   T#U
+   VII - 0   U Vb  X   Y J K   L   M#  N#O P   Q   R   S   T#U
+   VII - 1   U Vb  X   Y   J#K#L   M#  N#  P   Q Q#R   S   T#U
+   VII - 2   U Vb  X   Y   K   L M Nb  Ob  P P#Q   R   S   T#U
+  VIII - 0   U Vb  X   Y   J#K#L   M#  N#O P   Q   R   S   T#U
+  VIII - 1   U Vb  X   Y J K   L   M#  N#  O#P#Q   R   S   T#U
+  VIII - 2   U Vb  X   Y   K   L M Nb  Ob  P   Q Q#R   S   T#U
+    IX - 0   U Vb  X YbJb  K   L   M#  N#O P   Q   R   S   T#U
+    IX - 1   U Vb  X   Y   K   L M Nb  Ob  P   Q   R R#S   T#U
+    IX - 2   U Vb  X   Y   K   L M M#  N#O P   Q   R   S   T#U
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 74 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Vb = U# =%=  G
+==================================================================
+
+             G   A   B C   D   E F   G   A   B C   D   E F   G
+
+     I - 0   Vb  X Yb  J   K#L M   N   O P Qb  Rb  Sb  T   U Vb
+     I - 1   VbXb  Yb  J K Lb  M   N   O   P#Q   R Sb  T   U Vb
+     I - 2   U#V X   Y   K   L   M#N   O P   Q   R R#S   T#  U#
+    II - 0   VbXb  Yb  J   K#  L#M#N   O   P#Q Rb  Sb  T Ub  Vb
+    II - 1   Vb  X   Y J K   L   M#N   O P   Q   R   S   T#U Vb
+    II - 2   VbXb  Yb  J K   L M   N   O   P#  Q#R Sb  T   U Vb
+   III - 0   VbXb  YbJbKb  Lb  M   N   O P   Q Rb  Sb  T   U Vb
+   III - 1   U#V X   Y   K   L   M#N   O P   Q   R   S T T#  U#
+   III - 2   Vb  X Yb  J   K#  L#M#N   O P Qb  Rb  Sb  T   U Vb
+    IV - 0   Vb  X Yb  J K Lb  M   N   O P Qb  Rb  Sb  T   U Vb
+    IV - 1   VbXb  Yb  J   K#L M   N   O   P#  Q#R   S T   U Vb
+    IV - 2   U#V X   Y   K   L   M#N   O P   Q Q#R   S   T#  U#
+     V - 0   VbXb  Yb  J   K#L   M#N   O   P#  Q#  R#S T   U Vb
+     V - 1   VbXb  Yb  J   K#  L#M#N   O P Qb  Rb  Sb  T Ub  Vb
+     V - 2   Vb  X YbJb  K   L   M#N   O P   Q   R   S   T#U Vb
+    VI - 0   VbXb  Yb  J   K#  L#M#N   O   P#  Q#R Sb  T Ub  Vb
+    VI - 1   Vb  X   Y   J#K#L   M#N   O P   Q   R   S   T#U Vb
+    VI - 2   VbXb  YbJb  K Lb  M   N   O   P#Q Rb  Sb  T   U Vb
+   VII - 0   VbXb  Yb  J K Lb  M   N   O P Qb  Rb  Sb  T   U Vb
+   VII - 1   VbXb  Yb  J   K#L M   N   O   P#  Q#R Sb  T   U Vb
+   VII - 2   VbXb  Yb  J   K#  L#M#N   O   P#Q Rb  Sb  T   U Vb
+  VIII - 0   VbXb  Yb  J   K#L M   N   O P Qb  Rb  Sb  T   U Vb
+  VIII - 1   VbXb  Yb  J K Lb  M   N   O   P#Q Rb  Sb  T   U Vb
+  VIII - 2   VbXb  Yb  J   K#  L#M#N   O   P#  Q#R Sb  T   U Vb
+    IX - 0   VbXb  YbJbKb  Lb  M   N   O P Qb  Rb  Sb  T   U Vb
+    IX - 1   VbXb  Yb  J   K#  L#M#N   O   P#  Q#  R#S T   U Vb
+    IX - 2   VbXb  Yb  J   K#  L#M#N   O P Qb  Rb  Sb  T   U Vb
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 75 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     V = Xb =%= G#
+==================================================================
+
+               A   B C   D   E F   G   A   B C   D   E F   G
+
+     I - 0   V   X#Y   K   L M Nb  Ob  P P#Q   R   S   T#  U#V
+     I - 1   V X   Y   J#K#L   M#  N#  P   Q Q#  R#S   T#  U#V
+     I - 2   V X Yb  J   K#  M   N Ob  P P#  Q#  R#S T   U   V
+    II - 0   V X   Y   K   L   M#N Ob  P   Q Q#R   S   T#U   V
+    II - 1   Xb  Yb  J K Lb  M   N Ob  P Qb  Rb  Sb  T   U VbXb
+    II - 2   V X   Y   K Lb  M Nb  Ob  P   Q   R R#S   T#  U#V
+   III - 0   V X   Y J K   L   M#  N#  O#P#  Q#R   S   T#  U#V
+   III - 1   V X Yb  J   K#  M   N Ob  P Qb  Rb  Sb  T T#U   V
+   III - 2   V   X#Y   K   L   M#N Ob  P P#Q   R   S   T#  U#V
+    IV - 0   V   X#Y   J#K#L   M#  N#  O#P#Q   R   S   T#  U#V
+    IV - 1   V X   Y   K   L M Nb  Ob  P   Q   R Sb  T T#  U#V
+    IV - 2   V X Yb  J   K#  M   N Ob  P P#  Q#R Sb  T   U   V
+     V - 0   V X   Y   K   L M   N Ob  P   Q   R   S T T#  U#V
+     V - 1   V X   Y   K   L   M#N Ob  P P#Q   R   S   T#U   V
+     V - 2   Xb  YbJbKb  Lb  M   N Ob  P Qb  Rb  Sb  T   U VbXb
+    VI - 0   V X   Y   K   L   M#N Ob  P   Q   R R#S   T#U   V
+    VI - 1   Xb  Yb  J   K#L M   N Ob  P Qb  Rb  Sb  T   U VbXb
+    VI - 2   V X   Y J   K#L   M#  N#  P   Q Q#R   S   T#  U#V
+   VII - 0   V X   Y   J#K#L   M#  N#  O#P#Q   R   S   T#  U#V
+   VII - 1   V X   Y   K   L M Nb  Ob  P   Q   R R#S   T#  U#V
+   VII - 2   V X   Y   K   L   M#N Ob  P   Q Q#R   S   T#  U#V
+  VIII - 0   V X   Y   K   L M Nb  Ob  P P#Q   R   S   T#  U#V
+  VIII - 1   V X   Y   J#K#L   M#  N#  P   Q Q#R   S   T#  U#V
+  VIII - 2   V X   Y   K   L   M#N Ob  P   Q   R R#S   T#  U#V
+    IX - 0   V X   Y J K   L   M#  N#  O#P#Q   R   S   T#  U#V
+    IX - 1   V X   Y   K   L   M#N Ob  P   Q   R   S T T#  U#V
+    IX - 2   V X   Y   K   L   M#N Ob  P P#Q   R   S   T#  U#V
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 76 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     X = V# =%=  A
+==================================================================
+
+             A   B C   D   E F   G   A   B C   D   E F   G   A
+
+     I - 0   X   Y J   K#  L#M#N   O   P#Q Rb  Sb  T   U   V X
+     I - 1   X Yb  J   K#L M   N   O   P#  Q#R   S T   U   V X
+     I - 2   X YbJb  K   L   M#  N#O   P#Q   R   S T Ub  Vb  X
+    II - 0   X Yb  J   K#  M   N N#O   P#  Q#R Sb  T   U Vb  X
+    II - 1   X   Y   J#K#L   M#  N#O   P#Q   R   S   T#  U#V X
+    II - 2   X Yb  J   K#L   M#N   O   P#  Q#  R#S T   U   V X
+   III - 0   X Yb  J K Lb  M   N   O   P#Q   R Sb  T   U   V X
+   III - 1   X YbJb  K   L   M#  N#O   P#Q   R   S   T#U Vb  X
+   III - 2   X   Y J   K#  M   N N#O   P#Q Rb  Sb  T   U   V X
+    IV - 0   X   Y J   K#L M   N   O   P#Q Rb  Sb  T   U   V X
+    IV - 1   X Yb  J   K#  L#M#N   O   P#  Q#  R#S   T#U   V X
+    IV - 2   X YbJb  K   L   M#  N#O   P#Q   R SbTb  Ub  Vb  X
+     V - 0   X Yb  J   K#  L#M#  N#O   P#  Q#  R#  S#T#U   V X
+     V - 1   X Yb  J   K#  M   N N#O   P#Q Rb  Sb  T   U Vb  X
+     V - 2   X   Y J K   L   M#  N#O   P#Q   R   S   T#  U#V X
+    VI - 0   X Yb  J   K#  M   N N#O   P#  Q#  R#S T   U Vb  X
+    VI - 1   X   Y   K   L M M#  N#O   P#Q   R   S   T#  U#V X
+    VI - 2   X Yb  J K   L M   N   O   P#  Q#R Sb  T   U   V X
+   VII - 0   X Yb  J   K#L M   N   O   P#Q Rb  Sb  T   U   V X
+   VII - 1   X Yb  J   K#  L#M#N   O   P#  Q#  R#S T   U   V X
+   VII - 2   X Yb  J   K#  M   N N#O   P#  Q#R Sb  T   U   V X
+  VIII - 0   X Yb  J   K#  L#M#N   O   P#Q Rb  Sb  T   U   V X
+  VIII - 1   X Yb  J   K#L M   N   O   P#  Q#R Sb  T   U   V X
+  VIII - 2   X Yb  J   K#  M   N N#O   P#  Q#  R#S T   U   V X
+    IX - 0   X Yb  J K Lb  M   N   O   P#Q Rb  Sb  T   U   V X
+    IX - 1   X Yb  J   K#  M   N N#O   P#  Q#  R#  S#T#U   V X
+    IX - 2   X Yb  J   K#  M   N N#O   P#Q Rb  Sb  T   U   V X
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 77 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                    Yb = X# =%= A#
+==================================================================
+
+               B C   D   E F   G   A   B C   D   E F   G   A
+
+     I - 0   Yb  J K   L   M#N Ob  P   Q Q#R   S   T#  U#  X Yb
+     I - 1   YbJb  K   L M Nb  Ob  P   Q   R Sb  T Ub  Vb  X Yb
+     I - 2   X#Y J   K#  M   N   O P   Q Rb  Sb  T T#U   V   X#
+    II - 0   YbJb  K   L   M#  N#O P   Q   R SbTb  Ub  VbXb  Yb
+    II - 1   Yb  J   K#L M   N   O P   Q Rb  Sb  T   U   V X Yb
+    II - 2   YbJb  K   L M   N Ob  P   Q   R   S T Ub  Vb  X Yb
+   III - 0   YbJb  K LbMb  Nb  Ob  P   Q Rb  SbTb  Ub  Vb  X Yb
+   III - 1   YbJbKb  Lb  M   N   O P   Q Rb  Sb  T   U VbXb  Yb
+   III - 2   Yb  J K   L   M#  N#O P   Q Q#R   S   T#  U#  X Yb
+    IV - 0   Yb  J K   L M Nb  Ob  P   Q Q#R   S   T#  U#  X Yb
+    IV - 1   YbJb  K   L   M#N Ob  P   Q   R   S T   U Vb  X Yb
+    IV - 2   X#Y J   K#  M   N   O P   Q Q#  R#S T   U   V   X#
+     V - 0   YbJb  K   L   M#N   O P   Q   R   S   T#U Vb  X Yb
+     V - 1   X#Y   K   L   M#  N#O P   Q Q#R   S   T#  U#V   X#
+     V - 2   Yb  J K Lb  M   N   O P   Q Rb  Sb  T   U   V X Yb
+    VI - 0   YbJb  K   L   M#  N#O P   Q   R   S T Ub  VbXb  Yb
+    VI - 1   Yb  J   K#  L#M#N   O P   Q Rb  Sb  T   U   V X Yb
+    VI - 2   YbJb  K Lb  M Nb  Ob  P   Q   R SbTb  Ub  Vb  X Yb
+   VII - 0   X#Y   K   L M Nb  Ob  P   Q Q#R   S   T#  U#  V#X#
+   VII - 1   YbJb  K   L   M#N Ob  P   Q   R   S T Ub  Vb  X Yb
+   VII - 2   YbJb  K   L   M#  N#O P   Q   R SbTb  Ub  Vb  X Yb
+  VIII - 0   X#Y   K   L   M#N Ob  P   Q Q#R   S   T#  U#  V#X#
+  VIII - 1   YbJb  K   L M Nb  Ob  P   Q   R SbTb  Ub  Vb  X Yb
+  VIII - 2   YbJb  K   L   M#  N#O P   Q   R   S T Ub  Vb  X Yb
+    IX - 0   X#Y   J#K#L   M#  N#  P   Q Q#R   S   T#  U#  V#X#
+    IX - 1   YbJb  K   L   M#  N#O P   Q   R   S   T#U Vb  X Yb
+    IX - 2   X#Y   K   L   M#  N#O P   Q Q#R   S   T#  U#  V#X#
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 78 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
+
+
+Scale/Modes Chart for Root Pitch                     Y = Jb =%=  B
+==================================================================
+
+             B C   D   E F   G   A   B C   D   E F   G   A   B
+
+     I - 0   Y   K Lb  M   N N#O   P#  Q#R Sb  T   U   V   X#Y
+     I - 1   Y J   K#  L#M#N   O   P#  Q#  R#S   T#U   V   X#Y
+     I - 2   Y J K   L   M#  N#  O#P#  Q#R   S   T#U Vb  X   Y
+    II - 0   Y J   K#  M   N   O P P#  Q#  R#S T   U   V X   Y
+    II - 1   Y   K   L M Nb  Ob  P P#  Q#R   S   T#  U#  V#X#Y
+    II - 2   Y J   K#  L#M#  N#O   P#  Q#  R#  S#T#U   V   X#Y
+   III - 0   Y J   K#L M   N   O   P#  Q#R   S T   U   V   X#Y
+   III - 1   Y J K   L   M#  N#  O#P#  Q#R   S   T#  U#V X   Y
+   III - 2   Y   K Lb  M   N   O P P#  Q#R Sb  T   U   V   X#Y
+    IV - 0   Y   J#K#  L#M#N   O   P#  Q#R Sb  T   U   V   X#Y
+    IV - 1   JbKb  Lb  M   N ObPb  Qb  Rb  Sb  T Ub  VbXb  YbJb
+    IV - 2   Y J K   L   M#  N#  O#P#  Q#R   S T Ub  Vb  X   Y
+     V - 0   JbKb  Lb  M   N Ob  P Qb  Rb  Sb  T   U VbXb  YbJb
+     V - 1   Y J   K#  M   N   O P P#  Q#R Sb  T   U   V X   Y
+     V - 2   Y   J#K#L   M#  N#  O#P#  Q#R   S   T#  U#  V#X#Y
+    VI - 0   Y J   K#  M   N   O P Qb  Rb  Sb  T T#U   V X   Y
+    VI - 1   Y   K   L   M#N Ob  P P#  Q#R   S   T#  U#  V#X#Y
+    VI - 2   Y J   K#L   M#N   O   P#  Q#  R#S T   U   V   X#Y
+   VII - 0   Y J   K#  L#M#N   O   P#  Q#R Sb  T   U   V   X#Y
+   VII - 1   Y J   K#  M   N N#O   P#  Q#  R#  S#T#U   V   X#Y
+   VII - 2   Y J   K#  M   N   O P P#  Q#  R#S T   U   V   X#Y
+  VIII - 0   Y J   K#  M   N N#O   P#  Q#R Sb  T   U   V   X#Y
+  VIII - 1   Y J   K#  L#M#N   O   P#  Q#  R#S T   U   V   X#Y
+  VIII - 2   Y J   K#  M   N   O P Qb  Rb  Sb  T T#U   V   X#Y
+    IX - 0   Y J   K#L M   N   O   P#  Q#R Sb  T   U   V   X#Y
+    IX - 1   JbKb  Lb  M   N   O P Qb  Rb  Sb  T   U VbXb  YbJb
+    IX - 2   Y J   K#  M   N   O P P#  Q#R Sb  T   U   V   X#Y
+
+  2m |+|.  3M |+------|.  4 |+--------|.  6m |+----^/^-----^-|.
+  2M |+--|.  3m |+----|.  5 |+------------|.  b5 |+----------|.
+  6M |+----^/^-----^---|.           7M |+------^-----^-------|.
+  7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.
+          15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 79 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 79
