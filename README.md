@@ -44,3 +44,14 @@ then a half-step followed by 3 full steps, then again a
 half-step, followed by 2 full steps, another half-step,
 then 1 full step, and the final half step. Note that it does not
 matter whether you go up or down from `J`.
+
+So, the last thing we need to define is which `C`'s are considered
+to be `J`s. I use the following convention: the (low) `C` string on my
+8-string guitar is also a `J` string. Thus my guitar is tuned
+`R#`, `U#`, `J`, `M#`, `P#`, `S`, `V`, `K` in all perfect 4th steps. 
+If I'm not mistaken, then this guitar is tuned down quite a bit, 
+so the `M` should correspond to the standard (low, and high) `E` string 
+on a guitar. Which means that the standard 5-string bass `B` is
+indeed a `Q`, and so the standard bass `E` is a `T`, one octave below
+the guitars `M`. The standard guitar tuning is `M`, `P`, `R#`, `U#`, `Y`, `M`,
+from low to high; the standard 5-string bass tuning is `Q`, `T`, `X`, `K#`, `N#`.

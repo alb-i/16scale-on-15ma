@@ -59,6 +59,8 @@ def getXNames(pitch):
         candidates.append(pitch_names[pitch_values.index((x+23)%24)]+"#")
     return candidates
 
+print()
+
 for i in range(15):
     stepsize = pitch_values[i+1]-pitch_values[i]
     if stepsize == 1:
@@ -71,3 +73,9 @@ for i in range(15):
         "%12s"% ", ".join(getXNames(pitch_values[i])),
                 " +/-8va =",
         "%12s"% ", ".join(getXNames(pitch_values[i]+12)) )
+
+print()
+
+for i in range(24):
+    print("Pitch ","%2d"%i," =%= ", scales.getName(i), " = ",
+    ", ".join(getXNames(i)))

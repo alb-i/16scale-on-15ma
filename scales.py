@@ -2,6 +2,8 @@
 
 from datetime import datetime
 
+import pitches
+
 form_feed = False
 
 def new_page():
@@ -33,7 +35,7 @@ note_names = ["c","c#","d","d#","e","f","f#","g","g#","a","a#","b"]
 note_names2 = [" c","c#"," d","d#"," e"," f","f#"," g","g#"," a","a#"," b"]
 
 # base note for the chord diagram
-base_note = note_names.index("g")
+base_note = note_names.index("c")
 
 # its 15 steps out of 24 semi tone steps
 A = "FFh"
@@ -298,6 +300,7 @@ def octaveFree(steps):
     return [" -" if checkChord(steps,x,[12]) else " *" for x in steps]
 
 modelist = []
+modelist2 = []
 
 def nextMode(candidate0):
     candidate = "".join(candidate0)
@@ -338,7 +341,9 @@ for (cnt,i,name,s0) in interesting_scales:
         #print("="*41)
         
         print("Root-Notes:"+" "*5," ".join(map(getName,steps)))
-        print("  Chord [#roots]" ," ".join(octaveFree(steps)))
+        print("           "+" "*5," ".join(octaveFree(steps)))
+        print("  Chord [#roots]" ," ".join(map(lambda x:"%2s"%x,
+            pitches.getPitchNames([x + base_note for x in steps]))))
         chords = [
                 ("5",[7]),
                 ("5+8",[7,12]),
@@ -377,6 +382,20 @@ for (cnt,i,name,s0) in interesting_scales:
         modelist.append(("-".join(map(lambda x :getName(x),[x+r for x in oct_deficit])),cnt,0))
         modelist.append(("-".join(map(lambda x :getName(x),[x+r for x in oct_deficit2])),cnt,1))
         modelist.append(("-".join(map(lambda x :getName(x),[x+r for x in oct_deficit3])),cnt,2))
+    
+    for i in range(3):
+        s = s0
+        for x in range(i):
+            s = nextMode(s)
+        steps = getSteps(s)
+        oct_deficit = getOctaveDeficitSteps(s)
+        for r in range(24):
+            rel_pitches = [r+x for x in oct_deficit + steps]
+            canonical_names = pitches.getPitchNames(rel_pitches)
+            deficit_names = ["%2s"%x for x in canonical_names[:len(oct_deficit)]]
+            modelist2.append(("-".join(deficit_names), cnt, i))
+            
+        
 
 # reset base note
 base_note = 0
@@ -404,7 +423,7 @@ modelist.sort()
 for nbr,(a,b,c) in enumerate(modelist):
     if (nbr % 48) == 0:
         new_page()
-        print("Hexadecimal Scale Name to Type and Mode Conversion Chart:")
+        print("Chromatic Representant to Type and Mode Conversion Chart:")
         print()
 
-    print("%3d"%(nbr+1),"%12s"%a,"represents",romannbr[b],"-",c)
+    print("%3d"%(nbr+1),"%12s"%a,"is of form",romannbr[b],"-",c)
