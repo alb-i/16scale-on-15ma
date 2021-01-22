@@ -51,7 +51,7 @@ Candidate count: 15
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 1 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Generated scales with the desired properties, up to rotation
 ============================================================
@@ -105,7 +105,7 @@ IX       12      ECACA   hFhhFFFFhhFFFFh .++.+++++.+++++   4202313
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 2 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   I - 0                  FhFFhhFFhhFFFFh
 =========================================
@@ -159,7 +159,7 @@ Root-Notes:       C  D D#  F  G G#  A  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 3 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   I - 1                  hFFhhFFFFhFhFFh
 =========================================
@@ -213,7 +213,7 @@ Root-Notes:       C C# D#  F F#  G  A  B C# D#  E F#  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 4 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   I - 2                  hhFFFFhFhFFhhFF
 =========================================
@@ -267,7 +267,7 @@ Root-Notes:       C C#  D  E F# G# A#  B C#  D  E F#  G G# A#  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 5 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   II - 0                 hFFFFhhFFhhFFhF
 =========================================
@@ -321,7 +321,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  E  F  G  A A#  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 6 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   II - 1                 FFhhFFhFhFFFFhh
 =========================================
@@ -375,7 +375,7 @@ Root-Notes:       C  D  E  F F# G# A#  B C#  D  E F# G# A#  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 7 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   II - 2                 hFFhFhFFFFhhFFh
 =========================================
@@ -429,7 +429,7 @@ Root-Notes:       C C# D#  F F# G#  A  B C# D#  F F#  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 8 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   III - 0                hFhhFFFFhFhFFFh
 =========================================
@@ -483,7 +483,7 @@ Root-Notes:       C C# D#  E  F  G  A  B C#  D  E  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 9 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   III - 1                hhFFFFhFhFFFhhF
 =========================================
@@ -537,7 +537,7 @@ Root-Notes:       C C#  D  E F# G# A#  B C#  D  E F# G#  A A#  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 10 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   III - 2                FhFFFhhFhhFFFFh
 =========================================
@@ -591,7 +591,7 @@ Root-Notes:       C  D D#  F  G  A A#  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 11 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   IV - 0                 FhFhhFFFhhFFFFh
 =========================================
@@ -645,7 +645,7 @@ Root-Notes:       C  D D#  F F#  G  A  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 12 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   IV - 1                 hFFFhhFFFFhFhFh
 =========================================
@@ -699,7 +699,7 @@ Root-Notes:       C C# D#  F  G G#  A  B C# D#  F F# G#  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 13 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   IV - 2                 hhFFFFhFhFhhFFF
 =========================================
@@ -753,7 +753,7 @@ Root-Notes:       C C#  D  E F# G# A#  B C#  D  E  F F# G# A#  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 14 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   V - 0                  hFFFhFhFFFFhhFh
 =========================================
@@ -807,7 +807,7 @@ Root-Notes:       C C# D#  F  G G# A#  B C# D#  F  G G#  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 15 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   V - 1                  hFFFFhhFhhFFFhF
 =========================================
@@ -861,7 +861,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A A#  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 16 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   V - 2                  FhhFFFhFhFFFFhh
 =========================================
@@ -915,7 +915,7 @@ Root-Notes:       C  D D#  E F# G# A#  B C#  D  E F# G# A#  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 17 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VI - 0                 hFFFFhhFFFhhFhF
 =========================================
@@ -969,7 +969,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  F F#  G  A A#  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 18 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VI - 1                 FFFhhFhFhFFFFhh
 =========================================
@@ -1023,7 +1023,7 @@ Root-Notes:       C  D  E F#  G G# A#  B C#  D  E F# G# A#  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 19 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VI - 2                 hFhFhFFFFhhFFFh
 =========================================
@@ -1077,7 +1077,7 @@ Root-Notes:       C C# D#  E F#  G  A  B C# D#  E  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 20 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VII - 0                hFFhhFFFhhFFFFh
 =========================================
@@ -1131,7 +1131,7 @@ Root-Notes:       C C# D#  F F#  G  A  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 21 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VII - 1                hFFFhhFFFFhhFFh
 =========================================
@@ -1185,7 +1185,7 @@ Root-Notes:       C C# D#  F  G G#  A  B C# D#  F F#  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 22 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VII - 2                hFFFFhhFFhhFFFh
 =========================================
@@ -1239,7 +1239,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  E  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 23 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VIII - 0               hFFFhhFFhhFFFFh
 =========================================
@@ -1293,7 +1293,7 @@ Root-Notes:       C C# D#  F  G G#  A  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 24 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VIII - 1               hFFhhFFFFhhFFFh
 =========================================
@@ -1347,7 +1347,7 @@ Root-Notes:       C C# D#  F F#  G  A  B C# D#  E  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 25 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   VIII - 2               hFFFFhhFFFhhFFh
 =========================================
@@ -1401,7 +1401,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  F F#  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 26 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   IX - 0                 hFhhFFFFhhFFFFh
 =========================================
@@ -1455,7 +1455,7 @@ Root-Notes:       C C# D#  E  F  G  A  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 27 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   IX - 1                 hFFFFhhFFFFhhFh
 =========================================
@@ -1509,7 +1509,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C# D#  F  G G#  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 28 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
   IX - 2                 hFFFFhhFhhFFFFh
 =========================================
@@ -1563,7 +1563,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A  B  C
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 29 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Mode Representants:
 
@@ -1617,7 +1617,7 @@ Chromatic Mode Representants:
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 30 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Mode Representants:
 
@@ -1671,7 +1671,7 @@ Chromatic Mode Representants:
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 31 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -1725,7 +1725,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
  48      B-A#-C# is of form V - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 32 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -1779,7 +1779,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
  96      D-A#-D# is of form I - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 33 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -1833,7 +1833,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
 144      F- E- B is of form VI - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 34 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -1887,7 +1887,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
 192     A#- A- E is of form VI - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 35 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -1941,7 +1941,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
 240     C#-F#- D is of form II - 1
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 36 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -1995,7 +1995,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
 288     F#- E-G# is of form IX - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 37 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
                                                       Jan 22, 2021
 Chromatic Representant to Type and Mode Conversion Chart:
 
@@ -2049,4 +2049,922 @@ Chromatic Representant to Type and Mode Conversion Chart:
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 38 -
-              on 15ma w/o Diatonic Modes and Root-8va.       of 38
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Mode Representants:
+
+       I - 0  J- O- R| K- P-R#|K#-P#- S| L- Q- T| M-Q#-T#|M#- R- U
+              N-R#-U#|Ob- S- V| O- T- X| P-T#-X#|P#- U- Y| Q-Vb- J
+             Q#- V-J#| R- X-K#|Sb-Yb- L| S- Y-L#| T- J-M#|Ub- K- N
+              U-K#-N#|Vb- L- O| V- M- P| X-M#-P#|Yb- N- Q| Y-N#-Q#
+
+       I - 1  J-M#- T| K- N-Ub|K#-N#- U| L- O-Vb| M- P- V|M#-P#- X
+              N- Q-Yb|N#-Q#- Y| O- R- J| P-R#- K|P#- S-K#| Q- T- L
+             Q#-T#- M| R- U-M#|R#-U#- N| S- V-Ob| T- X- O|T#-X#- P
+              U- Y-P#|Vb- J- Q| V-J#-Q#| X-K#- R|Yb- L-Sb| Y-L#- S
+
+       I - 2  J- Q-Vb|J#-Q#- V|K#- R- X| L-Sb-Yb|L#- S- Y|M#- T- J
+              N-Ub- K|N#- U-K#| O-Vb- L| P- V- M|P#- X-M#| Q-Yb- N
+             Q#- Y-N#| R- J- O|R#- K- P| S-K#-P#| T- L- Q|T#- M-Q#
+              U-M#- R|U#- N-R#| V-Ob- S| X- O- T|X#- P-T#| Y-P#- U
+
+      II - 0  J- Q- T| K-Rb-T#|K#- R- U| L-Sb-Vb| M- S- V|M#- T- X
+              N-Ub-Yb|N#- U- Y| O-Vb- J| P-Xb- K|P#- X-K#| Q-Yb- L
+             Q#- Y- M| R- J-M#|Sb- K- N| S-Lb-N#| T- L- O|T#- M- P
+              U-Nb-P#|Vb- N- Q| V-Ob-Q#| X- O- R|Yb- P-Sb| Y-P#- S
+
+      II - 1  J-M#- R| K- N-Sb|Lb-N#- S| L- O- T| M- P-T#|Nb-P#- U
+              N- Q-Vb|Ob-Q#- V| O- R- X| P-Sb-Yb|P#- S- Y| Q- T- J
+             Rb-T#- K| R- U-K#|Sb-Vb- L| S- V- M| T- X-M#|Ub-Yb- N
+              U- Y-N#|Vb- J- O|Xb- K- P| X-K#-P#|Yb- L- Q| Y- M-Q#
+
+      II - 2  J- O-Vb| K- P-Xb|K#-P#- X| L- Q-Yb| M-Q#- Y|M#- R- J
+              N-Sb- K|N#- S-Lb| O- T- L| P-T#- M|P#- U-Nb| Q-Vb- N
+             Q#- V-Ob| R- X- O|Sb-Yb- P| S- Y-P#| T- J- Q|T#- K-Rb
+              U-K#- R|Vb- L-Sb| V- M- S| X-M#- T|Yb- N-Ub| Y-N#- U
+
+     III - 0  J- L-Sb|J#-L#- S|K#-M#- T| L- N-Ub| M-N#- U|M#- O-Vb
+              N- P- V|N#-P#- X| O- Q-Yb| P-Q#- Y|P#- R- J| Q-R#- K
+             Q#- S-Lb| R- T- L|R#-T#- M| S- U-M#| T-U#- N|T#- V-Ob
+              U- X- O|Vb-Yb- P| V- Y-P#| X- J- Q|Yb- K-Rb| Y-K#- R
+
+     III - 1  J- Q- X| K-Rb-Yb|K#- R- Y| L-Sb- J|L#- S-J#|M#- T-K#
+              N-Ub- L|N#- U- M| O-Vb-M#| P- V- N|P#- X-N#| Q-Yb- O
+             Q#- Y- P| R- J-P#|R#- K- Q| S-Lb-Q#| T- L- R|T#- M-R#
+              U-M#- S|U#- N- T| V-Ob-T#| X- O- U|Yb- P-Vb| Y-P#- V
+
+     III - 2  J-P#- R| K- Q-R#|Lb-Q#- S| L- R- T| M-R#-T#|M#- S- U
+              N- T-U#|Ob-T#- V| O- U- X| P-Vb-Yb|P#- V- Y| Q- X- J
+             Rb-Yb- K| R- Y-K#|Sb- J- L| S-J#-L#| T-K#-M#|Ub- L- N
+              U- M-N#|Vb-M#- O| V- N- P| X-N#-P#|Yb- O- Q| Y- P-Q#
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 39 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Mode Representants:
+
+      IV - 0  J- N- R| K-N#-R#|K#- O- S| L- P- T| M-P#-T#|M#- Q- U
+              N-Q#-U#|Ob- R- V| O-Sb- X| P- S-X#|P#- T- Y| Q-T#- J
+             Q#- U-J#| R-Vb-K#|Sb- V- L| S- X-L#| T-Yb-M#|Ub-Jb- N
+              U- J-N#|Vb- K- O| V-K#-O#| X- L-P#|Yb- M- Q| Y-M#-Q#
+
+      IV - 1  J-N#- U| K- O-Vb|K#-O#- V| L-P#- X| M- Q-Yb|M#-Q#- Y
+              N- R- J|N#-R#- K| O- S-K#| P- T- L|P#-T#- M| Q- U-M#
+             Q#-U#- N| R- V-Ob|Sb- X- O| S-X#- P| T- Y-P#|T#- J- Q
+              U-J#-Q#|Vb-K#- R| V- L-Sb| X-L#- S|Yb-M#- T|Jb- N-Ub
+
+      IV - 2  J- Q-T#|J#-Q#- U|K#- R-Vb| L-Sb- V|L#- S- X|M#- T-Yb
+              N-Ub-Jb|N#- U- J| O-Vb- K|O#- V-K#|P#- X- L| Q-Yb- M
+             Q#- Y-M#| R- J- N|R#- K-N#| S-K#- O| T- L- P|T#- M-P#
+              U-M#- Q|U#- N-Q#| V-Ob- R| X- O-Sb|X#- P- S| Y-P#- T
+
+       V - 0  J-P#- X| K- Q-Yb|K#-Q#- Y| L- R- J| M-Sb- K|M#- S-K#
+              N- T- L|N#-T#- M| O- U-M#| P-Vb- N|P#- V-Ob| Q- X- O
+             Q#-X#- P| R- Y-P#|Sb- J- Q| S- K-Q#| T-K#- R|T#- L-Sb
+              U- M- S|Vb-M#- T| V- N-T#| X-N#- U|Yb- O-Vb|Jb- P-Xb
+
+       V - 1  J- Q-Sb| K-Q#- S|K#- R- T| L-Sb-T#| M- S- U|M#- T-Vb
+              N-T#- V|N#- U- X| O-Vb-Yb| P-Xb-Jb|P#- X- J| Q-Yb- K
+             Q#- Y-K#| R- J- L|Sb- K- M| S-K#-M#| T- L- N|T#- M-N#
+              U-M#- O|Vb- N- P| V-Ob-P#| X- O- Q|X#- P-Q#| Y-P#- R
+
+       V - 2  J- L- R| K- M-Sb|K#-M#- S| L- N- T| M-N#-T#|M#- O- U
+              N- P-Vb|Ob-P#- V| O- Q- X| P-Q#-X#|P#- R- Y| Q-Sb- J
+             Q#- S- K| R- T-K#|Sb-T#- L| S- U- M| T-Vb-M#|T#- V- N
+              U- X-N#|Vb-Yb- O|Xb-Jb- P| X- J-P#|Yb- K- Q| Y-K#-Q#
+
+      VI - 0  J- Q- U| K-Rb-Vb|K#- R- V| L-Sb- X| M-Tb-Yb|M#- T- Y
+              N-Ub- J|N#- U-J#| O-Vb-K#| P-Xb- L|P#- X- M| Q-Yb-M#
+             Q#- Y- N| R- J-N#|Sb- K- O| S-Lb- P| T- L-P#|T#- M- Q
+              U-Nb-Q#|Vb- N- R| V-Ob-R#| X- O- S|Yb- P- T| Y-Qb-T#
+
+      VI - 1  J-N#- R| K- O-Sb|Lb- P- S| L-P#- T| M- Q-T#|Nb-Q#- U
+              N- R-Vb|Ob-R#- V| O- S- X| P- T-Yb|Qb-T#- Y| Q- U- J
+             Rb-Vb- K| R- V-K#|Sb- X- L|Tb-Yb- M| T- Y-M#|Ub- J- N
+              U-J#-N#|Vb-K#- O|Xb- L- P| X- M-P#|Yb-M#- Q| Y- N-Q#
+
+      VI - 2  J- N-Ub|J#-N#- U|K#- O-Vb| L- P-Xb| M-P#- X|M#- Q-Yb
+              N-Q#- Y|N#- R- J| O-Sb- K| P- S-Lb|P#- T- L| Q-T#- M
+             Q#- U-Nb| R-Vb- N|R#- V-Ob| S- X- O| T-Yb- P|T#- Y-Qb
+              U- J- Q|Vb- K-Rb| V-K#- R| X- L-Sb|Yb- M-Tb| Y-M#- T
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 40 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Mode Representants:
+
+     VII - 0  J- N-Sb| K-N#- S|K#- O- T| L- P-T#| M-P#- U|M#- Q-Vb
+              N-Q#- V|N#- R- X| O-Sb-Yb| P- S- Y|P#- T- J| Q-T#- K
+             Q#- U-K#| R-Vb- L|R#- V- M| S- X-M#| T-Yb- N|T#- Y-N#
+              U- J- O|Vb- K- P| V-K#-P#| X- L- Q|X#- M-Q#| Y-M#- R
+
+     VII - 1  J- O- U| K- P-Vb|K#-P#- V| L- Q- X| M-Q#-X#|M#- R- Y
+              N-Sb- J|N#- S- K| O- T-K#| P-T#- L|P#- U- M| Q-Vb-M#
+             Q#- V- N| R- X-N#|Sb-Yb- O| S- Y- P| T- J-P#|T#- K- Q
+              U-K#-Q#|Vb- L- R| V- M-R#| X-M#- S|Yb- N- T| Y-N#-T#
+
+     VII - 2  J-P#- T| K- Q-T#|K#-Q#- U| L- R-Vb| M-R#- V|M#- S- X
+              N- T-Yb|N#-T#- Y| O- U- J| P-Vb- K|P#- V-K#| Q- X- L
+             Q#-X#- M| R- Y-M#|Sb- J- N| S- K-N#| T-K#- O|T#- L- P
+              U- M-P#|Vb-M#- Q| V- N-Q#| X-N#- R|Yb- O-Sb| Y- P- S
+
+    VIII - 0  J- O-Sb| K- P- S|K#-P#- T| L- Q-T#| M-Q#- U|M#- R-Vb
+              N-R#- V|N#- S- X| O- T-Yb| P-T#- Y|P#- U- J| Q-Vb- K
+             Q#- V-K#| R- X- L|Sb-Yb- M| S- Y-M#| T- J- N|T#- K-N#
+              U-K#- O|Vb- L- P| V- M-P#| X-M#- Q|X#- N-Q#| Y-N#- R
+
+    VIII - 1  J- N- T| K-N#-T#|K#- O- U| L- P-Vb| M-P#- V|M#- Q- X
+              N-Q#-X#|N#- R- Y| O-Sb- J| P- S- K|P#- T-K#| Q-T#- L
+             Q#- U- M| R-Vb-M#|R#- V- N| S- X-N#| T-Yb- O|T#- Y- P
+              U- J-P#|Vb- K- Q| V-K#-Q#| X- L- R|Yb- M-Sb| Y-M#- S
+
+    VIII - 2  J-P#- U| K- Q-Vb|K#-Q#- V| L- R- X| M-Sb-Yb|M#- S- Y
+              N- T- J|N#-T#- K| O- U-K#| P-Vb- L|P#- V- M| Q- X-M#
+             Q#-X#- N| R- Y-N#|Sb- J- O| S- K- P| T-K#-P#|T#- L- Q
+              U- M-Q#|Vb-M#- R| V- N-R#| X-N#- S|Yb- O- T| Y- P-T#
+
+      IX - 0  J- M-Sb|J#-M#- S|K#- N- T| L-N#-T#| M- O- U|M#- P-Vb
+              N-P#- V|N#- Q- X| O-Q#-X#| P- R- Y|P#-Sb- J| Q- S- K
+             Q#- T-K#| R-T#- L|R#- U- M| S-Vb-M#| T- V- N|T#- X-N#
+              U-Yb- O|Vb-Jb- P| V- J-P#| X- K- Q|X#-K#-Q#| Y- L- R
+
+      IX - 1  J-P#- V| K- Q- X|K#-Q#-X#| L- R- Y| M-Sb- J|M#- S-J#
+              N- T-K#|N#-T#- L| O- U- M| P-Vb-M#|P#- V- N| Q- X-N#
+             Q#-X#- O| R- Y- P|Sb- J-P#| S- K- Q| T-K#-Q#|T#- L- R
+              U- M-R#|Vb-M#- S| V- N- T| X-N#-T#|Yb- O- U|Jb- P-Vb
+
+      IX - 2  J-P#-Sb| K- Q- S|K#-Q#- T| L- R-T#| M-R#- U|M#- S-Vb
+              N- T- V|N#-T#- X| O- U-Yb| P-Vb-Jb|P#- V- J| Q- X- K
+             Q#-X#-K#| R- Y- L|Sb- J- M| S-J#-M#| T-K#- N|T#- L-N#
+              U- M- O|Vb-M#- P| V- N-P#| X-N#- Q|X#- O-Q#| Y- P- R
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 41 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+  1      J- L- R is of form V - 2
+  2      J- L-Sb is of form III - 0
+  3      J- M-Sb is of form IX - 0
+  4      J- N- R is of form IV - 0
+  5      J- N- T is of form VIII - 1
+  6      J- N-Sb is of form VII - 0
+  7      J- N-Ub is of form VI - 2
+  8      J- O- R is of form I - 0
+  9      J- O- U is of form VII - 1
+ 10      J- O-Sb is of form VIII - 0
+ 11      J- O-Vb is of form II - 2
+ 12      J- Q- T is of form II - 0
+ 13      J- Q- U is of form VI - 0
+ 14      J- Q- X is of form III - 1
+ 15      J- Q-Sb is of form V - 1
+ 16      J- Q-T# is of form IV - 2
+ 17      J- Q-Vb is of form I - 2
+ 18      J-M#- R is of form II - 1
+ 19      J-M#- T is of form I - 1
+ 20      J-N#- R is of form VI - 1
+ 21      J-N#- U is of form IV - 1
+ 22      J-P#- R is of form III - 2
+ 23      J-P#- T is of form VII - 2
+ 24      J-P#- U is of form VIII - 2
+ 25      J-P#- V is of form IX - 1
+ 26      J-P#- X is of form V - 0
+ 27      J-P#-Sb is of form IX - 2
+ 28      K- M-Sb is of form V - 2
+ 29      K- N-Sb is of form II - 1
+ 30      K- N-Ub is of form I - 1
+ 31      K- O-Sb is of form VI - 1
+ 32      K- O-Vb is of form IV - 1
+ 33      K- P- S is of form VIII - 0
+ 34      K- P-R# is of form I - 0
+ 35      K- P-Vb is of form VII - 1
+ 36      K- P-Xb is of form II - 2
+ 37      K- Q- S is of form IX - 2
+ 38      K- Q- X is of form IX - 1
+ 39      K- Q-R# is of form III - 2
+ 40      K- Q-T# is of form VII - 2
+ 41      K- Q-Vb is of form VIII - 2
+ 42      K- Q-Yb is of form V - 0
+ 43      K-N#- S is of form VII - 0
+ 44      K-N#-R# is of form IV - 0
+ 45      K-N#-T# is of form VIII - 1
+ 46      K-Q#- S is of form V - 1
+ 47      K-Rb-T# is of form II - 0
+ 48      K-Rb-Vb is of form VI - 0
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 42 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+ 49      K-Rb-Yb is of form III - 1
+ 50      L- N- T is of form V - 2
+ 51      L- N-Ub is of form III - 0
+ 52      L- O- T is of form II - 1
+ 53      L- O-Vb is of form I - 1
+ 54      L- P- T is of form IV - 0
+ 55      L- P-T# is of form VII - 0
+ 56      L- P-Vb is of form VIII - 1
+ 57      L- P-Xb is of form VI - 2
+ 58      L- Q- T is of form I - 0
+ 59      L- Q- X is of form VII - 1
+ 60      L- Q-T# is of form VIII - 0
+ 61      L- Q-Yb is of form II - 2
+ 62      L- R- J is of form V - 0
+ 63      L- R- T is of form III - 2
+ 64      L- R- X is of form VIII - 2
+ 65      L- R- Y is of form IX - 1
+ 66      L- R-T# is of form IX - 2
+ 67      L- R-Vb is of form VII - 2
+ 68      L-N#-T# is of form IX - 0
+ 69      L-P#- T is of form VI - 1
+ 70      L-P#- X is of form IV - 1
+ 71      L-Sb- J is of form III - 1
+ 72      L-Sb- V is of form IV - 2
+ 73      L-Sb- X is of form VI - 0
+ 74      L-Sb-T# is of form V - 1
+ 75      L-Sb-Vb is of form II - 0
+ 76      L-Sb-Yb is of form I - 2
+ 77      M- O- U is of form IX - 0
+ 78      M- P- V is of form I - 1
+ 79      M- P-T# is of form II - 1
+ 80      M- Q-T# is of form VI - 1
+ 81      M- Q-Yb is of form IV - 1
+ 82      M- S- U is of form V - 1
+ 83      M- S- V is of form II - 0
+ 84      M-N#- U is of form III - 0
+ 85      M-N#-T# is of form V - 2
+ 86      M-P#- U is of form VII - 0
+ 87      M-P#- V is of form VIII - 1
+ 88      M-P#- X is of form VI - 2
+ 89      M-P#-T# is of form IV - 0
+ 90      M-Q#- U is of form VIII - 0
+ 91      M-Q#- Y is of form II - 2
+ 92      M-Q#-T# is of form I - 0
+ 93      M-Q#-X# is of form VII - 1
+ 94      M-R#- U is of form IX - 2
+ 95      M-R#- V is of form VII - 2
+ 96      M-R#-T# is of form III - 2
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 43 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+ 97      M-Sb- J is of form IX - 1
+ 98      M-Sb- K is of form V - 0
+ 99      M-Sb-Yb is of form VIII - 2
+100      M-Tb-Yb is of form VI - 0
+101      N- P- V is of form III - 0
+102      N- P-Vb is of form V - 2
+103      N- Q-Vb is of form II - 1
+104      N- Q-Yb is of form I - 1
+105      N- R- J is of form IV - 1
+106      N- R-Vb is of form VI - 1
+107      N- T- J is of form VIII - 2
+108      N- T- L is of form V - 0
+109      N- T- V is of form IX - 2
+110      N- T-K# is of form IX - 1
+111      N- T-U# is of form III - 2
+112      N- T-Yb is of form VII - 2
+113      N-P#- V is of form IX - 0
+114      N-Q#- V is of form VII - 0
+115      N-Q#- Y is of form VI - 2
+116      N-Q#-U# is of form IV - 0
+117      N-Q#-X# is of form VIII - 1
+118      N-R#- V is of form VIII - 0
+119      N-R#-U# is of form I - 0
+120      N-Sb- J is of form VII - 1
+121      N-Sb- K is of form II - 2
+122      N-T#- V is of form V - 1
+123      N-Ub- J is of form VI - 0
+124      N-Ub- K is of form I - 2
+125      N-Ub- L is of form III - 1
+126      N-Ub-Jb is of form IV - 2
+127      N-Ub-Yb is of form II - 0
+128      O- Q- X is of form V - 2
+129      O- Q-Yb is of form III - 0
+130      O- R- J is of form I - 1
+131      O- R- X is of form II - 1
+132      O- S- X is of form VI - 1
+133      O- S-K# is of form IV - 1
+134      O- T- L is of form II - 2
+135      O- T- X is of form I - 0
+136      O- T-K# is of form VII - 1
+137      O- T-Yb is of form VIII - 0
+138      O- U- J is of form VII - 2
+139      O- U- M is of form IX - 1
+140      O- U- X is of form III - 2
+141      O- U-K# is of form VIII - 2
+142      O- U-M# is of form V - 0
+143      O- U-Yb is of form IX - 2
+144      O-Q#-X# is of form IX - 0
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 44 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+145      O-Sb- J is of form VIII - 1
+146      O-Sb- K is of form VI - 2
+147      O-Sb- X is of form IV - 0
+148      O-Sb-Yb is of form VII - 0
+149      O-Vb- J is of form II - 0
+150      O-Vb- K is of form IV - 2
+151      O-Vb- L is of form I - 2
+152      O-Vb-K# is of form VI - 0
+153      O-Vb-M# is of form III - 1
+154      O-Vb-Yb is of form V - 1
+155      P- R- Y is of form IX - 0
+156      P- S- K is of form VIII - 1
+157      P- S- Y is of form VII - 0
+158      P- S-Lb is of form VI - 2
+159      P- S-X# is of form IV - 0
+160      P- T- L is of form IV - 1
+161      P- T-Yb is of form VI - 1
+162      P- V- M is of form I - 2
+163      P- V- N is of form III - 1
+164      P-Q#- Y is of form III - 0
+165      P-Q#-X# is of form V - 2
+166      P-R#- K is of form I - 1
+167      P-Sb-Yb is of form II - 1
+168      P-T#- L is of form VII - 1
+169      P-T#- M is of form II - 2
+170      P-T#- Y is of form VIII - 0
+171      P-T#-X# is of form I - 0
+172      P-Vb- K is of form VII - 2
+173      P-Vb- L is of form VIII - 2
+174      P-Vb- N is of form V - 0
+175      P-Vb-Jb is of form IX - 2
+176      P-Vb-M# is of form IX - 1
+177      P-Vb-Yb is of form III - 2
+178      P-Xb- K is of form II - 0
+179      P-Xb- L is of form VI - 0
+180      P-Xb-Jb is of form V - 1
+181      Q- S- K is of form IX - 0
+182      Q- T- J is of form II - 1
+183      Q- T- L is of form I - 1
+184      Q- U- J is of form VI - 1
+185      Q- U-M# is of form IV - 1
+186      Q- X- J is of form III - 2
+187      Q- X- K is of form IX - 2
+188      Q- X- L is of form VII - 2
+189      Q- X- O is of form V - 0
+190      Q- X-M# is of form VIII - 2
+191      Q- X-N# is of form IX - 1
+192      Q-R#- K is of form III - 0
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 45 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+193      Q-Sb- J is of form V - 2
+194      Q-T#- J is of form IV - 0
+195      Q-T#- K is of form VII - 0
+196      Q-T#- L is of form VIII - 1
+197      Q-T#- M is of form VI - 2
+198      Q-Vb- J is of form I - 0
+199      Q-Vb- K is of form VIII - 0
+200      Q-Vb- N is of form II - 2
+201      Q-Vb-M# is of form VII - 1
+202      Q-Yb- K is of form V - 1
+203      Q-Yb- L is of form II - 0
+204      Q-Yb- M is of form IV - 2
+205      Q-Yb- N is of form I - 2
+206      Q-Yb- O is of form III - 1
+207      Q-Yb-M# is of form VI - 0
+208      R- J- L is of form V - 1
+209      R- J- N is of form IV - 2
+210      R- J- O is of form I - 2
+211      R- J-M# is of form II - 0
+212      R- J-N# is of form VI - 0
+213      R- J-P# is of form III - 1
+214      R- T- L is of form III - 0
+215      R- T-K# is of form V - 2
+216      R- U-K# is of form II - 1
+217      R- U-M# is of form I - 1
+218      R- V-K# is of form VI - 1
+219      R- V-Ob is of form IV - 1
+220      R- X- L is of form VIII - 0
+221      R- X- O is of form II - 2
+222      R- X-K# is of form I - 0
+223      R- X-N# is of form VII - 1
+224      R- Y- L is of form IX - 2
+225      R- Y- P is of form IX - 1
+226      R- Y-K# is of form III - 2
+227      R- Y-M# is of form VII - 2
+228      R- Y-N# is of form VIII - 2
+229      R- Y-P# is of form V - 0
+230      R-T#- L is of form IX - 0
+231      R-Vb- L is of form VII - 0
+232      R-Vb- N is of form VI - 2
+233      R-Vb-K# is of form IV - 0
+234      R-Vb-M# is of form VIII - 1
+235      S- K- P is of form VIII - 2
+236      S- K- Q is of form IX - 1
+237      S- K-N# is of form VII - 2
+238      S- K-Q# is of form V - 0
+239      S- U- M is of form V - 2
+240      S- U-M# is of form III - 0
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 46 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+241      S- V- M is of form II - 1
+242      S- V-Ob is of form I - 1
+243      S- X- O is of form VI - 2
+244      S- X-L# is of form IV - 0
+245      S- X-M# is of form VII - 0
+246      S- X-N# is of form VIII - 1
+247      S- Y- P is of form VII - 1
+248      S- Y-L# is of form I - 0
+249      S- Y-M# is of form VIII - 0
+250      S- Y-P# is of form II - 2
+251      S-J#-L# is of form III - 2
+252      S-J#-M# is of form IX - 2
+253      S-K#- O is of form IV - 2
+254      S-K#-M# is of form V - 1
+255      S-K#-P# is of form I - 2
+256      S-Lb- P is of form VI - 0
+257      S-Lb-N# is of form II - 0
+258      S-Lb-Q# is of form III - 1
+259      S-Vb-M# is of form IX - 0
+260      S-X#- P is of form IV - 1
+261      T- J- N is of form VIII - 0
+262      T- J- Q is of form II - 2
+263      T- J-M# is of form I - 0
+264      T- J-P# is of form VII - 1
+265      T- L- N is of form V - 1
+266      T- L- O is of form II - 0
+267      T- L- P is of form IV - 2
+268      T- L- Q is of form I - 2
+269      T- L- R is of form III - 1
+270      T- L-P# is of form VI - 0
+271      T- V- N is of form IX - 0
+272      T- X- O is of form I - 1
+273      T- X-M# is of form II - 1
+274      T- Y-M# is of form VI - 1
+275      T- Y-P# is of form IV - 1
+276      T-K#- N is of form IX - 2
+277      T-K#- O is of form VII - 2
+278      T-K#- R is of form V - 0
+279      T-K#-M# is of form III - 2
+280      T-K#-P# is of form VIII - 2
+281      T-K#-Q# is of form IX - 1
+282      T-U#- N is of form III - 0
+283      T-Vb-M# is of form V - 2
+284      T-Yb- N is of form VII - 0
+285      T-Yb- O is of form VIII - 1
+286      T-Yb- P is of form VI - 2
+287      T-Yb-M# is of form IV - 0
+288      U- J- O is of form VII - 0
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 47 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+289      U- J- Q is of form VI - 2
+290      U- J-N# is of form IV - 0
+291      U- J-P# is of form VIII - 1
+292      U- M- O is of form IX - 2
+293      U- M- S is of form V - 0
+294      U- M-N# is of form III - 2
+295      U- M-P# is of form VII - 2
+296      U- M-Q# is of form VIII - 2
+297      U- M-R# is of form IX - 1
+298      U- X- O is of form III - 0
+299      U- X-N# is of form V - 2
+300      U- Y-N# is of form II - 1
+301      U- Y-P# is of form I - 1
+302      U-J#-N# is of form VI - 1
+303      U-J#-Q# is of form IV - 1
+304      U-K#- O is of form VIII - 0
+305      U-K#- R is of form II - 2
+306      U-K#-N# is of form I - 0
+307      U-K#-Q# is of form VII - 1
+308      U-M#- O is of form V - 1
+309      U-M#- Q is of form IV - 2
+310      U-M#- R is of form I - 2
+311      U-M#- S is of form III - 1
+312      U-Nb-P# is of form II - 0
+313      U-Nb-Q# is of form VI - 0
+314      U-Yb- O is of form IX - 0
+315      V- J-P# is of form IX - 0
+316      V- L-Sb is of form IV - 1
+317      V- M- P is of form I - 0
+318      V- M- S is of form II - 2
+319      V- M-P# is of form VIII - 0
+320      V- M-R# is of form VII - 1
+321      V- N- P is of form III - 2
+322      V- N- T is of form IX - 1
+323      V- N-P# is of form IX - 2
+324      V- N-Q# is of form VII - 2
+325      V- N-R# is of form VIII - 2
+326      V- N-T# is of form V - 0
+327      V- Y-P# is of form III - 0
+328      V-J#-Q# is of form I - 1
+329      V-K#- R is of form VI - 2
+330      V-K#-O# is of form IV - 0
+331      V-K#-P# is of form VII - 0
+332      V-K#-Q# is of form VIII - 1
+333      V-Ob- R is of form IV - 2
+334      V-Ob- S is of form I - 2
+335      V-Ob-P# is of form V - 1
+336      V-Ob-Q# is of form II - 0
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 48 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+337      V-Ob-R# is of form VI - 0
+338      V-Ob-T# is of form III - 1
+339      X- J- Q is of form III - 0
+340      X- J-P# is of form V - 2
+341      X- K- Q is of form IX - 0
+342      X- L- Q is of form VII - 0
+343      X- L- R is of form VIII - 1
+344      X- L-P# is of form IV - 0
+345      X- L-Sb is of form VI - 2
+346      X- M-P# is of form VI - 1
+347      X- O- Q is of form V - 1
+348      X- O- R is of form II - 0
+349      X- O- S is of form VI - 0
+350      X- O- T is of form I - 2
+351      X- O- U is of form III - 1
+352      X- O-Sb is of form IV - 2
+353      X-K#- R is of form I - 1
+354      X-K#-P# is of form II - 1
+355      X-L#- S is of form IV - 1
+356      X-M#- Q is of form VIII - 0
+357      X-M#- S is of form VII - 1
+358      X-M#- T is of form II - 2
+359      X-M#-P# is of form I - 0
+360      X-N#- Q is of form IX - 2
+361      X-N#- R is of form VII - 2
+362      X-N#- S is of form VIII - 2
+363      X-N#- U is of form V - 0
+364      X-N#-P# is of form III - 2
+365      X-N#-T# is of form IX - 1
+366      Y- L- R is of form IX - 0
+367      Y- M-Q# is of form II - 1
+368      Y- N-Q# is of form VI - 1
+369      Y- P- R is of form IX - 2
+370      Y- P- S is of form VII - 2
+371      Y- P-Q# is of form III - 2
+372      Y- P-T# is of form VIII - 2
+373      Y-K#- R is of form III - 0
+374      Y-K#-Q# is of form V - 2
+375      Y-L#- S is of form I - 1
+376      Y-M#- R is of form VII - 0
+377      Y-M#- S is of form VIII - 1
+378      Y-M#- T is of form VI - 2
+379      Y-M#-Q# is of form IV - 0
+380      Y-N#- R is of form VIII - 0
+381      Y-N#- U is of form II - 2
+382      Y-N#-Q# is of form I - 0
+383      Y-N#-T# is of form VII - 1
+384      Y-P#- R is of form V - 1
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 49 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+385      Y-P#- S is of form II - 0
+386      Y-P#- T is of form IV - 2
+387      Y-P#- U is of form I - 2
+388      Y-P#- V is of form III - 1
+389      Y-Qb-T# is of form VI - 0
+390     J#-L#- S is of form III - 0
+391     J#-M#- S is of form IX - 0
+392     J#-N#- U is of form VI - 2
+393     J#-Q#- U is of form IV - 2
+394     J#-Q#- V is of form I - 2
+395     Jb- N-Ub is of form IV - 1
+396     Jb- P-Vb is of form IX - 1
+397     Jb- P-Xb is of form V - 0
+398     K#- N- T is of form IX - 0
+399     K#- O- S is of form IV - 0
+400     K#- O- T is of form VII - 0
+401     K#- O- U is of form VIII - 1
+402     K#- O-Vb is of form VI - 2
+403     K#- R- T is of form V - 1
+404     K#- R- U is of form II - 0
+405     K#- R- V is of form VI - 0
+406     K#- R- X is of form I - 2
+407     K#- R- Y is of form III - 1
+408     K#- R-Vb is of form IV - 2
+409     K#-M#- S is of form V - 2
+410     K#-M#- T is of form III - 0
+411     K#-N#- U is of form I - 1
+412     K#-O#- V is of form IV - 1
+413     K#-P#- S is of form I - 0
+414     K#-P#- T is of form VIII - 0
+415     K#-P#- V is of form VII - 1
+416     K#-P#- X is of form II - 2
+417     K#-Q#- T is of form IX - 2
+418     K#-Q#- U is of form VII - 2
+419     K#-Q#- V is of form VIII - 2
+420     K#-Q#- Y is of form V - 0
+421     K#-Q#-X# is of form IX - 1
+422     L#- S- X is of form IV - 2
+423     L#- S- Y is of form I - 2
+424     L#- S-J# is of form III - 1
+425     Lb- P- S is of form VI - 1
+426     Lb-N#- S is of form II - 1
+427     Lb-Q#- S is of form III - 2
+428     M#- O- U is of form V - 2
+429     M#- O-Vb is of form III - 0
+430     M#- P-Vb is of form IX - 0
+431     M#- Q- U is of form IV - 0
+432     M#- Q- X is of form VIII - 1
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 50 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+433     M#- Q-Vb is of form VII - 0
+434     M#- Q-Yb is of form VI - 2
+435     M#- R- J is of form II - 2
+436     M#- R- U is of form I - 0
+437     M#- R- Y is of form VII - 1
+438     M#- R-Vb is of form VIII - 0
+439     M#- S- U is of form III - 2
+440     M#- S- X is of form VII - 2
+441     M#- S- Y is of form VIII - 2
+442     M#- S-J# is of form IX - 1
+443     M#- S-K# is of form V - 0
+444     M#- S-Vb is of form IX - 2
+445     M#- T- J is of form I - 2
+446     M#- T- X is of form II - 0
+447     M#- T- Y is of form VI - 0
+448     M#- T-K# is of form III - 1
+449     M#- T-Vb is of form V - 1
+450     M#- T-Yb is of form IV - 2
+451     M#-P#- X is of form I - 1
+452     M#-Q#- Y is of form IV - 1
+453     N#- Q- X is of form IX - 0
+454     N#- R- J is of form VI - 2
+455     N#- R- X is of form VII - 0
+456     N#- R- Y is of form VIII - 1
+457     N#- S- K is of form VII - 1
+458     N#- S- X is of form VIII - 0
+459     N#- S-Lb is of form II - 2
+460     N#- U- J is of form IV - 2
+461     N#- U- M is of form III - 1
+462     N#- U- X is of form V - 1
+463     N#- U- Y is of form II - 0
+464     N#- U-J# is of form VI - 0
+465     N#- U-K# is of form I - 2
+466     N#-P#- X is of form III - 0
+467     N#-Q#- Y is of form I - 1
+468     N#-R#- K is of form IV - 1
+469     N#-T#- K is of form VIII - 2
+470     N#-T#- L is of form IX - 1
+471     N#-T#- M is of form V - 0
+472     N#-T#- X is of form IX - 2
+473     N#-T#- Y is of form VII - 2
+474     Nb-P#- U is of form II - 1
+475     Nb-Q#- U is of form VI - 1
+476     O#- V-K# is of form IV - 2
+477     Ob- R- V is of form IV - 0
+478     Ob- S- V is of form I - 0
+479     Ob-P#- V is of form V - 2
+480     Ob-Q#- V is of form II - 1
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 51 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+481     Ob-R#- V is of form VI - 1
+482     Ob-T#- V is of form III - 2
+483     P#- R- J is of form III - 0
+484     P#- R- Y is of form V - 2
+485     P#- S- Y is of form II - 1
+486     P#- S-K# is of form I - 1
+487     P#- T- J is of form VII - 0
+488     P#- T- L is of form VI - 2
+489     P#- T- Y is of form IV - 0
+490     P#- T-K# is of form VIII - 1
+491     P#- U- J is of form VIII - 0
+492     P#- U- M is of form VII - 1
+493     P#- U- Y is of form I - 0
+494     P#- U-Nb is of form II - 2
+495     P#- V- J is of form IX - 2
+496     P#- V- M is of form VIII - 2
+497     P#- V- N is of form IX - 1
+498     P#- V- Y is of form III - 2
+499     P#- V-K# is of form VII - 2
+500     P#- V-Ob is of form V - 0
+501     P#- X- J is of form V - 1
+502     P#- X- L is of form IV - 2
+503     P#- X- M is of form VI - 0
+504     P#- X-K# is of form II - 0
+505     P#- X-M# is of form I - 2
+506     P#- X-N# is of form III - 1
+507     P#-Sb- J is of form IX - 0
+508     P#-T#- M is of form IV - 1
+509     Q#- S- K is of form V - 2
+510     Q#- S-Lb is of form III - 0
+511     Q#- T-K# is of form IX - 0
+512     Q#- U- M is of form VIII - 1
+513     Q#- U-J# is of form IV - 0
+514     Q#- U-K# is of form VII - 0
+515     Q#- U-Nb is of form VI - 2
+516     Q#- V- N is of form VII - 1
+517     Q#- V-J# is of form I - 0
+518     Q#- V-K# is of form VIII - 0
+519     Q#- V-Ob is of form II - 2
+520     Q#- Y- M is of form II - 0
+521     Q#- Y- N is of form VI - 0
+522     Q#- Y- P is of form III - 1
+523     Q#- Y-K# is of form V - 1
+524     Q#- Y-M# is of form IV - 2
+525     Q#- Y-N# is of form I - 2
+526     Q#-T#- M is of form I - 1
+527     Q#-U#- N is of form IV - 1
+528     Q#-X#- M is of form VII - 2
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 52 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+529     Q#-X#- N is of form VIII - 2
+530     Q#-X#- O is of form IX - 1
+531     Q#-X#- P is of form V - 0
+532     Q#-X#-K# is of form IX - 2
+533     Qb-T#- Y is of form VI - 1
+534     R#- K- P is of form I - 2
+535     R#- K- Q is of form III - 1
+536     R#- K-N# is of form IV - 2
+537     R#- U- M is of form IX - 0
+538     R#- V- M is of form VII - 0
+539     R#- V- N is of form VIII - 1
+540     R#- V-Ob is of form VI - 2
+541     R#-T#- M is of form III - 0
+542     R#-U#- N is of form I - 1
+543     Rb-T#- K is of form II - 1
+544     Rb-Vb- K is of form VI - 1
+545     Rb-Yb- K is of form III - 2
+546     Sb- J- L is of form III - 2
+547     Sb- J- M is of form IX - 2
+548     Sb- J- N is of form VII - 2
+549     Sb- J- O is of form VIII - 2
+550     Sb- J- Q is of form V - 0
+551     Sb- J-P# is of form IX - 1
+552     Sb- K- M is of form V - 1
+553     Sb- K- N is of form II - 0
+554     Sb- K- O is of form VI - 0
+555     Sb- V- L is of form IV - 0
+556     Sb- X- L is of form VI - 1
+557     Sb- X- O is of form IV - 1
+558     Sb-T#- L is of form V - 2
+559     Sb-Vb- L is of form II - 1
+560     Sb-Yb- L is of form I - 0
+561     Sb-Yb- M is of form VIII - 0
+562     Sb-Yb- O is of form VII - 1
+563     Sb-Yb- P is of form II - 2
+564     T#- J- Q is of form IV - 1
+565     T#- K- Q is of form VII - 1
+566     T#- K-N# is of form VIII - 0
+567     T#- K-Rb is of form II - 2
+568     T#- L- P is of form VII - 2
+569     T#- L- Q is of form VIII - 2
+570     T#- L- R is of form IX - 1
+571     T#- L-N# is of form IX - 2
+572     T#- L-Sb is of form V - 0
+573     T#- M- P is of form II - 0
+574     T#- M- Q is of form VI - 0
+575     T#- M-N# is of form V - 1
+576     T#- M-P# is of form IV - 2
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 53 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+577     T#- M-Q# is of form I - 2
+578     T#- M-R# is of form III - 1
+579     T#- V- N is of form V - 2
+580     T#- V-Ob is of form III - 0
+581     T#- X-N# is of form IX - 0
+582     T#- Y- P is of form VIII - 1
+583     T#- Y-N# is of form VII - 0
+584     T#- Y-Qb is of form VI - 2
+585     T#-X#- P is of form I - 1
+586     Tb-Yb- M is of form VI - 1
+587     U#- N- T is of form III - 1
+588     U#- N-Q# is of form IV - 2
+589     U#- N-R# is of form I - 2
+590     Ub- J- N is of form VI - 1
+591     Ub- K- N is of form I - 0
+592     Ub- L- N is of form III - 2
+593     Ub-Jb- N is of form IV - 0
+594     Ub-Yb- N is of form II - 1
+595     Vb- J- O is of form II - 1
+596     Vb- J- Q is of form I - 1
+597     Vb- K- O is of form IV - 0
+598     Vb- K- P is of form VII - 0
+599     Vb- K- Q is of form VIII - 1
+600     Vb- K-Rb is of form VI - 2
+601     Vb- L- O is of form I - 0
+602     Vb- L- P is of form VIII - 0
+603     Vb- L- R is of form VII - 1
+604     Vb- L-Sb is of form II - 2
+605     Vb- N- P is of form V - 1
+606     Vb- N- Q is of form II - 0
+607     Vb- N- R is of form VI - 0
+608     Vb-Jb- P is of form IX - 0
+609     Vb-K#- O is of form VI - 1
+610     Vb-K#- R is of form IV - 1
+611     Vb-M#- O is of form III - 2
+612     Vb-M#- P is of form IX - 2
+613     Vb-M#- Q is of form VII - 2
+614     Vb-M#- R is of form VIII - 2
+615     Vb-M#- S is of form IX - 1
+616     Vb-M#- T is of form V - 0
+617     Vb-Yb- O is of form V - 2
+618     Vb-Yb- P is of form III - 0
+619     X#- M-Q# is of form VII - 0
+620     X#- N-Q# is of form VIII - 0
+621     X#- O-Q# is of form IX - 2
+622     X#- P- S is of form IV - 2
+623     X#- P-Q# is of form V - 1
+624     X#- P-T# is of form I - 2
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 54 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55
+                                                      Jan 22, 2021
+Hexdecimal Representant to Type and Mode Conversion Chart:
+
+625     X#-K#-Q# is of form IX - 0
+626     Xb- K- P is of form II - 1
+627     Xb- L- P is of form VI - 1
+628     Xb-Jb- P is of form V - 2
+629     Yb- K- Q is of form V - 2
+630     Yb- K-Rb is of form III - 0
+631     Yb- L- Q is of form II - 1
+632     Yb- L-Sb is of form I - 1
+633     Yb- M- Q is of form IV - 0
+634     Yb- M-Sb is of form VIII - 1
+635     Yb- M-Tb is of form VI - 2
+636     Yb- N- Q is of form I - 0
+637     Yb- N- T is of form VII - 1
+638     Yb- N-Ub is of form II - 2
+639     Yb- O- Q is of form III - 2
+640     Yb- O- T is of form VIII - 2
+641     Yb- O- U is of form IX - 1
+642     Yb- O-Sb is of form VII - 2
+643     Yb- O-Vb is of form V - 0
+644     Yb- P- T is of form VI - 0
+645     Yb- P-Sb is of form II - 0
+646     Yb- P-Vb is of form III - 1
+647     Yb-M#- Q is of form VI - 1
+648     Yb-M#- T is of form IV - 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 55 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 55

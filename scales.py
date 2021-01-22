@@ -427,3 +427,27 @@ for nbr,(a,b,c) in enumerate(modelist):
         print()
 
     print("%3d"%(nbr+1),"%12s"%a,"is of form",romannbr[b],"-",c)
+    
+last_type = None
+
+for nbr,(a,b,c) in enumerate(modelist2):
+    if nbr % (9*24) == 0:
+        new_page()
+        print("Hexdecimal Mode Representants:",end="")
+    t = romannbr[b]+" - "+str(c)
+    if last_type != t:
+        print("\n\n%12s"%t,end=" ")
+        last_type = t
+    elif nbr % 6 == 0:
+        print("\n%12s"%"",end=" ")
+        
+    print("%8s"%a,end=" " if nbr%6 == 5 else "|")
+
+modelist2.sort()
+for nbr,(a,b,c) in enumerate(modelist2):
+    if (nbr % 48) == 0:
+        new_page()
+        print("Hexdecimal Representant to Type and Mode Conversion Chart:")
+        print()
+
+    print("%3d"%(nbr+1),"%12s"%a,"is of form",romannbr[b],"-",c)
