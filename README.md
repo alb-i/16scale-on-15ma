@@ -55,3 +55,9 @@ on a guitar. Which means that the standard 5-string bass `B` is
 indeed a `Q`, and so the standard bass `E` is a `T`, one octave below
 the guitars `M`. The standard guitar tuning is `M`, `P`, `R#`, `U#`, `Y`, `M`,
 from low to high; the standard 5-string bass tuning is `Q`, `T`, `X`, `K#`, `N#`.
+
+The full hexadecimal scale can be enumerated like this:
+```
+J, K, K#, L, M, M#, N, N#, O, P, P#, Q, Q#, R, R#, S, T, T#, U, U#, V, X, X#, Y, J
+J, K, Lb, L, M, Nb, N, Ob, O, P, Qb, Q, Rb, R, Sb, S, T, Ub, U, Vb, V, X, Yb, Y, J
+``
