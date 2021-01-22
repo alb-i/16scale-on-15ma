@@ -206,14 +206,52 @@ candidates = [x for x in candidates if not hasDiatonicSubscale(x)]
 
 print("Candidate count:",len(candidates))
 
+def structureInfo(candidate):
+    return " %d%d%d%d%d%d"%(len([1 for x in candidate if x == A]),
+    len([1 for x in candidate if x == B]),
+    len([1 for x in candidate if x == C]),
+    len([1 for x in candidate if x == D]),
+    len([1 for x in candidate if x == E]),
+    len([1 for x in candidate if x == F]))
+
+
+def structureInfoRot(candidate):
+    data = "".join(candidate)
+    data = data + data[:2]
+    a = 0
+    b = 0
+    c = 0
+    d = 0
+    e = 0
+    f = 0
+    q = 0
+    for i in range(len(data)-2):
+        x = data[i:i+3]
+        if x == A:
+            a += 1
+        elif x == B:
+            b += 1
+        elif x == C:
+            c += 1
+        elif x == D:
+            d += 1
+        elif x == E:
+            e += 1
+        elif x == F:
+            f += 1
+        elif x == "FFF":
+            q += 1
+    return "  %d%d%d%d%d%d%d"%(q,a,b,c,d,e,f)
 
 
 def backConversion(candidate):
     d = {A:"A",B:"B",C:"C",D:"D",E:"E",F:"F"}
     return list(map(d.get,candidate))
     
-candidate_strings = [(backConversion(x),x) for x in candidates]
+candidate_strings = [(structureInfoRot(x),list(map(lambda x: 1 if x == "." else 2, getOctaves(x))),"".join(x),backConversion(x),x) for x in candidates]
 candidate_strings.sort()
+
+candidate_strings = [(a,b) for x,y,z,a,b in candidate_strings]
 
 def getNormalizedBaseScale(candidate):
     scale = "".join(candidate)
@@ -227,18 +265,19 @@ interesting_scales = []
 
 new_page()
 
+
 print()
 print("Generated scales with the desired properties, up to rotation")
 print("============================================================")
 print()
-print("#\t ID\t Code\t Steps        \t Has 8a?")
+print("#\t ID\t Code\t Steps        \t Has 8a?           xABCDEF")
 cnt = 0
 for i,(x,y) in enumerate(candidate_strings):
     snorm = getNormalizedBaseScale(y)
     t = types.index(snorm)
     if (t != i):
         continue
-    print(romannbr[cnt],"\t",i,"\t","".join(x),"\t","".join(y),getOctaves(y))
+    print(romannbr[cnt],"\t",i,"\t","".join(x),"\t","".join(y),getOctaves(y),structureInfoRot(y))
     interesting_scales.append((cnt,i,"".join(x),"".join(y)))
     cnt += 1
     
@@ -296,8 +335,8 @@ for (cnt,i,name,s0) in interesting_scales:
         #print("  "+romannbr[cnt],"-",modenbr,"\t",name,"\t",s)
         #print("="*41)
         
-        print("Root-Notes:"+" "*4," ".join(map(getName,steps)))
-        print(" "*15," ".join(octaveFree(steps)))
+        print("Root-Notes:"+" "*5," ".join(map(getName,steps)))
+        print("  Chord [#roots]" ," ".join(octaveFree(steps)))
         chords = [
                 ("5",[7]),
                 ("5+8",[7,12]),
@@ -326,7 +365,7 @@ for (cnt,i,name,s0) in interesting_scales:
         
         for name_,chord in chords:
             name0 = " "*(10-len(name_))+name_ + " "
-            print(name0," ".join(["%2s"%str(len([x for x in checkStepsForChord(steps[:-1],chord) if x.strip() != "."]))+"x"]+checkStepsForChord(steps,chord)))
+            print(name0," ".join(["[%2s"%str(len([x for x in checkStepsForChord(steps[:-1],chord) if x.strip() != "."]))+"]"]+checkStepsForChord(steps,chord)))
     
     oct_deficit = getOctaveDeficitSteps(s0)
     oct_deficit2 = oct_deficit[1:]+oct_deficit[:1]
