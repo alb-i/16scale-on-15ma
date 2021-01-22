@@ -36,19 +36,19 @@ note_names2 = [" c","c#"," d","d#"," e"," f","f#"," g","g#"," a","a#"," b"]
 base_note = note_names.index("g")
 
 # its 15 steps out of 24 semi tone steps
-A = "FFH"
-B = "FHF"
-C = "HFF"
+A = "FFh"
+B = "FhF"
+C = "hFF"
 
 alphabet = [A,B,C]
 
-D = "HHF"
-E = "HFH"
-F = "FHH"
+D = "hhF"
+E = "hFh"
+F = "Fhh"
 
 alphabet2 = [D,E,F]
 
-major = "FFHFFFH"
+major = "FFhFFFh"
 
 major_rotations = [major[i:] + major[:i] for i in range(len(major))]
 
@@ -80,7 +80,7 @@ print("Candidate count:",len(candidates))
 
 def containsHHH(candidate):
     test = "".join(candidate * 2)
-    return "HHH" in test
+    return "hhh" in test
 
 print()
 print("Filtering out candidates that have three consecutive semi-tone\nsteps.")
@@ -261,6 +261,8 @@ def getNormalizedBaseScale(candidate):
 
 types = [getNormalizedBaseScale(y) for (x,y) in candidate_strings]
 
+candidates = [b for a,b in candidate_strings]
+
 interesting_scales = []
 
 new_page()
@@ -280,7 +282,7 @@ for i,(x,y) in enumerate(candidate_strings):
     print(romannbr[cnt],"\t",i,"\t","".join(x),"\t","".join(y),getOctaves(y),structureInfoRot(y))
     interesting_scales.append((cnt,i,"".join(x),"".join(y)))
     cnt += 1
-    
+scaletypes = [x for a,b,c,x in interesting_scales]
 
 def getName(x):
     return note_names2[(x+base_note)%12].upper()

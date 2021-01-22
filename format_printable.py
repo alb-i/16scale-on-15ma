@@ -7,6 +7,8 @@ pagelines = 54
 statuslines = 3
 pagebreakmarker = "-"*67
 
+twosided = False
+
 leftmargin = 2
 rightmargin = 66
 
@@ -62,7 +64,7 @@ if len(pages) > 0:
 nbr_pages = sum((1 for p in pages))
 
 def formatP(nbr,x,center=""):
-    if (nbr % 2) == 0:
+    if ((nbr % 2) == 0) and twosided:
         p0 = (" "*leftmargin) + x
     else:
         p0 = (" "*(rightmargin-len(x))) + x
@@ -79,4 +81,4 @@ for nbr_,page in enumerate(pages):
     for l in page:
         print(l)
     print(formatP(nbr,"- "+str(nbr)+" -",             "I.Albrecht: 8va-Interval-Maximal 16-tone Scales"))
-    print(formatP(nbr," of " + str(nbr_pages) + " ","on 15ma w/o Diatonic Modes and Root-8va."),end="" if (nbr == nbr_pages) else "\n")
+    print(formatP(nbr," of " + str(nbr_pages) + "","on 15ma w/o Diatonic Modes and Root-8va."),end="" if (nbr == nbr_pages) else "\n")

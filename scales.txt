@@ -51,21 +51,21 @@ Candidate count: 15
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 1 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Generated scales with the desired properties, up to rotation
 ============================================================
 
 #        ID      Code    Steps           Has 8a?           xABCDEF
-I        0       BFACA   FHFFHHFFHHFFFFH .++++.++.++++++   2323212
-II       1       CACDB   HFFFFHHFFHHFFHF .++++++.++.++++   2323212
-III      2       ECABA   HFHHFFFFHFHFFFH .+.++++++.+++++   3222222
-IV       3       BDACA   FHFHHFFFHHFFFFH .+++.+++.++++++   3222222
-V        5       CBCAE   HFFFHFHFFFFHHFH .+++++.++++++.+   3222222
-VI       7       CACFB   HFFFFHHFFFHHFHF .++++++.+++.+++   3222222
-VII      8       CDACA   HFFHHFFFHHFFFFH .+++.++++.+++++   3303303
-VIII     9       CFACA   HFFFHHFFHHFFFFH .++++.+++.+++++   3303303
-IX       12      ECACA   HFHHFFFFHHFFFFH .++.+++++.+++++   4202313
+I        0       BFACA   FhFFhhFFhhFFFFh .++++.++.++++++   2323212
+II       1       CACDB   hFFFFhhFFhhFFhF .++++++.++.++++   2323212
+III      2       ECABA   hFhhFFFFhFhFFFh .+.++++++.+++++   3222222
+IV       3       BDACA   FhFhhFFFhhFFFFh .+++.+++.++++++   3222222
+V        5       CBCAE   hFFFhFhFFFFhhFh .+++++.++++++.+   3222222
+VI       7       CACFB   hFFFFhhFFFhhFhF .++++++.+++.+++   3222222
+VII      8       CDACA   hFFhhFFFhhFFFFh .+++.++++.+++++   3303303
+VIII     9       CFACA   hFFFhhFFhhFFFFh .++++.+++.+++++   3303303
+IX       12      ECACA   hFhhFFFFhhFFFFh .++.+++++.+++++   4202313
 
 
 
@@ -104,10 +104,10 @@ IX       12      ECACA   HFHHFFFFHHFFFFH .++.+++++.+++++   4202313
 
 
 
-  - 2 -   I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 2 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  I - 0                  FHFFHHFFHHFFFFH
+  I - 0                  FhFFhhFFhhFFFFh
 =========================================
 Intervals:
                 8        .++++.++.++++++
@@ -159,9 +159,9 @@ Root-Notes:       G  A A#  C  D D#  E F# G#  A A#  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 3 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  I - 1                  HFFHHFFFFHFHFFH
+  I - 1                  hFFhhFFFFhFhFFh
 =========================================
 Intervals:
                 8        .++.++++++.++++
@@ -212,10 +212,10 @@ Root-Notes:       G G# A#  C C#  D  E F# G# A#  B C#  D  E F#  G
 
 
 
-  - 4 -   I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 4 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  I - 2                  HHFFFFHFHFFHHFF
+  I - 2                  hhFFFFhFhFFhhFF
 =========================================
 Intervals:
                 8        .++++++.++++.++
@@ -267,9 +267,9 @@ Root-Notes:       G G#  A  B C# D#  F F# G#  A  B C#  D D#  F  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 5 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  II - 0                 HFFFFHHFFHHFFHF
+  II - 0                 hFFFFhhFFhhFFhF
 =========================================
 Intervals:
                 8        .++++++.++.++++
@@ -320,10 +320,10 @@ Root-Notes:       G G# A#  C  D  E  F F# G# A#  B  C  D  E  F  G
 
 
 
-  - 6 -   I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 6 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  II - 1                 FFHHFFHFHFFFFHH
+  II - 1                 FFhhFFhFhFFFFhh
 =========================================
 Intervals:
                 8        .++.++++.++++++
@@ -375,9 +375,9 @@ Root-Notes:       G  A  B  C C# D#  F F# G#  A  B C# D#  F F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 7 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  II - 2                 HFFHFHFFFFHHFFH
+  II - 2                 hFFhFhFFFFhhFFh
 =========================================
 Intervals:
                 8        .++++.++++++.++
@@ -428,10 +428,10 @@ Root-Notes:       G G# A#  C C# D#  E F# G# A#  C C#  D  E F#  G
 
 
 
-  - 8 -   I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 8 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  III - 0                HFHHFFFFHFHFFFH
+  III - 0                hFhhFFFFhFhFFFh
 =========================================
 Intervals:
                 8        .+.++++++.+++++
@@ -483,9 +483,9 @@ Root-Notes:       G G# A#  B  C  D  E F# G#  A  B  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales    - 9 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  III - 1                HHFFFFHFHFFFHHF
+  III - 1                hhFFFFhFhFFFhhF
 =========================================
 Intervals:
                 8        .++++++.+++++.+
@@ -536,10 +536,10 @@ Root-Notes:       G G#  A  B C# D#  F F# G#  A  B C# D#  E  F  G
 
 
 
-  - 10 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 10 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  III - 2                FHFFFHHFHHFFFFH
+  III - 2                FhFFFhhFhhFFFFh
 =========================================
 Intervals:
                 8        .+++++.+.++++++
@@ -591,9 +591,9 @@ Root-Notes:       G  A A#  C  D  E  F F# G#  A A#  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 11 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  IV - 0                 FHFHHFFFHHFFFFH
+  IV - 0                 FhFhhFFFhhFFFFh
 =========================================
 Intervals:
                 8        .+++.+++.++++++
@@ -644,10 +644,10 @@ Root-Notes:       G  A A#  C C#  D  E F# G#  A A#  C  D  E F#  G
 
 
 
-  - 12 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 12 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  IV - 1                 HFFFHHFFFFHFHFH
+  IV - 1                 hFFFhhFFFFhFhFh
 =========================================
 Intervals:
                 8        .+++.++++++.+++
@@ -699,9 +699,9 @@ Root-Notes:       G G# A#  C  D D#  E F# G# A#  C C# D#  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 13 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  IV - 2                 HHFFFFHFHFHHFFF
+  IV - 2                 hhFFFFhFhFhhFFF
 =========================================
 Intervals:
                 8        .++++++.+++.+++
@@ -752,10 +752,10 @@ Root-Notes:       G G#  A  B C# D#  F F# G#  A  B  C C# D#  F  G
 
 
 
-  - 14 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 14 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  V - 0                  HFFFHFHFFFFHHFH
+  V - 0                  hFFFhFhFFFFhhFh
 =========================================
 Intervals:
                 8        .+++++.++++++.+
@@ -807,9 +807,9 @@ Root-Notes:       G G# A#  C  D D#  F F# G# A#  C  D D#  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 15 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  V - 1                  HFFFFHHFHHFFFHF
+  V - 1                  hFFFFhhFhhFFFhF
 =========================================
 Intervals:
                 8        .++++++.+.+++++
@@ -860,10 +860,10 @@ Root-Notes:       G G# A#  C  D  E  F F# G#  A A#  C  D  E  F  G
 
 
 
-  - 16 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 16 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  V - 2                  FHHFFFHFHFFFFHH
+  V - 2                  FhhFFFhFhFFFFhh
 =========================================
 Intervals:
                 8        .+.+++++.++++++
@@ -915,9 +915,9 @@ Root-Notes:       G  A A#  B C# D#  F F# G#  A  B C# D#  F F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 17 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VI - 0                 HFFFFHHFFFHHFHF
+  VI - 0                 hFFFFhhFFFhhFhF
 =========================================
 Intervals:
                 8        .++++++.+++.+++
@@ -968,10 +968,10 @@ Root-Notes:       G G# A#  C  D  E  F F# G# A#  C C#  D  E  F  G
 
 
 
-  - 18 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 18 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VI - 1                 FFFHHFHFHFFFFHH
+  VI - 1                 FFFhhFhFhFFFFhh
 =========================================
 Intervals:
                 8        .+++.+++.++++++
@@ -1023,9 +1023,9 @@ Root-Notes:       G  A  B C#  D D#  F F# G#  A  B C# D#  F F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 19 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VI - 2                 HFHFHFFFFHHFFFH
+  VI - 2                 hFhFhFFFFhhFFFh
 =========================================
 Intervals:
                 8        .+++.++++++.+++
@@ -1076,10 +1076,10 @@ Root-Notes:       G G# A#  B C#  D  E F# G# A#  B  C  D  E F#  G
 
 
 
-  - 20 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 20 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VII - 0                HFFHHFFFHHFFFFH
+  VII - 0                hFFhhFFFhhFFFFh
 =========================================
 Intervals:
                 8        .+++.++++.+++++
@@ -1131,9 +1131,9 @@ Root-Notes:       G G# A#  C C#  D  E F# G#  A A#  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 21 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VII - 1                HFFFHHFFFFHHFFH
+  VII - 1                hFFFhhFFFFhhFFh
 =========================================
 Intervals:
                 8        .++++.+++++.+++
@@ -1184,10 +1184,10 @@ Root-Notes:       G G# A#  C  D D#  E F# G# A#  C C#  D  E F#  G
 
 
 
-  - 22 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 22 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VII - 2                HFFFFHHFFHHFFFH
+  VII - 2                hFFFFhhFFhhFFFh
 =========================================
 Intervals:
                 8        .+++++.+++.++++
@@ -1239,9 +1239,9 @@ Root-Notes:       G G# A#  C  D  E  F F# G# A#  B  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 23 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VIII - 0               HFFFHHFFHHFFFFH
+  VIII - 0               hFFFhhFFhhFFFFh
 =========================================
 Intervals:
                 8        .++++.+++.+++++
@@ -1292,10 +1292,10 @@ Root-Notes:       G G# A#  C  D D#  E F# G#  A A#  C  D  E F#  G
 
 
 
-  - 24 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 24 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VIII - 1               HFFHHFFFFHHFFFH
+  VIII - 1               hFFhhFFFFhhFFFh
 =========================================
 Intervals:
                 8        .+++.+++++.++++
@@ -1347,9 +1347,9 @@ Root-Notes:       G G# A#  C C#  D  E F# G# A#  B  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 25 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  VIII - 2               HFFFFHHFFFHHFFH
+  VIII - 2               hFFFFhhFFFhhFFh
 =========================================
 Intervals:
                 8        .+++++.++++.+++
@@ -1400,10 +1400,10 @@ Root-Notes:       G G# A#  C  D  E  F F# G# A#  C C#  D  E F#  G
 
 
 
-  - 26 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 26 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  IX - 0                 HFHHFFFFHHFFFFH
+  IX - 0                 hFhhFFFFhhFFFFh
 =========================================
 Intervals:
                 8        .++.+++++.+++++
@@ -1455,9 +1455,9 @@ Root-Notes:       G G# A#  B  C  D  E F# G#  A A#  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 27 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  IX - 1                 HFFFFHHFFFFHHFH
+  IX - 1                 hFFFFhhFFFFhhFh
 =========================================
 Intervals:
                 8        .+++++.+++++.++
@@ -1508,10 +1508,10 @@ Root-Notes:       G G# A#  C  D  E  F F# G# A#  C  D D#  E F#  G
 
 
 
-  - 28 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 28 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
-  IX - 2                 HFFFFHHFHHFFFFH
+  IX - 2                 hFFFFhhFhhFFFFh
 =========================================
 Intervals:
                 8        .+++++.++.+++++
@@ -1563,7 +1563,7 @@ Root-Notes:       G G# A#  C  D  E  F F# G#  A A#  C  D  E F#  G
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 29 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Chromatic Mode Representants:
 
@@ -1616,8 +1616,8 @@ Chromatic Mode Representants:
 
 
 
-  - 30 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 30 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Chromatic Mode Representants:
 
@@ -1671,7 +1671,7 @@ Chromatic Mode Representants:
 
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 31 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -1724,8 +1724,8 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
  47      B-A#- F represents VI - 0
  48      B-A#-C# represents V - 1
 
-  - 32 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 32 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -1779,7 +1779,7 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
  96      D-A#-D# represents I - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 33 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -1832,8 +1832,8 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
 143      F- E- A represents II - 0
 144      F- E- B represents VI - 0
 
-  - 34 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 34 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -1887,7 +1887,7 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
 192     A#- A- E represents VI - 0
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 35 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -1940,8 +1940,8 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
 239     C#- G-F# represents VI - 2
 240     C#-F#- D represents II - 1
 
-  - 36 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 36 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -1995,7 +1995,7 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
 288     F#- E-G# represents IX - 2
 
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 37 -
-              on 15ma w/o Diatonic Modes and Root-8va.      of 38 
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
                                                       Jan 22, 2021
 Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
@@ -2048,5 +2048,5 @@ Hexadecimal Scale Name to Type and Mode Conversion Chart:
 
 
 
-  - 38 -  I.Albrecht: 8va-Interval-Maximal 16-tone Scales
-   of 38      on 15ma w/o Diatonic Modes and Root-8va.
+          I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 38 -
+              on 15ma w/o Diatonic Modes and Root-8va.       of 38
