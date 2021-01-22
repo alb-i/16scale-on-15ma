@@ -132,7 +132,7 @@ Intervals:
 
 Root-Notes:       C  D D#  F  G G#  A  B C#  D D#  F  G  A  B  C
                   *  -  -  -  -  *  -  -  *  -  -  -  -  -  -  *
-  Chord [#roots]  J K#  L M# N#  O  P  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J K#``L M# N#``O``P  Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 7]  X  X  .  .  X  X  .  .  .  X  .  X  X  .  .  X
        5+8  [ 5]  .  X  .  .  X  .  .  .  .  X  .  X  X  .  .  .
          4  [ 8]  X  X  X  .  .  X  X  .  .  X  .  .  X  X  .  X
@@ -186,7 +186,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F F#  G  A  B C# D#  E F#  G  A  B  C
                   *  -  -  *  -  -  -  -  -  -  *  -  -  -  -  *
-  Chord [#roots]  J  K  L M#  N Ob  P  Q  R  S  T  U Vb  X  Y  J
+  Chord [#roots]  J``K  L M#``N`Ob  P  Q  R  S``T  U`Vb  X  Y``J
          5  [ 7]  X  .  .  .  X  .  X  X  .  .  X  X  .  .  X  X
        5+8  [ 5]  .  .  .  .  X  .  X  X  .  .  .  X  .  .  X  .
          4  [ 8]  X  X  .  .  X  .  .  X  X  .  X  X  X  .  .  X
@@ -240,7 +240,7 @@ Intervals:
 
 Root-Notes:       C C#  D  E F# G# A#  B C#  D  E F#  G G# A#  C
                   *  -  -  -  -  -  -  *  -  -  -  -  *  -  -  *
-  Chord [#roots]  J  K Lb  M  N  O P#  Q  R Sb  T  U Vb Xb Yb  J
+  Chord [#roots]  J``K`Lb  M  N  O P#``Q  R`Sb  T  U`Vb`Xb Yb  J
          5  [ 7]  .  X  .  X  X  .  .  X  X  .  .  X  X  .  .  .
        5+8  [ 5]  .  X  .  X  X  .  .  .  X  .  .  X  .  .  .  .
          4  [ 8]  .  X  .  .  X  X  .  X  X  X  .  .  X  X  .  .
@@ -294,7 +294,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C# D#  E  F  G  A A#  C
                   *  -  -  -  -  -  -  *  -  -  *  -  -  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R  S  T Ub Vb  X Yb  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R  S``T`Ub Vb  X`Yb  J
          5  [ 7]  X  .  X  .  .  X  X  .  .  X  .  X  .  .  X  X
        5+8  [ 6]  .  .  X  .  .  X  X  .  .  X  .  X  .  .  X  .
          4  [ 8]  X  .  .  X  .  .  X  X  .  .  X  X  X  .  X  X
@@ -348,7 +348,7 @@ Intervals:
 
 Root-Notes:       C  D  E  F F# G# A#  B C#  D  E F# G# A#  B  C
                   *  -  -  *  -  -  -  -  *  -  -  -  -  -  -  *
-  Chord [#roots]  J K# L# M#  N  O P#  Q  R Sb  T  U  V X#  Y  J
+  Chord [#roots]  J K# L#`M#``N  O P#``Q  R`Sb  T  U  V X#``Y``J
          5  [ 7]  .  .  X  .  X  .  .  X  X  .  X  .  .  X  X  .
        5+8  [ 6]  .  .  X  .  X  .  .  X  .  .  X  .  .  X  X  .
          4  [ 8]  X  .  .  X  X  X  .  X  X  .  .  X  .  .  X  X
@@ -402,7 +402,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F F# G#  A  B C# D#  F F#  G  A  B  C
                   *  -  -  -  -  *  -  -  -  -  -  -  *  -  -  *
-  Chord [#roots]  J  K  L M#  N  O  P  Q  R  S T#  U Vb  X  Y  J
+  Chord [#roots]  J``K  L M#``N  O``P  Q  R  S T#``U`Vb  X  Y``J
          5  [ 7]  .  X  .  .  X  X  .  X  .  .  X  X  .  .  X  .
        5+8  [ 6]  .  X  .  .  X  .  .  X  .  .  X  X  .  .  X  .
          4  [ 8]  X  X  X  .  X  X  .  .  X  .  .  X  X  .  .  X
@@ -456,7 +456,7 @@ Intervals:
 
 Root-Notes:       C C# D#  E  F  G  A  B C#  D  E  F  G  A  B  C
                   *  -  *  -  -  -  -  -  -  *  -  -  -  -  -  *
-  Chord [#roots]  J  K  L  M Nb Ob  P  Q  R Sb  T Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L``M`Nb Ob  P  Q  R`Sb  T`Ub Vb  X  Y``J
          5  [ 8]  X  .  .  X  .  X  X  .  .  X  X  X  .  X  .  X
        5+8  [ 6]  .  .  .  X  .  X  X  .  .  .  X  X  .  X  .  .
          4  [ 8]  X  .  .  X  .  .  X  X  .  X  X  .  X  .  X  X
@@ -510,7 +510,7 @@ Intervals:
 
 Root-Notes:       C C#  D  E F# G# A#  B C#  D  E F# G#  A A#  C
                   *  -  -  -  -  -  -  *  -  -  -  -  -  *  -  *
-  Chord [#roots]  J  K Lb  M  N  O P#  Q  R Sb  T  U  V  X Yb  J
+  Chord [#roots]  J``K`Lb  M  N  O P#``Q  R`Sb  T  U  V``X`Yb  J
          5  [ 8]  .  X  .  X  X  .  .  X  X  X  .  X  .  X  .  .
        5+8  [ 6]  .  X  .  X  X  .  .  .  X  X  .  X  .  .  .  .
          4  [ 8]  .  X  .  .  X  X  .  X  X  .  X  .  X  X  .  .
@@ -564,7 +564,7 @@ Intervals:
 
 Root-Notes:       C  D D#  F  G  A A#  B C#  D D#  F  G  A  B  C
                   *  -  -  -  -  -  *  -  *  -  -  -  -  -  -  *
-  Chord [#roots]  J K#  L M# N# O# P#  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J K#``L M# N# O#`P#``Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 8]  X  X  X  .  X  .  X  .  .  X  .  X  X  .  .  X
        5+8  [ 6]  .  X  X  .  X  .  .  .  .  X  .  X  X  .  .  .
          4  [ 8]  X  X  .  X  .  X  X  .  .  X  .  .  X  X  .  X
@@ -618,7 +618,7 @@ Intervals:
 
 Root-Notes:       C  D D#  F F#  G  A  B C#  D D#  F  G  A  B  C
                   *  -  -  -  *  -  -  -  *  -  -  -  -  -  -  *
-  Chord [#roots]  J K#  L M#  N Ob  P  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J K#``L M#``N`Ob  P  Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 8]  X  X  .  .  X  X  .  .  .  X  .  X  X  .  X  X
        5+8  [ 6]  .  X  .  .  .  X  .  .  .  X  .  X  X  .  X  .
          4  [ 7]  X  X  .  .  X  .  X  .  .  X  .  .  X  X  .  X
@@ -672,7 +672,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G G#  A  B C# D#  F F# G#  A  B  C
                   *  -  -  -  *  -  -  -  -  -  -  *  -  -  -  *
-  Chord [#roots]  J  K  L M# N#  O  P  Q  R  S T#  U  V  X  Y  J
+  Chord [#roots]  J``K  L M# N#``O``P  Q  R  S T#``U  V``X  Y``J
          5  [ 8]  X  X  .  .  .  X  .  X  X  .  X  X  X  .  .  X
        5+8  [ 6]  .  X  .  .  .  X  .  X  X  .  X  .  X  .  .  .
          4  [ 7]  X  .  X  .  .  X  .  .  X  X  .  X  X  .  .  X
@@ -726,7 +726,7 @@ Intervals:
 
 Root-Notes:       C C#  D  E F# G# A#  B C#  D  E  F F# G# A#  C
                   *  -  -  -  -  -  -  *  -  -  -  *  -  -  -  *
-  Chord [#roots]  J  K Lb  M  N  O P#  Q  R Sb  T T#  U  V X#  J
+  Chord [#roots]  J``K`Lb  M  N  O P#``Q  R`Sb  T`T#``U  V X#  J
          5  [ 8]  .  X  .  X  X  .  X  X  X  .  .  X  X  .  .  .
        5+8  [ 6]  .  X  .  X  X  .  X  .  X  .  .  .  X  .  .  .
          4  [ 7]  .  X  .  .  X  X  .  X  X  .  .  X  .  X  .  .
@@ -780,7 +780,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G G# A#  B C# D#  F  G G#  A  B  C
                   *  -  -  -  -  -  *  -  -  -  -  -  -  *  -  *
-  Chord [#roots]  J  K  L M# N#  O P#  Q  R  S T# U#  V  X  Y  J
+  Chord [#roots]  J``K  L M# N#``O P#``Q  R  S T# U#``V``X  Y``J
          5  [ 8]  X  X  X  .  .  X  X  .  X  .  X  .  X  .  .  X
        5+8  [ 6]  .  X  X  .  .  X  .  .  X  .  X  .  X  .  .  .
          4  [ 8]  X  .  X  X  .  X  X  .  .  X  .  X  X  .  .  X
@@ -834,7 +834,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A A#  C
                   *  -  -  -  -  -  -  *  -  *  -  -  -  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R Sb Tb Ub Vb  X Yb  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R`Sb`Tb Ub Vb  X`Yb  J
          5  [ 8]  X  .  X  .  X  .  X  .  .  X  X  X  .  .  X  X
        5+8  [ 6]  .  .  X  .  X  .  X  .  .  .  X  X  .  .  X  .
          4  [ 8]  X  .  .  X  .  X  X  .  .  X  .  X  X  .  X  X
@@ -888,7 +888,7 @@ Intervals:
 
 Root-Notes:       C  D D#  E F# G# A#  B C#  D  E F# G# A#  B  C
                   *  -  *  -  -  -  -  -  *  -  -  -  -  -  -  *
-  Chord [#roots]  J K#  L  M  N  O P#  Q  R Sb  T  U  V X#  Y  J
+  Chord [#roots]  J K#``L``M  N  O P#``Q  R`Sb  T  U  V X#``Y``J
          5  [ 8]  .  .  X  X  X  .  .  X  X  .  X  .  X  .  X  .
        5+8  [ 6]  .  .  .  X  X  .  .  X  .  .  X  .  X  .  X  .
          4  [ 8]  .  .  X  .  X  X  .  X  X  .  .  X  .  X  X  .
@@ -942,7 +942,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C# D#  F F#  G  A A#  C
                   *  -  -  -  -  -  -  *  -  -  -  *  -  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R  S T#  U Vb  X Yb  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R  S T#``U`Vb  X`Yb  J
          5  [ 8]  X  .  X  .  .  .  X  X  .  X  X  X  .  .  X  X
        5+8  [ 5]  .  .  X  .  .  .  X  .  .  X  X  .  .  .  X  .
          4  [ 7]  X  .  .  X  .  .  X  .  X  .  X  .  X  .  X  X
@@ -996,7 +996,7 @@ Intervals:
 
 Root-Notes:       C  D  E F#  G G# A#  B C#  D  E F# G# A#  B  C
                   *  -  -  -  *  -  -  -  *  -  -  -  -  -  -  *
-  Chord [#roots]  J K#  M  N N#  O P#  Q  R Sb  T  U  V X#  Y  J
+  Chord [#roots]  J K#  M  N`N#``O P#``Q  R`Sb  T  U  V X#``Y``J
          5  [ 8]  X  .  X  X  X  .  .  X  X  .  X  .  .  .  X  X
        5+8  [ 5]  .  .  X  X  .  .  .  X  .  .  X  .  .  .  X  .
          4  [ 7]  .  X  .  X  .  X  .  X  X  .  .  X  .  .  X  .
@@ -1050,7 +1050,7 @@ Intervals:
 
 Root-Notes:       C C# D#  E F#  G  A  B C# D#  E  F  G  A  B  C
                   *  -  -  -  *  -  -  -  -  -  -  *  -  -  -  *
-  Chord [#roots]  J  K  L  M  N Ob  P  Q  R  S  T Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L``M  N`Ob  P  Q  R  S``T`Ub Vb  X  Y``J
          5  [ 8]  X  .  .  X  X  .  X  .  .  .  X  X  .  X  X  X
        5+8  [ 5]  .  .  .  X  .  .  X  .  .  .  X  .  .  X  X  .
          4  [ 7]  .  X  .  X  X  .  .  X  .  .  X  .  X  .  X  .
@@ -1104,7 +1104,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F F#  G  A  B C#  D D#  F  G  A  B  C
                   *  -  -  -  *  -  -  -  -  *  -  -  -  -  -  *
-  Chord [#roots]  J  K  L M#  N Ob  P  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L M#``N`Ob  P  Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 6]  X  .  .  .  X  X  .  .  .  X  .  X  .  .  X  X
        5+8  [ 3]  .  .  .  .  .  X  .  .  .  .  .  X  .  .  X  .
          4  [ 6]  X  X  .  .  X  .  X  .  .  X  .  .  X  .  .  X
@@ -1158,7 +1158,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G G#  A  B C# D#  F F#  G  A  B  C
                   *  -  -  -  -  *  -  -  -  -  -  *  -  -  -  *
-  Chord [#roots]  J  K  L M# N#  O  P  Q  R  S T#  U Vb  X  Y  J
+  Chord [#roots]  J``K  L M# N#``O``P  Q  R  S T#``U`Vb  X  Y``J
          5  [ 6]  X  X  .  .  .  X  .  X  .  .  X  X  .  .  .  X
        5+8  [ 3]  .  X  .  .  .  .  .  X  .  .  X  .  .  .  .  .
          4  [ 6]  X  .  X  .  .  X  .  .  X  .  .  X  X  .  .  X
@@ -1212,7 +1212,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C# D#  E  F  G  A  B  C
                   *  -  -  -  -  -  *  -  -  -  *  -  -  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R  S  T Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R  S``T`Ub Vb  X  Y``J
          5  [ 6]  X  .  X  .  .  X  X  .  .  .  X  X  .  .  .  X
        5+8  [ 3]  .  .  X  .  .  X  .  .  .  .  .  X  .  .  .  .
          4  [ 6]  X  .  .  X  .  .  X  X  .  .  X  .  X  .  .  X
@@ -1266,7 +1266,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G G#  A  B C#  D D#  F  G  A  B  C
                   *  -  -  -  -  *  -  -  -  *  -  -  -  -  -  *
-  Chord [#roots]  J  K  L M# N#  O  P  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L M# N#``O``P  Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 6]  X  X  .  .  X  X  .  .  .  X  .  X  .  .  .  X
        5+8  [ 3]  .  X  .  .  X  .  .  .  .  .  .  X  .  .  .  .
          4  [ 6]  X  .  X  .  .  X  X  .  .  X  .  .  X  .  .  X
@@ -1320,7 +1320,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F F#  G  A  B C# D#  E  F  G  A  B  C
                   *  -  -  -  *  -  -  -  -  -  *  -  -  -  -  *
-  Chord [#roots]  J  K  L M#  N Ob  P  Q  R  S  T Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L M#``N`Ob  P  Q  R  S``T`Ub Vb  X  Y``J
          5  [ 6]  X  .  .  .  X  .  X  .  .  .  X  X  .  .  X  X
        5+8  [ 3]  .  .  .  .  .  .  X  .  .  .  .  X  .  .  X  .
          4  [ 6]  X  X  .  .  X  .  .  X  .  .  X  .  X  .  .  X
@@ -1374,7 +1374,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C# D#  F F#  G  A  B  C
                   *  -  -  -  -  -  *  -  -  -  -  *  -  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R  S T#  U Vb  X  Y  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R  S T#``U`Vb  X  Y``J
          5  [ 6]  X  .  X  .  .  .  X  X  .  .  X  X  .  .  .  X
        5+8  [ 3]  .  .  X  .  .  .  .  X  .  .  X  .  .  .  .  .
          4  [ 6]  X  .  .  X  .  .  X  .  X  .  .  X  X  .  .  X
@@ -1428,7 +1428,7 @@ Intervals:
 
 Root-Notes:       C C# D#  E  F  G  A  B C#  D D#  F  G  A  B  C
                   *  -  -  *  -  -  -  -  -  *  -  -  -  -  -  *
-  Chord [#roots]  J  K  L  M Nb Ob  P  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L``M`Nb Ob  P  Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 6]  X  .  .  X  .  X  .  .  .  X  .  X  .  X  .  X
        5+8  [ 3]  .  .  .  .  .  X  .  .  .  .  .  X  .  X  .  .
          4  [ 6]  X  .  .  X  .  .  X  .  .  X  .  .  X  .  X  X
@@ -1482,7 +1482,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C# D#  F  G G#  A  B  C
                   *  -  -  -  -  -  *  -  -  -  -  -  *  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R  S T# U#  V  X  Y  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R  S T# U#``V``X  Y``J
          5  [ 6]  X  .  X  .  .  .  X  .  X  .  X  .  X  .  .  X
        5+8  [ 3]  .  .  X  .  .  .  .  .  X  .  X  .  .  .  .  .
          4  [ 6]  X  .  .  X  .  .  X  .  .  X  .  X  X  .  .  X
@@ -1536,7 +1536,7 @@ Intervals:
 
 Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A  B  C
                   *  -  -  -  -  -  *  -  -  *  -  -  -  -  -  *
-  Chord [#roots]  J  K  L M# N# O# P#  Q  R Sb Tb Ub Vb  X  Y  J
+  Chord [#roots]  J``K  L M# N# O#`P#``Q  R`Sb`Tb Ub Vb  X  Y``J
          5  [ 6]  X  .  X  .  X  .  X  .  .  X  .  X  .  .  .  X
        5+8  [ 3]  .  .  X  .  X  .  .  .  .  .  .  X  .  .  .  .
          4  [ 6]  X  .  .  X  .  X  X  .  .  X  .  .  X  .  .  X

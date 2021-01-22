@@ -342,8 +342,15 @@ for (cnt,i,name,s0) in interesting_scales:
         
         print("Root-Notes:"+" "*5," ".join(map(getName,steps)))
         print("           "+" "*5," ".join(octaveFree(steps)))
-        print("  Chord [#roots]" ," ".join(map(lambda x:"%2s"%x,
-            pitches.getPitchNames([x + base_note for x in steps]))))
+        hexadecimal_roots = list(map(lambda x:"%2s"%x,
+            pitches.getPitchNames([x + base_note for x in steps])))
+        for i in range(15):
+            if s[i] == "F":
+                hexadecimal_roots[i] = hexadecimal_roots[i] + " "
+            else:
+                hexadecimal_roots[i] = hexadecimal_roots[i] + "`"
+        hexadecimal_roots_prnt = "".join(hexadecimal_roots).replace("` ","``")
+        print("  Chord [#roots]" ,hexadecimal_roots_prnt)
         chords = [
                 ("5",[7]),
                 ("5+8",[7,12]),
