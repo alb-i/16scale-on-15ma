@@ -60,4 +60,4 @@ The full hexadecimal scale can be enumerated like this:
 ```
 J, K, K#, L, M, M#, N, N#, O, P, P#, Q, Q#, R, R#, S, T, T#, U, U#, V, X, X#, Y, J
 J, K, Lb, L, M, Nb, N, Ob, O, P, Qb, Q, Rb, R, Sb, S, T, Ub, U, Vb, V, X, Yb, Y, J
-``
+```
