@@ -1,14 +1,14 @@
 
-                                                      Jan 22, 2021
+                                                      Jan 23, 2021
 
-16-Tone Scale Generator and Analyzer Report
-===========================================
+16-Step Quintadecimal Scale Generator and Analyzer Report
+=========================================================
 
-Generates 16-elementary Scales that span two octaves, with
+Generates 16-elementary scales that span two octaves, with
 additional properties. Here, the 16th element of the scale
 is the repeated root note transposed up by two octaves.
-This corresponds to the eight element of the prototypical
-C major scale: C D E F G A B *--> C <--*
+This 16th step corresponds to the eight step of the proto-
+typical C major scale: C D E F G A B *--> C <--*
 
 We require that each consecutive 3 step intervals have at least one
 and at most 2 semi-tone steps; all 15 intervals must add up to 24
@@ -1566,7 +1566,7 @@ Root-Notes:       C C# D#  F  G  A A#  B C#  D D#  F  G  A  B  C
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
 
-Chromatic Mode Representants:
+Classical Mode Representants:
 
       I - 0:  C-G#-C#|C#- A- D| D-A#-D#|D#- B- E| E- C- F| F-C#-F#
              F#- D- G| G-D#-G#|G#- E- A| A- F-A#|A#-F#- B| B- G- C
@@ -1620,7 +1620,7 @@ Chromatic Mode Representants:
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
 
-Chromatic Mode Representants:
+Classical Mode Representants:
 
      VI - 0:  C- B-F#|C#- C- G| D-C#-G#|D#- D- A| E-D#-A#| F- E- B
              F#- F- C| G-F#-C#|G#- G- D| A-G#-D#|A#- A- E| B-A#- F
@@ -1673,7 +1673,7 @@ Chromatic Mode Representants:
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 31 -
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
   1      A- C- B is of form III - 0
   2      A- C-A# is of form V - 2
@@ -1727,7 +1727,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 32 -
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
  49      B-A#-D# is of form II - 0
  50      B-A#-F# is of form I - 2
@@ -1781,7 +1781,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 33 -
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
  97      D-A#-G# is of form VII - 1
  98      D-C#- A is of form I - 2
@@ -1835,7 +1835,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 34 -
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
 145      F- E- C is of form I - 2
 146      F- E- D is of form III - 1
@@ -1889,7 +1889,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 35 -
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
 193     A#- A- F is of form I - 2
 194     A#- A- G is of form III - 1
@@ -1943,7 +1943,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
           I.Albrecht: 8va-Interval-Maximal 16-tone Scales   - 36 -
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
 241     C#-F#- F is of form I - 1
 242     C#-G#- D is of form VI - 1
@@ -1998,7 +1998,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
 
-Chromatic Representant to Type and Mode Conversion Chart:
+Classical Representant to Type and Mode Conversion Chart:
 
 289     F#- F- B is of form IV - 2
 290     F#- F- C is of form VI - 0
@@ -2052,7 +2052,7 @@ Chromatic Representant to Type and Mode Conversion Chart:
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
 
-Hexdecimal Mode Representants:
+Quintadecimal Mode Representants:
 
        I - 0  J- O- R| K- P-R#|K#-P#- S| L- Q- T| M-Q#-T#|M#- R- U
               N-R#-U#|Ob- S- V| O- T- X| P-T#-X#|P#- U- Y| Q-Vb- J
@@ -2106,7 +2106,7 @@ Hexdecimal Mode Representants:
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
 
-Hexdecimal Mode Representants:
+Quintadecimal Mode Representants:
 
       IV - 0  J- N- R| K-N#-R#|K#- O- S| L- P- T| M-P#-T#|M#- Q- U
               N-Q#-U#|Ob- R- V| O-Sb- X| P- S-X#|P#- T- Y| Q-T#- J
@@ -2160,7 +2160,7 @@ Hexdecimal Mode Representants:
               on 15ma w/o Diatonic Modes and Root-8va.       of 79
 
 
-Hexdecimal Mode Representants:
+Quintadecimal Mode Representants:
 
      VII - 0  J- N-Sb| K-N#- S|K#- O- T| L- P-T#| M-P#- U|M#- Q-Vb
               N-Q#- V|N#- R- X| O-Sb-Yb| P- S- Y|P#- T- J| Q-T#- K

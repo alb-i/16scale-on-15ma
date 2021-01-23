@@ -18,14 +18,14 @@ def new_page():
 
 print("%66s"%(datetime.now().strftime("%b %d, %Y")))
 print()
-print("16-Tone Scale Generator and Analyzer Report")
-print("===========================================")
+print("16-Step Quintadecimal Scale Generator and Analyzer Report")
+print("=========================================================")
 print()
-print("Generates 16-elementary Scales that span two octaves, with")
+print("Generates 16-elementary scales that span two octaves, with")
 print("additional properties. Here, the 16th element of the scale")
 print("is the repeated root note transposed up by two octaves.")
-print("This corresponds to the eight element of the prototypical")
-print("C major scale: C D E F G A B *--> C <--*")
+print("This 16th step corresponds to the eight step of the proto-")
+print("typical C major scale: C D E F G A B *--> C <--*")
 print()
 
 romannbr = {0:"I",1:"II",2:"III",3:"IV",4:"V",5:"VI",6:"VII",7:"VIII",8:"IX",9:"X",
