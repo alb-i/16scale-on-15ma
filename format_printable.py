@@ -9,6 +9,9 @@ pagebreakmarker = "-"*67
 
 twosided = False
 
+footer_1 = "I.Albrecht: 8va-Interval-Maximal 16-tone Scales"
+footer_2 = "on 15ma w/o Diatonic Modes and Root-8va."
+
 leftmargin = 2
 rightmargin = 66
 
@@ -79,11 +82,10 @@ def formatP(nbr,x,center=""):
         p0 = p0+ " "*(center_end-len(p0))
     return p0[:center_start] + center + p0[center_end:]
 
-
 for nbr_,page in enumerate(pages):
     nbr = nbr_ + 1
     print(headerline)
     for l in page:
         print(l)
-    print(formatP(nbr,"- "+str(nbr)+" -",             "I.Albrecht: 8va-Interval-Maximal 16-tone Scales"))
-    print(formatP(nbr," of " + str(nbr_pages) + "","on 15ma w/o Diatonic Modes and Root-8va."),end="" if (nbr == nbr_pages) else "\n")
+    print(formatP(nbr,"- "+str(nbr)+" -", footer_1            ))
+    print(formatP(nbr," of " + str(nbr_pages) + "",footer_2),end="" if (nbr == nbr_pages) else "\n")
