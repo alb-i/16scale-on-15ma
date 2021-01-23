@@ -342,15 +342,15 @@ for (cnt,i,name,s0) in interesting_scales:
         
         print("Root-Notes:"+" "*5," ".join(map(getName,steps)))
         print("           "+" "*5," ".join(octaveFree(steps)))
-        hexadecimal_roots = list(map(lambda x:"%2s"%x,
+        quintadecimal_roots = list(map(lambda x:"%2s"%x,
             pitches.getPitchNames([x + base_note for x in steps])))
         for i in range(15):
             if s[i] == "F":
-                hexadecimal_roots[i] = hexadecimal_roots[i] + " "
+                quintadecimal_roots[i] = quintadecimal_roots[i] + " "
             else:
-                hexadecimal_roots[i] = hexadecimal_roots[i] + "`"
-        hexadecimal_roots_prnt = "".join(hexadecimal_roots).replace("` ","``")
-        print("  Chord [#roots]" ,hexadecimal_roots_prnt)
+                quintadecimal_roots[i] = quintadecimal_roots[i] + "`"
+        quintadecimal_roots_prnt = "".join(quintadecimal_roots).replace("` ","``")
+        print("  Chord [#roots]" ,quintadecimal_roots_prnt)
         chords = [
                 ("5",[7]),
                 ("5+8",[7,12]),
@@ -410,7 +410,7 @@ base_note = 0
 for (cnt,i,name,s0) in interesting_scales:
     if cnt % 5 == 0:
         new_page()
-        print("Chromatic Mode Representants:")
+        print("Classical Mode Representants:")
         print()
 
     oct_deficit = getOctaveDeficitSteps(s0)
@@ -430,7 +430,7 @@ modelist.sort()
 for nbr,(a,b,c) in enumerate(modelist):
     if (nbr % 48) == 0:
         new_page()
-        print("Chromatic Representant to Type and Mode Conversion Chart:")
+        print("Classical Representant to Type and Mode Conversion Chart:")
         print()
 
     print("%3d"%(nbr+1),"%12s"%a,"is of form",romannbr[b],"-",c)
@@ -440,7 +440,7 @@ last_type = None
 for nbr,(a,b,c) in enumerate(modelist2):
     if nbr % (9*24) == 0:
         new_page()
-        print("Hexdecimal Mode Representants:",end="")
+        print("Quintadecimal Mode Representants:",end="")
     t = romannbr[b]+" - "+str(c)
     if last_type != t:
         print("\n\n%12s"%t,end=" ")
@@ -464,8 +464,8 @@ for r in range(24):
     print("Scale/Modes Chart for Root Pitch","%33s"%(" = ".join(pitches.getPitchNameCandidates(r))+" =%= "+getName(r)))
     print("="*66)
     print()
-    chromaticnames = "".join([(getName(x+r).strip()+" ") if len(getName(x+r).strip()) == 1 else "  " for x in range(25)])
-    print("%10s    "%"",chromaticnames)
+    classicalnames = "".join([(getName(x+r).strip()+" ") if len(getName(x+r).strip()) == 1 else "  " for x in range(25)])
+    print("%10s    "%"",classicalnames)
     print()
     for (cnt,i,name,s0) in interesting_scales:
         for modenbr in [0,1,2]:

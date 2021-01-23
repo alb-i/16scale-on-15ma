@@ -4,13 +4,18 @@
 * `format_printable.py` formats the output such that it can be printed typewriter
 style.
 
-Currently, I'm looking for the right pitch of the individual scale notes
-`JKLMNOPQRSTUVXY` such that each mode is easily represented by these pitches
-and `#` and `b`'s. We let `J` be every second `C`, because `GHIJ` and `GABC` should go analogously. And we do not use the letter `W`, because it does not
-fit the meter when speaking. Also, if you go a step further after `Y` you
+## Quintadecimal Pitch Names
+
+
+In order to represent the right pitches of the individual quintadecimal base pitches
+`JKLMNOPQRSTUVXY` such that each new scale mode is easily represented by these base pitches
+together with `#`'s and `b`'s. 
+We let `J` be every second `C`, because `GHIJ` and `GABC` should go analogously. 
+And we do not use the letter `W`, because it does not
+fit the meter when speaking. Observe that if you go a step further after `Y` you
 would get to `Z`, which then is also `C`.
 
-* I used `find_base_pitches.py` in order to assign the other 14 new note names
+* I used `find_base_pitches.py` in order to assign the other 14 new base pitches
 in a sensible way:
 
 ```
@@ -53,13 +58,24 @@ If I'm not mistaken, then this guitar is tuned down quite a bit,
 so the `M` should correspond to the standard (low, and high) `E` string 
 on a guitar. Which means that the standard 5-string bass `B` is
 indeed a `Q`, and so the standard bass `E` is a `T`, one octave below
-the guitars `M`. The standard guitar tuning is `M`, `P`, `R#`, `U#`, `Y`, `M`,
-from low to high; the standard 5-string bass tuning is `Q`, `T`, `X`, `K#`, `N#`.
+the guitars `M`. 
 
-The full hexadecimal scale can be enumerated like this:
+* The standard guitar tuning is `M`, `P`, `R#`, `U#`, `Y`, `M`,
+from low to high; 
+* the standard 5-string bass tuning is `Q`, `T`, `X`, `K#`, `N#`;
+* the concert pitch `A` (usually set to 440Hz) then refers to `P` (just like the word pitch). 
+
+
+The full chromatic quintadecimal scale can be enumerated like this:
 ```
-J, K, K#, L, M, M#, N, N#, O, P, P#, Q, Q#, R, R#, S, T, T#, U, U#, V, X, X#, Y, J
-J, K, Lb, L, M, Nb, N, Ob, O, P, Qb, Q, Rb, R, Sb, S, T, Ub, U, Vb, V, X, Yb, Y, J
+Classical:     C, C#,  D, D#, E,  F, F#,  G, G#, A, A#, B,  C, C#,  D, D#, E,  F, F#,  G, G#, A, A#, B, C  
+Quintadecimal: J,  K, K#,  L, M, M#,  N, N#,  O, P, P#, Q, Q#,  R, R#,  S, T, T#,  U, U#,  V, X, X#, Y, J
+Quintadecimal: J,  K, Lb,  L, M, Nb,  N, Ob,  O, P, Qb, Q, Rb,  R, Sb,  S, T, Ub,  U, Vb,  V, X, Yb, Y, J
+Classical:     C, Db,  D, Eb, E,  F, Gb,  G, Ab, A, Bb, B,  C, Db,  D, Eb, E,  F, Gb,  G, Ab, A, Bb, B, C
 ```
+
+We refer to the regular old `CDEFGABC`-scale as either the classical or the octaval scale.
+
+## Scale Tables
 
 For more in detail information, look into [scales.pdf](scales.pdf).

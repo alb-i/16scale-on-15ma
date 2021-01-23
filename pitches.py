@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+  This module contains helper funtions to convert between classical and
+  quintadecimal pitches.
+"""
 
 def normalizePitch(pitch):
     x = pitch % 24
