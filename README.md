@@ -76,6 +76,8 @@ Classical:     C, Db,  D, Eb, E,  F, Gb,  G, Ab, A, Bb, B,  C, Db,  D, Eb, E,  F
 
 We refer to the regular old `CDEFGABC`-scale as either the classical or the octaval scale.
 
+For more details, have a look at the [pitchtable.pdf](pitchtable.pdf).
+
 ## Scale Tables
 
 For more in detail information, look into [scales.pdf](scales.pdf).

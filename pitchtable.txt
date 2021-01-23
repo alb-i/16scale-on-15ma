@@ -1,0 +1,54 @@
+
+                                                      Jan 23, 2021
+
+Quintadecimal vs. Classical Pitch Conversion Chart
+==================================================
+
+                                 vv
+               | | | | | | | | | | | | | | | | | | | | | | | | |
+               Y#J#K#--L#M#--N#--O#P#--Q#--R#--S#T#--U#--V#X#--Y#
+Quintadecimal  J-K---L-M---N---O-P---Q---R---S-T---U---V-X---Y-J-
+               Kb--LbMb--Nb--ObPb--Qb--Rb--SbTb--Ub--VbXb--YbJbKb
+               | | | | | | | | | | | | | | | | | | | | | | | | |
+               B#C#--D#--E#F#--G#--A#--B#C#--D#--E#F#--G#--A#--B#
+    Classical  C---D---E-F---G---A-----C---D---E-F---G---A-----C-
+               --Db--EbFb--Gb--Ab--BbB---Db--EbFb--Gb--Ab--BbB---
+               | | | | | | | | | | | | | | | | | | | | | | | | |
+                                 ^^
+                                 concert pitch (440Hz)
+
+               J-K---L-M---N---O-P---Q---R---S-T---U---V-X---Y-J-
+               | | | | | | | | | | | | | | | | | | | | | | | | |
+               C---D---E-F---G---A-----C---D---E-F---G---A-----C-
+
+  Circle       J-M#P#S-V-K-N-Q-T-X-K#N#Q#T#X#L-O-R-U-Y-M-P-R#U#J-
+  of           | | | | | | | | | | | | | | | | | | | | | | | | |
+  Fourths      C-F-A#D#G#C#F#B-E-A-D-G-C-F-A#D#G#C#F#B-E-A-D-G-C-
+
+  Circle       J-N#R#X-M-Q-U-K-O-S-X#M#Q#U#K#P-T-Y-N-R-V-L-P#T#J-
+  of           | | | | | | | | | | | | | | | | | | | | | | | | |
+  Fifths       C-G-D-A-E-B-F#C#G#D#A#F-C-G-D-A-E-B-F#C#G#D#A#F-C-
+
+  Circle       J-Q-X#P-V-N#U-M#T-L-R#K-Q#Y-P#X-O-U#N-T#M-S-K#R-J-
+  of Major     | | | | | | | | | | | | | | | | | | | | | | | | |
+  Sevenths     C-B-A#A-G#G-F#F-E-D#D-C#C-B-A#A-G#G-F#F-E-D#D-C#C-
+
+  Circle       J-R-K#S-M-T#N-U#O-X-P#Y-Q#K-R#L-T-M#U-N#V-P-X#Q-J-
+  of           | | | | | | | | | | | | | | | | | | | | | | | | |
+  Minor Ninths C-C#D-D#E-F-F#G-G#A-A#B-C-C#D-D#E-F-F#G-G#A-A#B-C-
+
+  Circle       J-T#P#L-V-R-N-Y-T-P-K#U#Q#M#X#S-O-K-U-Q-M-X-R#N#J-
+  of           | | | | | | | | | | | | | | | | | | | | | | | | |
+  Elevenths    C-F-A#D#G#C#F#B-E-A-D-G-C-F-A#D#G#C#F#B-E-A-D-G-C-
+
+  Circle       J-U#R#P-M-Y-U-R-O-L-X#T#Q#N#K#X-T-Q-N-K-V-S-P#M#J-
+  of           | | | | | | | | | | | | | | | | | | | | | | | | |
+  Twelfths     C-G-D-A-E-B-F#C#G#D#A#F-C-G-D-A-E-B-F#C#G#D#A#F-C-
+
+
+
+
+
+
+                                                             - 1 -
+                 I.Albrecht: Quintadecimal Pitches            of 1
