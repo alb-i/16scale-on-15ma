@@ -73,6 +73,10 @@ for i in range(15):
         "%12s"% ", ".join(getXNames(pitch_values[i])),
                 " +/-8va =",
         "%12s"% ", ".join(getXNames(pitch_values[i]+12)) )
+        
+print()
+
+print(repr(dict(zip(pitch_names, pitch_values))))
 
 print()
 

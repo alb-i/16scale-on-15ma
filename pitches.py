@@ -4,11 +4,8 @@
   quintadecimal pitches.
 """
 
-def normalizePitch(pitch):
-    x = pitch % 24
-    if (x < 0):
-        x += 24
-    return x
+def normalizePitch(pitch,modulo=24):
+    return pitch % modulo # unlike C, this has the same sign as the denumerator modulo
 
 # Pitch   0  =%=   C  =  J, Kb, Y#
 # Pitch   1  =%=  C#  =  K, J#
@@ -65,15 +62,52 @@ def getPitchNameCandidates(pitch):
     ]
     return candidate_list[x]
     
+def getPitch(name):
+    x = name.strip()
+    if len(x) == 1:
+        pitchnames = {'J':  0, 'K':  1, 'L':  3, 'M':  4, 'N':  6, 
+                      'O':  8, 'P':  9, 'Q': 11, 'R': 13, 'S': 15, 
+                      'T': 16, 'U': 18, 'V': 20, 'X': 21, 'Y': 23,
+                      'C':  0, 'D':  2, 'E':  4, 'F':  5, 'G':  7,
+                      'A':  9, 'B': 11, 'H': 11, #germans
+                      'Z':  0 #mispronounced C or J
+                      }
+        return pitchnames[x.upper()]
+    offset = 0
+    for m in x[1:]:
+        if m == "#":
+            offset += 1
+        elif m == "b" or m == "B":
+            offset -= 1
+    return (getPitch(x[0])+offset) % 24
+    
+def getClassicalPitchNameCandidates(pitch):
+    x = normalizePitch(pitch,12)
+    candidate_list = [
+        ["C","B#"],
+        ["C#","Db"],
+        ["D"],
+        ["D#","Eb"],
+        ["E","Fb"],
+        ["F","E#"],
+        ["F#","Gb"],
+        ["G"],
+        ["G#","Ab"],
+        ["A"],
+        ["A#","Bb"],
+        ["B","Cb"]
+    ]
+    return candidate_list[x]
+    
 def scorePartialChoice(choice):
     nbr_sharps = len([1 for x in choice if x.endswith("#")])
     nbr_flats = len([1 for x in choice if x.endswith("b")])
     unique_pitches = len(frozenset((x[0] for x in choice)))
     return 49*nbr_sharps + 50*nbr_flats + 5000*(len(choice)-unique_pitches)
     
-def getPitchNames(pitches):
+def getPitchNames(pitches, candidates=getPitchNameCandidates):
     p0 = sorted(frozenset(map(normalizePitch, pitches)))
-    choices = [getPitchNameCandidates(x) for x in p0]
+    choices = [candidates(x) for x in p0]
     # get trivial upper bound
     defaultChoice = tuple((x[0] for x in choices))
     defaultScore = scorePartialChoice(defaultChoice)
@@ -90,3 +124,6 @@ def getPitchNames(pitches):
             
     _,finalChoice = dfs(tuple(),defaultScore,defaultChoice)
     return [finalChoice[p0.index(normalizePitch(x))] for x in pitches]
+
+def getClassicalPitchNames(pitches):
+    return getPitchNames(pitches,getClassicalPitchNameCandidates)

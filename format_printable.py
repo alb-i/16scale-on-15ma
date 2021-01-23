@@ -12,6 +12,11 @@ twosided = False
 footer_1 = "I.Albrecht: 8va-Interval-Maximal 16-tone Scales"
 footer_2 = "on 15ma w/o Diatonic Modes and Root-8va."
 
+if sys.argv[-1] == "pitchtable":
+    footer_1 = ""
+    footer_2 = "I.Albrecht: Quintadecimal Pitches"
+
+
 leftmargin = 2
 rightmargin = 66
 
