@@ -286,6 +286,7 @@ for i,(x,y) in enumerate(candidate_strings):
     cnt += 1
 scaletypes = [x for a,b,c,x in interesting_scales]
 
+
 def getName(x):
     return note_names2[(x+base_note)%12].upper()
     
@@ -340,7 +341,8 @@ for (cnt,i,name,s0) in interesting_scales:
         #print("  "+romannbr[cnt],"-",modenbr,"\t",name,"\t",s)
         #print("="*41)
         
-        print("Root-Notes:"+" "*5," ".join(map(getName,steps)))
+        print("Root-Notes:"+" "*5," ".join(list(map(lambda x:"%2s"%x,
+            pitches.getClassicalPitchNames([x + base_note for x in steps])))))
         print("           "+" "*5," ".join(octaveFree(steps)))
         quintadecimal_roots = list(map(lambda x:"%2s"%x,
             pitches.getPitchNames([x + base_note for x in steps])))
@@ -483,3 +485,5 @@ for r in range(24):
     print("    6M |+----^/^-----^---|.           7M |+------^-----^-------|.")
     print("    7  |+----^/^-----^-----|.        8 |+----^/^-----^---------|.")
     print("            15 |+----^/^-----^-----^/^-'-----^/^-----^-----^/^-|.")
+    
+scalemodes = [[getSteps(s),getSteps(nextMode(s)),getSteps(nextMode(nextMode(s)))] for s in scaletypes]
