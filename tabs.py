@@ -83,7 +83,25 @@ def canCombineFrettings(listoffrettings):
     used_frets = [frozenset((i for i in range(len(x)) if x[i] != unplayedString)) for x in listoffrettings]
     sum_used_frets = sum((len(x) for x in used_frets))
     return len(frozenset().union(*used_frets)) == sum_used_frets
-    
+   
+def combineFrettings(frettings):
+    current = []
+    for f in frettings:
+        if len(current) < len(f):
+            current += [unplayedString] * (len(f)-len(current))
+        for i,x in enumerate(f):
+            if x == unplayedString:
+                continue
+            current[i] = x
+    return current
+   
+def getChordFretCandidates(pitches, tuning=tunings[8],hifret=24):
+    candidates = [[]]
+    c0 = [getPitchFretCandidates(x) for x in pitches]
+    for c in c0:
+        candidates = [combineFrettings([x,y]) for x in candidates for y in c if canCombineFrettings([x,y])]
+    return candidates
+
 def getFretSpan(fretting):
     nbrs = [x for x in fretting if x != unplayedString and x != 0]
     if len(nbrs) == 0:
@@ -174,3 +192,6 @@ def scoreSuccessiveFrettings(prevfrets,currfrets):
     # penalty for the awkwardness of the current fretting
     penalty += openStringPenalty * len([1 for x in currfrets if x == 0])
     return penalty
+
+def scoreFretting(fretting):
+    return scoreSuccessiveFrettings([],fretting)
