@@ -79,7 +79,15 @@ def getPitch(name):
             offset += 1
         elif m == "b" or m == "B":
             offset -= 1
-    return (getPitch(x[0])+offset) % 24
+        elif m == "'":
+            offset += 12
+        elif m == ",":
+            offset -= 12
+        elif m == '"':
+            offset += 24
+        elif m == ";":
+            offset -= 24
+    return (getPitch(x[0])+offset)
     
 def getClassicalPitchNameCandidates(pitch):
     x = normalizePitch(pitch,12)
@@ -106,6 +114,9 @@ def scorePartialChoice(choice):
     return 49*nbr_sharps + 50*nbr_flats + 5000*(len(choice)-unique_pitches)
     
 def getPitchNames(pitches, candidates=getPitchNameCandidates):
+    """
+      takes a list of pitches and returns a list of pitch class names
+    """
     p0 = sorted(frozenset(map(normalizePitch, pitches)))
     choices = [candidates(x) for x in p0]
     # get trivial upper bound
@@ -126,7 +137,33 @@ def getPitchNames(pitches, candidates=getPitchNameCandidates):
     return [finalChoice[p0.index(normalizePitch(x))] for x in pitches]
 
 def getClassicalPitchNames(pitches):
+    """
+      takes a list of pitches and returns a list of classical pitch class names
+    """
     return getPitchNames([normalizePitch(x,12) for x in pitches],getClassicalPitchNameCandidates)
+    
+def getPitchNames2(pitches, candidates=getPitchNameCandidates):
+    """
+      takes a list of pitches and returns a list of pitch class names with indication
+      of octave relative to C0 =%= J0
+    """
+    octave_indicator = {0:"",1:"'",2:'"',3:"\"'",4:'""',5:"\"\"'",6:"\"\"\"",
+                         -1:",",-2:';',-3:";,",-4:';;',-5:";;,",-6:";;;"}
+    names = getPitchNames(pitches,candidates)
+    diffs = [(p-np)//12 for p,np in zip(pitches,map(getPitch,names))]
+    return [p+octave_indicator[x] for p,x in zip(names,diffs)]
+
+def getClassicalPitchNames2(pitches):
+    """
+      takes a list of pitches and returns a list of pitch class names with indication
+      of octave relative to C0 =%= J0
+    """
+    octave_indicator = {0:"",1:"'",2:"''",3:"'''",4:"''''",5:"'''''",6:"''''''",
+                         -1:",",-2:',,',-3:",,,",-4:',,,,',-5:",,,,,",-6:",,,,,,"}
+    names = getClassicalPitchNames(pitches)
+    diffs = [(p-np)//12 for p,np in zip(pitches,map(getPitch,names))]
+    return [p+octave_indicator[x] for p,x in zip(names,diffs)]
+
     
 
 def getScalePitches(scaletype, mode, root):
@@ -166,4 +203,4 @@ def getScalePitches(scaletype, mode, root):
         r = getPitch(root)
     else:
         r = root
-    return [normalizePitch(x+r) for x in library[t][int(mode)]]
+    return [x+r for x in library[t][int(mode)]]

@@ -1,8 +1,11 @@
 # 16scale-on-15ma
 
-* `scales.py` is a script that generates 16-notes per two-octaves scales with certain properties.
-* `format_printable.py` formats the output such that it can be printed typewriter
+* `format_printable.py` re-formats its input such that it can be printed typewriter
 style.
+* `makeTexts.sh` re-generates the `.txt`-files.
+* `scales.py` is a script that generates 16-notes per two-octaves scales with certain properties.
+* `pitches.py` is a module that offers routines for dealing with the new pitch names.
+* `pitchtable.py` generates pitch charts.
 
 ## Quintadecimal Pitch Names
 
@@ -48,7 +51,8 @@ then there is 1 full step, again a half-step, then 2 full steps,
 then a half-step followed by 3 full steps, then again a
 half-step, followed by 2 full steps, another half-step,
 then 1 full step, and the final half step. Note that it does not
-matter whether you go up or down from `J`.
+matter whether you go up or down from `J`. Or you just remember that
+`YJK`, `LM`, `OP`, `RS`, and `VX` are half-step groups.
 
 So, the last thing we need to define is which `C`'s are considered
 to be `J`s. I use the following convention: the (low) `C` string on my
