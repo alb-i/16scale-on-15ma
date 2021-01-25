@@ -419,7 +419,7 @@ for (cnt,i,name,s0) in interesting_scales:
     
     for i in range(3):
         
-        if tabcount % 7 == 0:
+        if tabcount % 6 == 0:
             
             new_page()
             print("Quintadecimal Scales on Bass Guitar")
@@ -433,10 +433,15 @@ for (cnt,i,name,s0) in interesting_scales:
         steps = getSteps(s)
         print()
         frets = tabs.generateFrettingSequence([[x + tabs.tunings[5][0] + 5,{'open':'no','above':3,'below':10}] for x in steps],tabs.tunings[5])
+        qnames= pitches.getPitchNames([x + tabs.tunings[5][0] + 5 for x in steps])
+        cnames= pitches.getClassicalPitchNames([x + tabs.tunings[5][0] + 5 for x in steps])
         tabs.printTab(frets,["",
                             "",
                              "%12s"%(romannbr[cnt]+" - "+str(i))+"  ",
                              ])
+        print(" "*13,"".join(((x+"   ")[:3] for x in qnames)))
+        print(" "*13,"".join(((x+"   ")[:3] for x in cnames)))
+        
     
 
 # reset base note
