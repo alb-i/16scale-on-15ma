@@ -277,11 +277,44 @@ def generateFrettingSequence(pitches, tuning=tunings[8], hifret=24, windowsize=5
         takes a list of pitch-lists and turns them into a list of frettings
         that optimizes its score. Dictionaries found in the pitch-lists
         are considered to contain on-the-fly options.
+        
+        {'frets':["",6,8]} - fixes the fretting at the given point
+        {'best':k} - only consider the k best fretting options
+        {'open':'no'} - only consider fretting options that have no open strings
+        {'open':'yes'} - only consider fretting options with at least one open string
+        {'above':k} - only consider fretting options that use open frets or frets above (including) k
+        {'below':k} - only consider fretting options that use frets below (including) k
     """
     # separate pitches from options
     options = [[x for x in p if type(x) == dict] for p in pitches]
     pitches = [[x for x in p if type(x) != dict] for p in pitches]
     candidates = [getChordFretCandidates(p, tuning, hifret,cache) for p in pitches]
+    
+    def combineOptions(options):
+        opts = {}
+        for x in options:
+            opts = dict(list(opts.items()) + list(x.items()))
+        return opts
+    
+    options = [combineOptions(x) for x in options]
+    
+    for i,opts in enumerate(options):
+        if "frets" in opts:
+            candidates[i] = [opts["frets"]]
+        else:
+            if "best" in opts:
+                candidates[i] = candidates[i][:opts["best"]]
+            if "open" in opts:
+                if opts["open"] in ["no","NO","No","nO",False,0]:
+                    candidates[i] = [x for x in candidates[i] if len([1 for y in x if y == 0]) == 0]
+                else:
+                    candidates[i] = [x for x in candidates[i] if len([1 for y in x if y == 0]) != 0]
+            if "above" in opts:
+                candidates[i] = [x for x in candidates[i] if [1 for y in x if y != unplayedString and y != 0 and y < opts["above"]] == [] ]
+            if "below" in opts:
+                candidates[i] = [x for x in candidates[i] if [1 for y in x if y != unplayedString and  y > opts["below"]] == []]
+        if candidates[i] == []:
+            candidates[i] = [[]]
     
     def dfs(currentBest, currentBound, otherPrefix,prefixChoice, choiceCandidates):
         if choiceCandidates == []:
@@ -299,9 +332,6 @@ def generateFrettingSequence(pitches, tuning=tunings[8], hifret=24, windowsize=5
     bestcandidate = [c[0] for c in candidates]
     
     for i in range(len(pitches)):
-        opts = {}
-        for x in options[i]:
-            opts = dict(list(opts.items()) + list(x.items()))
         if i > 0:
             prev = bestcandidate[i-1]
         else:
