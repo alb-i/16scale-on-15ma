@@ -120,7 +120,7 @@ def getPlayedStrings(fretting):
 favoriteFretNbr = 5
 belowFavoriteFretPenalty = 6
 aboveFavoriteFretPenalty = 4
-openStringPenalty = 100 # 100 if you despice open string, 50 if you prefer no open strings; 15, 30, 20 also are reasonable numbers, even 0
+openStringPenalty = 35 # 100 if you despice open string, 50 if you prefer no open strings; 15, 30, 20 also are reasonable numbers, even 0
 neckMovePenalty = 20
 stringChangePenalty = 75
 openMutePenalty = 250
