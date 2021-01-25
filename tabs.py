@@ -2,7 +2,7 @@
 
 import pitches as p
 
-from timeit import timeit
+# from timeit import timeit
 
 unplayedString = "" # we use this to indicate that there is a string which is left alone :)
 
@@ -13,6 +13,8 @@ tunings = {4:tuple([-8   + i*5 for i in range(4)]), #4-string bass
            8:tuple([-10  + i*5 for i in range(8)]), # my 8-string tuning
            'git':tuple([4 + i for i in [0,5,10,15,19,24]]) #standard guitar tuning
           }
+          
+
           
 def transposeAndMap(listoflists, fn=lambda x: x,nothing=""):
     """
@@ -251,7 +253,7 @@ def getChordFretCandidates(pitches, tuning=tunings[8],hifret=24,cache={}):
     if cacheEntry in cache:
         return cache[cacheEntry]
     candidates = [[]]
-    c0 = [getPitchFretCandidates(x) for x in pitches]
+    c0 = [getPitchFretCandidates(x,tuning=tuning,hifret=hifret) for x in pitches]
     for c in c0:
         candidates = [combineFrettings([x,y]) for x in candidates 
                                               for y in c if canCombineFrettings([x,y])]

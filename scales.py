@@ -3,6 +3,7 @@
 from datetime import datetime
 
 import pitches
+import tabs
 
 form_feed = False
 
@@ -382,6 +383,8 @@ for (cnt,i,name,s0) in interesting_scales:
         for name_,chord in chords:
             name0 = " "*(10-len(name_))+name_ + " "
             print(name0," ".join(["[%2s"%str(len([x for x in checkStepsForChord(steps[:-1],chord) if x.strip() != "."]))+"]"]+checkStepsForChord(steps,chord)))
+        
+        
     
     oct_deficit = getOctaveDeficitSteps(s0)
     oct_deficit2 = oct_deficit[1:]+oct_deficit[:1]
@@ -392,19 +395,49 @@ for (cnt,i,name,s0) in interesting_scales:
         modelist.append(("-".join(map(lambda x :getName(x),[x+r for x in oct_deficit2])),cnt,1))
         modelist.append(("-".join(map(lambda x :getName(x),[x+r for x in oct_deficit3])),cnt,2))
     
+    
     for i in range(3):
         s = s0
         for x in range(i):
             s = nextMode(s)
         steps = getSteps(s)
+        
+        
+        
         oct_deficit = getOctaveDeficitSteps(s)
         for r in range(24):
             rel_pitches = [r+x for x in oct_deficit + steps]
             canonical_names = pitches.getPitchNames(rel_pitches)
             deficit_names = ["%2s"%x for x in canonical_names[:len(oct_deficit)]]
             modelist2.append(("-".join(deficit_names), cnt, i))
-            
+    
+
+tabcount = 0
+
+for (cnt,i,name,s0) in interesting_scales:
+    
+    
+    for i in range(3):
         
+        if tabcount % 7 == 0:
+            
+            new_page()
+            print("Quintadecimal Scales on Bass Guitar")
+            print("="*35)
+        
+        tabcount += 1
+        
+        s = s0
+        for x in range(i):
+            s = nextMode(s)
+        steps = getSteps(s)
+        print()
+        frets = tabs.generateFrettingSequence([[x + tabs.tunings[5][0] + 5,{'open':'no','above':3,'below':10}] for x in steps],tabs.tunings[5])
+        tabs.printTab(frets,["",
+                            "",
+                             "%12s"%(romannbr[cnt]+" - "+str(i))+"  ",
+                             ])
+    
 
 # reset base note
 base_note = 0
