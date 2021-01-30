@@ -125,6 +125,7 @@ aboveFavoriteFretPenalty = 4
 openStringPenalty = 35 # 100 if you despice open string, 50 if you prefer no open strings; 15, 30, 20 also are reasonable numbers, even 0
 neckMovePenalty = 20
 stringChangePenalty = 75
+stringChangeGamma = 1.4
 openMutePenalty = 250
 mutedSkippedStringPenalty = 100
 multipleSkippedStringsPenalty = 10 #for each additionally skipped string
@@ -164,7 +165,7 @@ def scoreSuccessiveFrettings(prevfrets,currfrets,cache={}):
     currSpan = getStringSpan(currfrets)
     
     if not ((prevSpan == None) or (currSpan == None)):
-        penalty += stringChangePenalty * (abs(prevSpan[0]-currSpan[0])+abs(prevSpan[1]-currSpan[1]))
+        penalty += stringChangePenalty * (abs(prevSpan[0]-currSpan[0])**stringChangeGamma+abs(prevSpan[1]-currSpan[1])**stringChangeGamma)
     
     # penalty for having to mute open strings that ring out
     penalty += openMutePenalty * len(frozenset(getOpenStrings(prevfrets)).difference(getPlayedStrings(currfrets)))
