@@ -2,6 +2,9 @@
 
 import pitches as p
 
+from math import ceil
+import itertools as it
+
 # from timeit import timeit
 
 unplayedString = "" # we use this to indicate that there is a string which is left alone :)
@@ -9,7 +12,7 @@ unplayedString = "" # we use this to indicate that there is a string which is le
 tunings = {4:tuple([-8   + i*5 for i in range(4)]), #4-string bass
            5:tuple([-13  + i*5 for i in range(5)]), #5-string bass
            6:tuple([-5   + i*5 for i in range(6)]), # my 6-string tuning
-           7:tuple([-5   + i*5 for i in range(7)]), # my 7-string tuning
+           7:tuple([-8   + i*5 for i in range(7)]), # my 7-string tuning
            8:tuple([-10  + i*5 for i in range(8)]), # my 8-string tuning
            'git':tuple([4 + i for i in [0,5,10,15,19,24]]) #standard guitar tuning
           }
@@ -67,6 +70,13 @@ def printTab(columnwise,textleft=[],formatter=formatColumn):
     maxwidth = max((len(x) for x in textleft))
     for t,r in zip(textleft,rowwise):
         print(fillLeft(t,maxwidth),"".join(r),sep="")
+        
+def printMultilineTab(colPerLine,columnwise,textleft=[],formatter=formatColumn,sep=""):
+    nbr = ceil(len(columnwise) / colPerLine)
+    for i in range(nbr):
+        if (i > 0):
+            print(sep)
+        printTab(columnwise[i*colPerLine:(i+1)*colPerLine],textleft,formatter)
         
 def fillColumnsFromBottom(columnwise, filler=""):
     maxheight = max((len(x) for x in columnwise))
@@ -287,6 +297,8 @@ def generateFrettingSequence(pitches, tuning=tunings[8], hifret=24, windowsize=5
         {'open':'yes'} - only consider fretting options with at least one open string
         {'above':k} - only consider fretting options that use open frets or frets above (including) k
         {'below':k} - only consider fretting options that use frets below (including) k
+        {'+strings':[a,b,c]} - only allow the strings a,b,c to be used
+        {'-strings':[a,b,c]} - forbid the strings a,b,c to be used
     """
     # separate pitches from options
     options = [[x for x in p if type(x) == dict] for p in pitches]
@@ -316,6 +328,10 @@ def generateFrettingSequence(pitches, tuning=tunings[8], hifret=24, windowsize=5
                 candidates[i] = [x for x in candidates[i] if [1 for y in x if y != unplayedString and y != 0 and y < opts["above"]] == [] ]
             if "below" in opts:
                 candidates[i] = [x for x in candidates[i] if [1 for y in x if y != unplayedString and  y > opts["below"]] == []]
+            if "+strings" in opts:
+                candidates[i] = [x for x in candidates[i] if frozenset([len(tuning)-y for y in opts["+strings"]]).issuperset(getPlayedStrings(x))]
+            if "-strings" in opts:
+                candidates[i] = [x for x in candidates[i] if frozenset([len(tuning)-y for y in opts["-strings"]]).isdisjoint(getPlayedStrings(x))]
         if candidates[i] == []:
             candidates[i] = [[]]
     
@@ -349,3 +365,20 @@ def generateFrettingSequence(pitches, tuning=tunings[8], hifret=24, windowsize=5
         
     
     return bestcandidate
+    
+def addBarLinesAt(columnwise, where=None, what="|--"):
+    if where == None:
+        where = it.count(0,8)
+    output = []
+    insert = iter(where)
+    next_insert = next(insert)
+    columns = max((len(x) for x in columnwise))
+    for i,c in enumerate(columnwise):
+        if i == next_insert:
+            if type(what) == list:
+                output.append(what)
+            else:
+                output.append([what]*columns)
+            next_insert = next(insert)
+        output.append(c)
+    return output

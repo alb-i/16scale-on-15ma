@@ -164,7 +164,10 @@ def getClassicalPitchNames2(pitches):
     diffs = [(p-np)//12 for p,np in zip(pitches,map(getPitch,names))]
     return [p+octave_indicator[x] for p,x in zip(names,diffs)]
 
-    
+def getScaleName(nbr):
+    roman = {"I":0,"II":1,"III":2,"IV":3,"V":4,"VI":5,"VII":6,"VIII":7,"IX":8}
+    romanI = dict(((y,x) for x,y in roman.items()))
+    return romanI[int(nbr)]
 
 def getScalePitches(scaletype, mode, root):
     roman_names = {"I":0,"II":1,"III":2,"IV":3,"V":4,"VI":5,"VII":6,"VIII":7,"IX":8}
