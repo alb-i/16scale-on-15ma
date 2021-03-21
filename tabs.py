@@ -13,7 +13,8 @@ tunings = {4:tuple([-8   + i*5 for i in range(4)]), #4-string bass
            5:tuple([-13  + i*5 for i in range(5)]), #5-string bass
            6:tuple([-5   + i*5 for i in range(6)]), # my 6-string tuning
            7:tuple([-8   + i*5 for i in range(7)]), # my 7-string tuning
-           8:tuple([-10  + i*5 for i in range(8)]), # my 8-string tuning
+           '8.1':tuple([-10  + i*5 for i in range(8)]), # my old 8-string tuning
+           8:tuple([-8-7] + [-8   + i*5 for i in range(7)]), # my new, more evil 8-string tuning
            'git':tuple([4 + i for i in [0,5,10,15,19,24]]) #standard guitar tuning
           }
           
