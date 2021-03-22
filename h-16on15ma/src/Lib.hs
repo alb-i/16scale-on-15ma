@@ -50,7 +50,6 @@ normalizeTab t0@(Tuning t) (x:xs) = x_normalized : (normalizeTab t0 xs)
                 normalize x@_ = x
                 nbr_strings = length t
 
-
 -- | standard 4 string bass tuning
 bassTuning = Tuning [-8, -3, 2, 7]
 -- | standard 5 string bass tuning
@@ -63,3 +62,9 @@ my6Tuning = Tuning [-5, 0, 5, 10, 15, 20]
 my7Tuning = Tuning [-8, -3, 2, 7, 12, 17, 22]
 -- | tuning of my 8-string guitar
 my8Tuning = Tuning [-15, -8, -3, 2, 7, 12, 17, 22]
+
+-- | this data structure encapsulates personal preferences/abilities for choosing fingerings
+data FrettingPreferences = FrettingPreferences 
+    { isPossible :: [PlayedStringInfo] -> Bool -- ^ Given a (partial) fretting, is it at least theoretically possible to play it like this?  
+    , partialPenaltyRating :: [PlayedStringInfo] -> Double -- ^ Given a (partial) freting, how ugly is it? Higher values are worse. __Must be monotonely increasing when adding fingers/frets.__
+    }
