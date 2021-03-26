@@ -106,5 +106,15 @@ myFrettingPreferences = FrettingPreferences
                              in is_possible playedStrings
         isFretted (Fret x) = x > 0 -- open strings are not considered fretted
         isFretted _ = False
+        isPlayed Unplayed = False
+        isPlayed _ = True
+        isOpen (Fret 0) = True
+        isOpen _ = False
         getFret (Fret x) = x
+        unplayedStrings f = let isStringPlayed n = not $ isPlayed $ f !! n
+                             in filter isStringPlayed [0..(length f) - 1]
+        openStrings f = let isStringOpen n = isOpen $ f !! n
+                         in filter isStringOpen [0..(length f) - 1] 
+        frettedStrings f = let isStringFretted n = isFretted $ f !! n
+                         in filter isStringFretted [0..(length f) - 1]
         frettingPenalty f = 0.0 -- TODO
