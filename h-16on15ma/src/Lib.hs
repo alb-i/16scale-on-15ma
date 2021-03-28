@@ -110,6 +110,7 @@ data MorePlayedStringInfo = MorePlayedStringInfo
      , i_open   :: Bool -- ^ is it an open string?
      , i_fretted :: Maybe Int -- ^ is it a fretted string? If yes, then where?
      , i_notPlayed :: Bool -- ^ is it supposed to be muted/unplayed?
+     , i_isPlayed  :: Bool -- ^ not. i_notPlayed
      , i_sthPlayedBelow :: Bool -- ^ is there a lower string that is played, too?
      , i_sthPlayedAbove :: Bool -- ^ is there a higher string that is played, too?
      , i_fretBelow :: Maybe Int -- ^ the fret of the next-lower played string (open = 0), if this is played
@@ -128,11 +129,12 @@ computeMorePlayedStringInfos f = map getInfo $ zip f [0..]
              , i_open   = isOpen x
              , i_fretted = isFretted x
              , i_notPlayed = isUnplayed x
+             , i_isPlayed  = isPlayed x
              , i_sthPlayedBelow = anythingPlayed $ take n f
              , i_sthPlayedAbove = anythingPlayed $ drop (n+1) f
              , i_fretBelow = last' $ justPlayedFrets $ take n f
              , i_fretAbove = head' $ justPlayedFrets $ drop (n+1) f
-             , i_nbrMutedBelow = nbrMuted $ take n f
+             , i_nbrMutedBelow = nbrMuted $ reverse $ take n f
              , i_nbrMutedAbove = nbrMuted $ drop (n+1) f
              , i_lowestFretPlayed = lowestFret
              , i_highestFretPlayed = highestFret
@@ -158,7 +160,7 @@ computeMorePlayedStringInfos f = map getInfo $ zip f [0..]
          head'  x = Just $ head x
          countMutedHead [] = 0
          countMutedHead (x:xs) | isUnplayed x = 1 + countMutedHead xs
-                               | otherwise    = countMutedHead xs
+                               | otherwise    = 0
          nbrMuted x | anythingPlayed x =  Just $ countMutedHead x
                     | otherwise        = Nothing
          lowestFret  | justPlayedFrets f == [] = Nothing
@@ -185,7 +187,48 @@ myOpenStringPenalty :: [MorePlayedStringInfo] -> Double
 myOpenStringPenalty [] = 0
 myOpenStringPenalty frets  = (*) 35.0 $ fromIntegral $ length $ filter i_open frets
 
-                  
+-- | this function rates how bad muted strings lie between non-muted strings
+myMutedSkippedStringPenalty :: [MorePlayedStringInfo] -> Double
+myMutedSkippedStringPenalty f = skipPenalty
+  where
+     skipPenalty = (+) openMutePenalty $ sum $ map skipNStringsPenalty [1..(length f)-2]
+     stringOpenTest = i_open
+     stringUnplayedTest m = (i_notPlayed m) && (i_sthPlayedAbove m)
+     openMutePatternTest = [stringOpenTest, stringUnplayedTest]
+     skipNStringsPatternTest n m = ((i_nbrMutedAbove m) == Just n) && (i_isPlayed m)
+     skipNStringsPenalty n = (*) (penaltyFactor n) $ fromIntegral $ length $ filter (skipNStringsPatternTest n) f
+     penaltyFactor 1 = 100.0
+     penaltyFactor _ = 110.0 -- >1 skipped string
+     openMutePenalty = (*) 250.0 $ fromIntegral $ countPatternInList openMutePatternTest f
+
+-- | this function rates how much span the fretting needs
+myFrettingSpanPenalty :: [MorePlayedStringInfo] -> Double
+myFrettingSpanPenalty f = maxDistancePenalty + overallDistancePenalty
+  where
+     pressurePoints = map toPosition2d $ filter mustPushDown $ zip f [0..]
+     mustPushDown (m,_) = Nothing /= i_fretted m
+     toPosition2d (m,n) = let Just fret = i_fretted m
+                              fr = fromIntegral fret
+                              alpha = (fr - 1.0) / (23.0) -- string spacing increases towards the bridge.
+                              y = (3.5 - (fromIntegral n)) * (0.6 + (1.0 - alpha) * 0.3) -- on an 8 string, the line between string 4 and 5 is perpendicular to the frets
+                              x = sum $ map fretWidth $ take fret [1..]
+                              fretWidth 1 = 0
+                              fretWidth 2 = 3.75 -- 2nd fret is about 3.75cm from the first fret
+                              fretWidth k = (fretWidth (k-1)) * semitoneStepFactor
+                              semitoneStepFactor = 0.5 ** (1.0 / 12.0)
+                         in (x,y)
+     pairwiseDistances = map computeAllDistances pressurePoints
+     computeAllDistances (x,y) = map (computeDistance (x,y)) pressurePoints
+     computeDistance (x,y) (u,v) = sqrt $ (u-x)**2.0 + (v-y)**2.0
+     maximumDistances = map maximum pairwiseDistances
+     sumOfDistances = (*) 0.5 $ sum maximumDistances
+     maxDistance = maximum maximumDistances
+     penalty x | x < 9.5 = 0
+               | otherwise = (x - 9.5) * 555.6 
+     maxDistancePenalty = penalty maxDistance
+     overallDistancePenalty = sumOfDistances * 5.0
+     
+               
 -- | my personal fretting style
 myFrettingPreferences = FrettingPreferences 
      { isPossible = possible
@@ -200,6 +243,8 @@ myFrettingPreferences = FrettingPreferences
         frettingPenalty f = let i = computeMorePlayedStringInfos f
                                 penalties = [ myFretPenalty i
                                             , myOpenStringPenalty i
+                                            , myMutedSkippedStringPenalty i
+                                            , myFrettingSpanPenalty i
                                             ]
                              in sum penalties
                              
