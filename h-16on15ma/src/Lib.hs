@@ -171,7 +171,7 @@ computeMorePlayedStringInfos f = map getInfo $ zip f [0..]
 -- | this function rates how unpreferred the position on the neck is
 myFretPenalty :: [MorePlayedStringInfo] -> Double
 myFretPenalty [] = 0
-myFretPenalty frets  = penalty
+myFretPenalty frets  = penalty + highFretPenalty
   where
        playedFrets = map getFret $ map i_played $ filter isPlayedFret frets
        isPlayedFret m = i_fretted m  /= Nothing
@@ -181,6 +181,7 @@ myFretPenalty frets  = penalty
        rateFret 5 = 0.0
        rateFret x | x < 5 = 4.0 * (5.0 - fromIntegral x)
                   | x > 5 = 6.0 * ((fromIntegral x) - 5.0)
+       highFretPenalty = (*) 50.0 $ fromIntegral $ length $ filter ((<) 16) playedFrets
 
 -- | this function rates how poor the open strings are
 myOpenStringPenalty :: [MorePlayedStringInfo] -> Double
@@ -226,9 +227,18 @@ myFrettingSpanPenalty f = maxDistancePenalty + overallDistancePenalty
      penalty x | x < 9.5 = 0
                | otherwise = (x - 9.5) * 555.6 
      maxDistancePenalty = penalty maxDistance
-     overallDistancePenalty = sumOfDistances * 5.0
+     overallDistancePenalty = sumOfDistances * 8.5
      
-               
+-- | this function penalizes when the fret on the lower (pitch) string is higher than the fret on the higher (pitch) string
+myInverseFrettingPenalty :: [MorePlayedStringInfo] -> Double
+myInverseFrettingPenalty f = (*) 40.0 $ fromIntegral $ length $ filter filterInversions1 $ filter filterInversions0 f
+  where
+       filterInversions0 m = (isOfFretType $ i_played m) && ((i_nbrMutedAbove m) == Just 0) && (i_sthPlayedAbove m) 
+       isOfFretType (Fret _) = True
+       isOfFretType _ = False
+       filterInversions1 m = (getFret $ i_played m) > (maybe 0 id $ i_fretAbove m)
+       getFret (Fret x) = x
+       
 -- | my personal fretting style
 myFrettingPreferences = FrettingPreferences 
      { isPossible = possible
@@ -241,10 +251,11 @@ myFrettingPreferences = FrettingPreferences
         getFret (Fret x) = x
         frettingPenalty [] = 0.0  
         frettingPenalty f = let i = computeMorePlayedStringInfos f
-                                penalties = [ myFretPenalty i
-                                            , myOpenStringPenalty i
-                                            , myMutedSkippedStringPenalty i
-                                            , myFrettingSpanPenalty i
+                                penalties = [ (*) 1.0 $ myFretPenalty i
+                                            , (*) 1.0 $ myOpenStringPenalty i
+                                            , (*) 1.0 $ myMutedSkippedStringPenalty i
+                                            , (*) 1.0 $ myFrettingSpanPenalty i
+                                            , (*) 1.0 $ myInverseFrettingPenalty i
                                             ]
                              in sum penalties
                              
