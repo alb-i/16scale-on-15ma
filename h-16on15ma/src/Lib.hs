@@ -1,5 +1,9 @@
 module Lib where
 
+import Helpers
+
+import qualified Data.Map as M
+
 {-| defines the style in which a note or chord is played
 -}
 data StyleModifier = Normal -- ^ just normal picking or plucking
@@ -94,7 +98,94 @@ data FrettingPreferences = FrettingPreferences
     { isPossible :: [PlayedStringInfo] -> Bool -- ^ Given a (partial) fretting, is it at least theoretically possible to play it like this?  
     , partialPenaltyRating :: [PlayedStringInfo] -> Double -- ^ Given a (partial) freting, how ugly is it? Higher values are worse. __Must be monotonely increasing when adding fingers/frets.__
     }
+    
+-- | tests whether you have to put down a finger to play the string
+isFretted :: PlayedStringInfo -> Bool
+isFretted (Fret x) = x > 0 -- open strings are not considered fretted
+isFretted _ = False
 
+-- | Information on how to play a given string together with context information on the other strings around
+data MorePlayedStringInfo = MorePlayedStringInfo
+     { i_played :: PlayedStringInfo -- ^ actual info for playing this thing
+     , i_open   :: Bool -- ^ is it an open string?
+     , i_fretted :: Maybe Int -- ^ is it a fretted string? If yes, then where?
+     , i_notPlayed :: Bool -- ^ is it supposed to be muted/unplayed?
+     , i_sthPlayedBelow :: Bool -- ^ is there a lower string that is played, too?
+     , i_sthPlayedAbove :: Bool -- ^ is there a higher string that is played, too?
+     , i_fretBelow :: Maybe Int -- ^ the fret of the next-lower played string (open = 0), if this is played
+     , i_fretAbove :: Maybe Int -- ^ the fret of the next-higher played string (open = 0), if this is played
+     , i_nbrMutedBelow :: Maybe Int -- ^ if there are played strings below, then this is the nbr of muted strings inbetween
+     , i_nbrMutedAbove :: Maybe Int -- ^ if there are played strings above, then this is the nbr of muted strings inbetween
+     , i_lowestFretPlayed :: Maybe Int -- ^ this is the lowest fret that has to be played together with this (open strings do not count here)
+     , i_highestFretPlayed :: Maybe Int -- ^ this is the highest fret that has to be played together with this
+     } deriving (Eq, Ord, Show)
+     
+-- | compute the statistics of a chord from its components
+computeMorePlayedStringInfos :: [PlayedStringInfo] -> [MorePlayedStringInfo]
+computeMorePlayedStringInfos f = map getInfo $ zip f [0..]
+   where getInfo (x,n) = MorePlayedStringInfo 
+             { i_played = x
+             , i_open   = isOpen x
+             , i_fretted = isFretted x
+             , i_notPlayed = isUnplayed x
+             , i_sthPlayedBelow = anythingPlayed $ take n f
+             , i_sthPlayedAbove = anythingPlayed $ drop (n+1) f
+             , i_fretBelow = last' $ justPlayedFrets $ take n f
+             , i_fretAbove = head' $ justPlayedFrets $ drop (n+1) f
+             , i_nbrMutedBelow = nbrMuted $ take n f
+             , i_nbrMutedAbove = nbrMuted $ drop (n+1) f
+             , i_lowestFretPlayed = lowestFret
+             , i_highestFretPlayed = highestFret
+             }
+         justPlayedFrets x = filterAndGetFrets x
+         filterAndGetFrets x = map getFret $ filter isFret x
+         getFret (Fret x) = x
+         isOpen (Fret 0) = True
+         isOpen _ = False
+         isFret (Fret _) = True
+         isFret _ = False
+         isFretted (Fret 0) = Nothing
+         isFretted (Fret x) = Just x
+         isFretted _ = Nothing
+         isUnplayed Unplayed = True
+         isUnplayed Muted = True
+         isUnplayed _ = False
+         isPlayed = not . isUnplayed
+         anythingPlayed = any isPlayed
+         last' [] = Nothing
+         last'  x = Just $ last x
+         head' [] = Nothing
+         head'  x = Just $ head x
+         countMutedHead [] = 0
+         countMutedHead (x:xs) | isUnplayed x = 1 + countMutedHead xs
+                               | otherwise    = countMutedHead xs
+         nbrMuted x | anythingPlayed x =  Just $ countMutedHead x
+                    | otherwise        = Nothing
+         lowestFret  | justPlayedFrets f == [] = Nothing
+                     | otherwise             = Just $ minimum $ justPlayedFrets f
+         highestFret | justPlayedFrets f == [] = Nothing
+                     | otherwise             = Just $ maximum $ justPlayedFrets f
+
+-- | this function rates how unpreferred the position on the neck is
+myFretPenalty :: [MorePlayedStringInfo] -> Double
+myFretPenalty [] = 0
+myFretPenalty frets  = penalty
+  where
+       playedFrets = map getFret $ map i_played $ filter isPlayedFret frets
+       isPlayedFret m = i_fretted m  /= Nothing
+       getFret (Fret x) = x
+       penalty | playedFrets == [] = 0 -- no fretting, no penalty
+               | otherwise         = rateFret $ minimum playedFrets
+       rateFret 5 = 0.0
+       rateFret x | x < 5 = 4.0 * (5.0 - fromIntegral x)
+                  | x > 5 = 6.0 * ((fromIntegral x) - 5.0)
+
+-- | this function rates how poor the open strings are
+myOpenStringPenalty :: [MorePlayedStringInfo] -> Double
+myOpenStringPenalty [] = 0
+myOpenStringPenalty frets  = (*) 35.0 $ fromIntegral $ length $ filter i_open frets
+
+                  
 -- | my personal fretting style
 myFrettingPreferences = FrettingPreferences 
      { isPossible = possible
@@ -104,17 +195,13 @@ myFrettingPreferences = FrettingPreferences
                                 is_possible [] = True
                                 is_possible x = (maximum x) - (minimum x) <= 5 -- more than 5 is definitely not possible in almost all cases!
                              in is_possible playedStrings
-        isFretted (Fret x) = x > 0 -- open strings are not considered fretted
-        isFretted _ = False
-        isPlayed Unplayed = False
-        isPlayed _ = True
-        isOpen (Fret 0) = True
-        isOpen _ = False
         getFret (Fret x) = x
-        unplayedStrings f = let isStringPlayed n = not $ isPlayed $ f !! n
-                             in filter isStringPlayed [0..(length f) - 1]
-        openStrings f = let isStringOpen n = isOpen $ f !! n
-                         in filter isStringOpen [0..(length f) - 1] 
-        frettedStrings f = let isStringFretted n = isFretted $ f !! n
-                         in filter isStringFretted [0..(length f) - 1]
-        frettingPenalty f = 0.0 -- TODO
+        frettingPenalty [] = 0.0  
+        frettingPenalty f = let i = computeMorePlayedStringInfos f
+                                penalties = [ myFretPenalty i
+                                            , myOpenStringPenalty i
+                                            ]
+                             in sum penalties
+                             
+myIsPossible = isPossible myFrettingPreferences
+myPartialPenaltyRating = partialPenaltyRating myFrettingPreferences
