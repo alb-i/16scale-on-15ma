@@ -3,6 +3,7 @@ module Lib where
 import Helpers
 
 import qualified Data.Map as M
+import qualified Data.Maybe
 
 {-| defines the style in which a note or chord is played
 -}
@@ -18,7 +19,7 @@ data PlayedStringInfo = Unplayed -- ^ the string is not played/plucked/picked/et
                       | Fret -- ^ the string is played
                          Int -- ^ indicates where the string is fretted, 0 = open string
      deriving (Eq, Ord)
-     
+
 instance Show PlayedStringInfo where
      show Unplayed = "-"
      show Muted = "x"
@@ -34,30 +35,30 @@ data Duration = UnpreciseDuration -- ^ no duration is given
                       Int -- ^ numerator of note length, usually 1 
                       Int -- ^ denominator of note length, usually 8 or 16
      deriving (Eq, Ord, Show)
-     
+
 -- | type representing an element in a guitar tab
-data TabElement = Chord {-^ strummed chord/note -} 
-                    [PlayedStringInfo] {-^ what to do with each string -} 
-                    StyleModifier {-^ how to play-} 
+data TabElement = Chord {-^ strummed chord/note -}
+                    [PlayedStringInfo] {-^ what to do with each string -}
+                    StyleModifier {-^ how to play-}
                     Duration {-^ how long? -}
                 | Rest {-^ a rest -} Duration {-^ how long? -}
                 | Bar {-^ a bar -} String {-^ info what kind of bar -}
      deriving (Eq, Ord, Show)
-     
+
 -- | defines a (guitar) tuning (and the number of frets available)
 data Tuning = Tuning [Int] -- ^ list of the pitches that correspond to the strings, lowest string goes first
                       Int  -- ^ highest fret the instrument has
      deriving (Eq, Ord, Show)
-     
+
 -- | normalizes a sequence of tab elements to fit a guitar tuning
 normalizeTab :: Tuning -> [TabElement] -> [TabElement]
 normalizeTab _ [] = []
-normalizeTab t0@(Tuning t _) (x:xs) = x_normalized : (normalizeTab t0 xs)
+normalizeTab t0@(Tuning t _) (x:xs) = x_normalized : normalizeTab t0 xs
           where x_normalized = normalize x
-                normalize (Chord f m d) = 
+                normalize (Chord f m d) =
                     let fix_f = take nbr_strings $ f ++ repeat Unplayed
                      in Chord fix_f m d
-                normalize x@_ = x
+                normalize x = x
                 nbr_strings = length t
 
 -- | standard 4 string bass tuning
@@ -72,7 +73,7 @@ my6Tuning = Tuning [-5, 0, 5, 10, 15, 20] 22
 my7Tuning = Tuning [-8, -3, 2, 7, 12, 17, 22] 24
 -- | tuning of my 8-string guitar
 my8Tuning = Tuning [-15, -8, -3, 2, 7, 12, 17, 22] 24
-    
+
 -- | returns candidate frettings for a given pitch
 getPitchFretCandidates :: Tuning {-^ guitar tuning -} -> Int {-^ pitch -} -> [[PlayedStringInfo]]
 getPitchFretCandidates (Tuning t maxFret) pitch = map playOnNthString usableStrings
@@ -82,8 +83,8 @@ getPitchFretCandidates (Tuning t maxFret) pitch = map playOnNthString usableStri
                              in (f > 0) && (f <= maxFret)
            theoreticalFret p n = p - (t !! n)
            unplayedStrings = repeat Unplayed
-           playOnNthString n = (take n unplayedStrings) ++ [Fret $ theoreticalFret pitch n] ++ (take (nbrStrings - n - 1) unplayedStrings)
-           
+           playOnNthString n = take n unplayedStrings ++ [Fret $ theoreticalFret pitch n] ++ (take (nbrStrings - n - 1) unplayedStrings)
+
 -- | Tests whether two frettings are compatible
 isFrettingCompatibleWith :: [PlayedStringInfo] -> [PlayedStringInfo] -> Bool
 isFrettingCompatibleWith [] _ = True
@@ -94,11 +95,11 @@ isFrettingCompatibleWith (x:xs) (y:ys) | x == y    = isFrettingCompatibleWith xs
                                        | otherwise = False
 
 -- | this data structure encapsulates personal preferences/abilities for choosing fingerings
-data FrettingPreferences = FrettingPreferences 
+data FrettingPreferences = FrettingPreferences
     { isPossible :: [PlayedStringInfo] -> Bool -- ^ Given a (partial) fretting, is it at least theoretically possible to play it like this?  
     , partialPenaltyRating :: [PlayedStringInfo] -> Double -- ^ Given a (partial) freting, how ugly is it? Higher values are worse. __Must be monotonely increasing when adding fingers/frets.__
     }
-    
+
 -- | tests whether you have to put down a finger to play the string
 isFretted :: PlayedStringInfo -> Bool
 isFretted (Fret x) = x > 0 -- open strings are not considered fretted
@@ -120,11 +121,11 @@ data MorePlayedStringInfo = MorePlayedStringInfo
      , i_lowestFretPlayed :: Maybe Int -- ^ this is the lowest fret that has to be played together with this (open strings do not count here)
      , i_highestFretPlayed :: Maybe Int -- ^ this is the highest fret that has to be played together with this
      } deriving (Eq, Ord, Show)
-     
+
 -- | compute the statistics of a chord from its components
 computeMorePlayedStringInfos :: [PlayedStringInfo] -> [MorePlayedStringInfo]
-computeMorePlayedStringInfos f = map getInfo $ zip f [0..]
-   where getInfo (x,n) = MorePlayedStringInfo 
+computeMorePlayedStringInfos f = zipWith (curry getInfo) f [0..]
+   where getInfo (x,n) = MorePlayedStringInfo
              { i_played = x
              , i_open   = isOpen x
              , i_fretted = isFretted x
@@ -163,9 +164,9 @@ computeMorePlayedStringInfos f = map getInfo $ zip f [0..]
                                | otherwise    = 0
          nbrMuted x | anythingPlayed x =  Just $ countMutedHead x
                     | otherwise        = Nothing
-         lowestFret  | justPlayedFrets f == [] = Nothing
+         lowestFret  | null (justPlayedFrets f) = Nothing
                      | otherwise             = Just $ minimum $ justPlayedFrets f
-         highestFret | justPlayedFrets f == [] = Nothing
+         highestFret | null (justPlayedFrets f) = Nothing
                      | otherwise             = Just $ maximum $ justPlayedFrets f
 
 -- | this function rates how unpreferred the position on the neck is
@@ -173,15 +174,15 @@ myFretPenalty :: [MorePlayedStringInfo] -> Double
 myFretPenalty [] = 0
 myFretPenalty frets  = penalty + highFretPenalty
   where
-       playedFrets = map getFret $ map i_played $ filter isPlayedFret frets
-       isPlayedFret m = i_fretted m  /= Nothing
+       playedFrets = map (getFret . i_played) (filter isPlayedFret frets)
+       isPlayedFret m = Data.Maybe.isJust (i_fretted m)
        getFret (Fret x) = x
-       penalty | playedFrets == [] = 0 -- no fretting, no penalty
+       penalty | null playedFrets = 0 -- no fretting, no penalty
                | otherwise         = rateFret $ minimum playedFrets
        rateFret 5 = 0.0
        rateFret x | x < 5 = 4.0 * (5.0 - fromIntegral x)
-                  | x > 5 = 6.0 * ((fromIntegral x) - 5.0)
-       highFretPenalty = (*) 50.0 $ fromIntegral $ length $ filter ((<) 16) playedFrets
+                  | x > 5 = 6.0 * (fromIntegral x - 5.0)
+       highFretPenalty = (*) 50.0 $ fromIntegral $ length $ filter (16 <) playedFrets
 
 -- | this function rates how poor the open strings are
 myOpenStringPenalty :: [MorePlayedStringInfo] -> Double
@@ -192,11 +193,11 @@ myOpenStringPenalty frets  = (*) 35.0 $ fromIntegral $ length $ filter i_open fr
 myMutedSkippedStringPenalty :: [MorePlayedStringInfo] -> Double
 myMutedSkippedStringPenalty f = skipPenalty
   where
-     skipPenalty = (+) openMutePenalty $ sum $ map skipNStringsPenalty [1..(length f)-2]
+     skipPenalty = (+) openMutePenalty $ sum $ map skipNStringsPenalty [1..length f-2]
      stringOpenTest = i_open
-     stringUnplayedTest m = (i_notPlayed m) && (i_sthPlayedAbove m)
+     stringUnplayedTest m = i_notPlayed m && i_sthPlayedAbove m
      openMutePatternTest = [stringOpenTest, stringUnplayedTest]
-     skipNStringsPatternTest n m = ((i_nbrMutedAbove m) == Just n) && (i_isPlayed m)
+     skipNStringsPatternTest n m = (i_nbrMutedAbove m == Just n) && i_isPlayed m
      skipNStringsPenalty n = (*) (penaltyFactor n) $ fromIntegral $ length $ filter (skipNStringsPatternTest n) f
      penaltyFactor 1 = 100.0
      penaltyFactor _ = 110.0 -- >1 skipped string
@@ -207,15 +208,15 @@ myFrettingSpanPenalty :: [MorePlayedStringInfo] -> Double
 myFrettingSpanPenalty f = maxDistancePenalty + overallDistancePenalty
   where
      pressurePoints = map toPosition2d $ filter mustPushDown $ zip f [0..]
-     mustPushDown (m,_) = Nothing /= i_fretted m
+     mustPushDown (m,_) = Data.Maybe.isJust (i_fretted m)
      toPosition2d (m,n) = let Just fret = i_fretted m
                               fr = fromIntegral fret
-                              alpha = (fr - 1.0) / (23.0) -- string spacing increases towards the bridge.
-                              y = (3.5 - (fromIntegral n)) * (0.6 + (1.0 - alpha) * 0.3) -- on an 8 string, the line between string 4 and 5 is perpendicular to the frets
+                              alpha = (fr - 1.0) / 23.0 -- string spacing increases towards the bridge.
+                              y = (3.5 - fromIntegral n) * (0.6 + (1.0 - alpha) * 0.3) -- on an 8 string, the line between string 4 and 5 is perpendicular to the frets
                               x = sum $ map fretWidth $ take fret [1..]
                               fretWidth 1 = 0
                               fretWidth 2 = 3.75 -- 2nd fret is about 3.75cm from the first fret
-                              fretWidth k = (fretWidth (k-1)) * semitoneStepFactor
+                              fretWidth k = fretWidth (k-1) * semitoneStepFactor
                               semitoneStepFactor = 0.5 ** (1.0 / 12.0)
                          in (x,y)
      pairwiseDistances = map computeAllDistances pressurePoints
@@ -225,31 +226,31 @@ myFrettingSpanPenalty f = maxDistancePenalty + overallDistancePenalty
      sumOfDistances = (*) 0.5 $ sum maximumDistances
      maxDistance = maximum maximumDistances
      penalty x | x < 9.5 = 0
-               | otherwise = (x - 9.5) * 555.6 
+               | otherwise = (x - 9.5) * 555.6
      maxDistancePenalty = penalty maxDistance
      overallDistancePenalty = sumOfDistances * 8.5
-     
+
 -- | this function penalizes when the fret on the lower (pitch) string is higher than the fret on the higher (pitch) string
 myInverseFrettingPenalty :: [MorePlayedStringInfo] -> Double
 myInverseFrettingPenalty f = (*) 40.0 $ fromIntegral $ length $ filter filterInversions1 $ filter filterInversions0 f
   where
-       filterInversions0 m = (isOfFretType $ i_played m) && ((i_nbrMutedAbove m) == Just 0) && (i_sthPlayedAbove m) 
+       filterInversions0 m = isOfFretType (i_played m) && (i_nbrMutedAbove m == Just 0) && i_sthPlayedAbove m
        isOfFretType (Fret _) = True
        isOfFretType _ = False
-       filterInversions1 m = (getFret $ i_played m) > (maybe 0 id $ i_fretAbove m)
+       filterInversions1 m = getFret (i_played m) > Data.Maybe.fromMaybe 0 (i_fretAbove m)
        getFret (Fret x) = x
-       
+
 -- | my personal fretting style
-myFrettingPreferences = FrettingPreferences 
+myFrettingPreferences = FrettingPreferences
      { isPossible = possible
      , partialPenaltyRating = frettingPenalty
      }
   where possible fretting = let playedStrings = map getFret $ filter isFretted fretting
                                 is_possible [] = True
-                                is_possible x = (maximum x) - (minimum x) <= 5 -- more than 5 is definitely not possible in almost all cases!
+                                is_possible x = maximum x - minimum x <= 5 -- more than 5 is definitely not possible in almost all cases!
                              in is_possible playedStrings
         getFret (Fret x) = x
-        frettingPenalty [] = 0.0  
+        frettingPenalty [] = 0.0
         frettingPenalty f = let i = computeMorePlayedStringInfos f
                                 penalties = [ (*) 1.0 $ myFretPenalty i
                                             , (*) 1.0 $ myOpenStringPenalty i
@@ -258,6 +259,6 @@ myFrettingPreferences = FrettingPreferences
                                             , (*) 1.0 $ myInverseFrettingPenalty i
                                             ]
                              in sum penalties
-                             
+
 myIsPossible = isPossible myFrettingPreferences
 myPartialPenaltyRating = partialPenaltyRating myFrettingPreferences
