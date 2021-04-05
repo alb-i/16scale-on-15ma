@@ -107,6 +107,8 @@ data FrettingPreferences = FrettingPreferences
     { isPossible :: [PlayedStringInfo] -> Bool -- ^ Given a (partial) fretting, is it at least theoretically possible to play it like this?  
     , partialPenaltyRating :: [PlayedStringInfo] -> Double -- ^ Given a (partial) freting, how ugly is it? Higher values are worse. __Must be monotonely increasing when adding fingers/frets.__
     , successionPartialPenaltyRating :: [PlayedStringInfo] -> [PlayedStringInfo] -> Double -- ^ Given two (partial) frettings, how hard/ugly is it to move from the first to the second one
+    , successionMomentumPartialPenaltyRating :: [PlayedStringInfo] -> [PlayedStringInfo] -> [PlayedStringInfo] -> Double -- ^ Given three (partial) frettings, how ugly is the change in movement from the first/second to the second/third fretting
+    , penaltyRating :: [[PlayedStringInfo]] -> Double -- ^ penalty for a given sequence of frettings
     }
 
 -- | tests whether you have to put down a finger to play the string
@@ -250,14 +252,33 @@ myInverseFrettingPenalty f = (*) 40.0 $ fromIntegral $ length $ filter filterInv
        filterInversions1 m = getFret (i_played m) > Data.Maybe.fromMaybe 0 (i_fretAbove m)
        getFret (Fret x) = x
 
+-- | normalizes the number of sub-list elements by adding Unplayed list elements
+normalizePlayedStringInfoList :: [[PlayedStringInfo]] -> [[PlayedStringInfo]]
+normalizePlayedStringInfoList [] = []
+normalizePlayedStringInfoList x = normalizeTo n x
+     where     n = maximum $ map length x
+               normalizeTo _ [] = []
+               normalizeTo n (x:xs) = fixLength n x : normalizeTo n xs
+               fixLength n [] = map (const Unplayed) [1..n]
+               fixLength 0 _  = []
+               fixLength n (x:xs) = x : fixLength (n-1) xs
+
+
 -- | my personal fretting style
 myFrettingPreferences :: FrettingPreferences
 myFrettingPreferences = FrettingPreferences
      { isPossible = possible
      , partialPenaltyRating = frettingPenalty
      , successionPartialPenaltyRating = frettingChangePenalty
+     , successionMomentumPartialPenaltyRating = frettingChangeMomentumPenalty
+     , penaltyRating = penaltyRating
      }
-  where possible fretting = let playedStrings = map getFret $ filter isFretted fretting
+  where penaltyRating' [] = 0.0
+        penaltyRating' [x] = frettingPenalty x
+        penaltyRating' [x,y] = frettingPenalty x + frettingPenalty y + frettingChangePenalty x y
+        penaltyRating' (x:(y:(z:zs))) = frettingPenalty x + frettingChangePenalty x y + frettingChangeMomentumPenalty x y z
+        penaltyRating = penaltyRating' . normalizePlayedStringInfoList
+        possible fretting = let playedStrings = map getFret $ filter isFretted fretting
                                 is_possible [] = True
                                 is_possible x = maximum x - minimum x <= 5 -- more than 5 is definitely not possible in almost all cases!
                              in is_possible playedStrings
@@ -273,14 +294,57 @@ myFrettingPreferences = FrettingPreferences
                              in sum penalties
         frettingChangePenalty f0 f1 = let i0 = computeMorePlayedStringInfos f0
                                           i1 = computeMorePlayedStringInfos f1
-                                          penalties = [(*) 1.0 $ myFretChangePenalty i0 i1]
+                                          penalties = [(*) 1.0 $ myNeckAndFingerMovePenalty i0 i1,
+                                                       (*) 1.0 $ myStringChangePenalty i0 i1]
                                        in sum penalties
+        frettingChangeMomentumPenalty f0 f1 f2 = let i0 = computeMorePlayedStringInfos f0
+                                                     i1 = computeMorePlayedStringInfos f1
+                                                     i2 = computeMorePlayedStringInfos f2
+                                                     penalties = [(*) 1.0 $ myFretChangeMomentumPenalty i0 i1 i2]
+                                                  in sum penalties
+-- | this function defines how poor the change in strings pinched down between two frettings in succession is
+myStringChangePenalty :: [MorePlayedStringInfo] -> [MorePlayedStringInfo] -> Double
+myStringChangePenalty [] _ = 0.0
+myStringChangePenalty _ [] = 0.0
+myStringChangePenalty f0 f1 = sum penalties
+     where
+          s0 = map isStringUsed f0
+          s1 = map isStringUsed f1
+          l0 = lowestStringUsed s0
+          l1 = lowestStringUsed s1
+          h0 = highestStringUsed s0
+          h1 = highestStringUsed s1
+          isStringUsed x = Data.Maybe.isJust $ i_fretted x
+          lowestStringUsed' _ [] = -1
+          lowestStringUsed' n (True:xs) = n
+          lowestStringUsed' n (False:xs) = lowestStringUsed' (n+1) xs
+          lowestStringUsed = lowestStringUsed' 0
+          highestStringUsed' _ [] = -1
+          highestStringUsed' n (True:xs) = max n $ highestStringUsed' (n+1) xs
+          highestStringUsed' n (False:xs) = highestStringUsed' (n+1) xs
+          highestStringUsed = highestStringUsed' 0
+          lowRangePenalty | l0 < 0 || l1 < 0 = 0.0
+                          | l1 > l0 = 0.0
+                          | otherwise = 75.0 * (fromIntegral (l0 - l1) ** 1.40)
+          highRangePenalty | h0 < 0 || h1 < 0 = 0.0
+                           | h1 < h0 = 0.0
+                           | otherwise = 75.0 * (fromIntegral (h1 - h0) ** 1.40)
+          skipUnplayed [] = []
+          skipUnplayed (False:xs) = skipUnplayed xs
+          skipUnplayed x0@(True:_) = x0
+          countNewOnsets = \x -> fromIntegral . length . filter (True ==) . zipWith isNewOnset x
+          newOnsetPenalty0 = 25.0 * countNewOnsets s0 s1
+          newOnsetPenalty1 = 25.0 * countNewOnsets (skipUnplayed s0) (skipUnplayed s1)
+          isNewOnset False True = True
+          isNewOnset _ _ = False
+          newOnsetPenalty = min newOnsetPenalty0 newOnsetPenalty1
+          penalties = [lowRangePenalty, highRangePenalty, newOnsetPenalty]
 
--- | this function defines how poor two frettings in succession are
-myFretChangePenalty :: [MorePlayedStringInfo] -> [MorePlayedStringInfo] -> Double
-myFretChangePenalty [] _  =  0.0
-myFretChangePenalty _ []  =  0.0
-myFretChangePenalty f0 f1 =  minimum [absolutePenalty, relativePenalty]
+-- | this function defines how poor the neck move needed for two frettings in succession is
+myNeckAndFingerMovePenalty :: [MorePlayedStringInfo] -> [MorePlayedStringInfo] -> Double
+myNeckAndFingerMovePenalty [] _  =  0.0
+myNeckAndFingerMovePenalty _ []  =  0.0
+myNeckAndFingerMovePenalty f0 f1 =  minimum [absolutePenalty, relativePenalty]
      where
           getFret (Fret x) = x
           alteredFretting = zipWith fretChanges f0 f1
@@ -296,6 +360,19 @@ myFretChangePenalty f0 f1 =  minimum [absolutePenalty, relativePenalty]
           relativePenalty | Data.Maybe.isJust alteredLowestFret = relativePenalty0 + neckMovePenalty0
                           | otherwise = absolutePenalty
 
+-- | this function defines how poor the momentum of fretting successions is
+myFretChangeMomentumPenalty :: [MorePlayedStringInfo] -> [MorePlayedStringInfo] -> [MorePlayedStringInfo] -> Double
+myFretChangeMomentumPenalty [] _ _ = 0.0
+myFretChangeMomentumPenalty _ [] _ = 0.0
+myFretChangeMomentumPenalty _ _ [] = 0.0
+myFretChangeMomentumPenalty f0 f1 f2 = penalty
+     where     penalty = 15.0 * secondDifference
+               diff0 = maybeAbs $ i_lowestFretPlayed (head f1) `maybeMinus` i_lowestFretPlayed (head f0)
+               diff1 = maybeAbs $ i_lowestFretPlayed (head f2) `maybeMinus` i_lowestFretPlayed (head f1)
+               secondDifference = fromIntegral $ abs $ Data.Maybe.fromMaybe 0 (diff1 `maybeMinus` diff0)
+               maybeMinus = liftM2 (-)
+               maybeAbs = fmap abs
+
 
 -- | check possibility of a given fretting using myFrettingPreferences
 myIsPossible :: [PlayedStringInfo] -> Bool
@@ -304,3 +381,7 @@ myIsPossible = isPossible myFrettingPreferences
 -- | determine rating of a given fretting using myFrettingPreferences
 myPartialPenaltyRating :: [PlayedStringInfo] -> Double
 myPartialPenaltyRating = partialPenaltyRating myFrettingPreferences
+
+-- | determine my preferred rating for a given sequence of frettings
+myPenaltyRating :: [[PlayedStringInfo]] -> Double
+myPenaltyRating = penaltyRating myFrettingPreferences
