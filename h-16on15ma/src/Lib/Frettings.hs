@@ -9,6 +9,10 @@ import qualified Data.Maybe
 
 import Control.Monad ( liftM2 )
 
+-- | determine my preferred rating for a given sequence of frettings
+myPenaltyRating :: [[PlayedStringInfo]] -> Double
+myPenaltyRating = penaltyRating myFrettingPreferences
+
 -- | returns candidate frettings for a given sequence of pitches
 getChordFretCandidates :: Tuning {-^ guitar tuning -} -> [Int] {-^ pitches -} -> [[PlayedStringInfo]]
 getChordFretCandidates (Tuning ts _) [] = [[Unplayed | _ <- [1..length ts]]]
@@ -44,9 +48,6 @@ combineFrettings f1s [] = f1s
 combineFrettings (Unplayed:f1s) (p:f2s) = p : combineFrettings f1s f2s
 combineFrettings (p:f1s) (_:f2s) = p : combineFrettings f1s f2s
 
--- | determine my preferred rating for a given sequence of frettings
-myPenaltyRating :: [[PlayedStringInfo]] -> Double
-myPenaltyRating = penaltyRating myFrettingPreferences
 
 -- | tests whether you have to put down a finger to play the string
 isFretted :: PlayedStringInfo -> Bool
