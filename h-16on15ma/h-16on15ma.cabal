@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.3.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d7b5e83708f07f7fac6b986642ced66739ceaf1c56f31acb371e36de8943a1f3
+-- hash: 6f519c05e00b6396761577e2c6a0f43b6981c022158786a5c68aa38f07f9c3d8
 
 name:           h-16on15ma
 version:        0.1.0.0
@@ -29,6 +29,10 @@ library
   exposed-modules:
       Helpers
       Lib
+      Lib.Frettings
+      Lib.Tabs
+      Lib.Tunings
+      Lib.Types
   other-modules:
       Paths_h_16on15ma
   hs-source-dirs:
