@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6f519c05e00b6396761577e2c6a0f43b6981c022158786a5c68aa38f07f9c3d8
+-- hash: 2a971692879b530224804b6077cde2c92d98c57f49dba99b648c1fec3885b14e
 
 name:           h-16on15ma
 version:        0.1.0.0
@@ -40,6 +40,7 @@ library
   build-depends:
       base >=4.7 && <5
     , containers
+    , parallel
   default-language: Haskell2010
 
 executable h-16on15ma-exe
@@ -48,11 +49,12 @@ executable h-16on15ma-exe
       Paths_h_16on15ma
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -eventlog
   build-depends:
       base >=4.7 && <5
     , containers
     , h-16on15ma
+    , parallel
   default-language: Haskell2010
 
 test-suite h-16on15ma-test
@@ -67,4 +69,5 @@ test-suite h-16on15ma-test
       base >=4.7 && <5
     , containers
     , h-16on15ma
+    , parallel
   default-language: Haskell2010

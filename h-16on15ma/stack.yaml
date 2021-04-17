@@ -2,3 +2,5 @@ packages:
 - .
 resolver:
   compiler: ghc-8.8.4
+extra-deps:
+- parallel-3.2.2.0@sha256:421ce1717610bab82969572b96be89d83ea8d8afe7751cb54d80b996fff063d3,1817

@@ -1,7 +1,8 @@
 module Helpers where
 
-import Data.Maybe ( fromJust, isNothing )
+import Data.Maybe ( fromJust, isNothing, isJust )
 import Data.List (sortOn)
+import Control.Parallel.Strategies
 
 
 {- | checks whether the head of a list fits a given pattern
@@ -40,7 +41,7 @@ optimizePenaltyGreedyPrefixUpperBound bound penalty choiceset prefix (x:xs) =
                          , let p = penalty (prefix ++ [c])
                          , isNothing bound || (p <= fromJust bound) ]
      in if null choices then Nothing else
-         let 
+         let
              prj1 (p,_)     = p
              sorted_choices = sortOn prj1 choices
              applied        = [optimizePenaltyGreedyPrefixUpperBound bound penalty choiceset (prefix ++ [c]) xs
@@ -48,4 +49,64 @@ optimizePenaltyGreedyPrefixUpperBound bound penalty choiceset prefix (x:xs) =
              possibilities  = dropWhile isNothing applied
           in if null possibilities then Nothing else head possibilities
 
+{- | Implements a heuristic for optimizing the penalty with a lookahead.
 
+  Plan for a lookahead heuristic:
+
+  Determine the initial bound on the lookahead window using optimizePenaltyGreedyPrefixUpperBound.
+
+  Determine all choices for the head position, that are below the initial bound.
+    
+    For each of these candidate choices, determine the heuristically best solution for the rest of the window
+    with a reduced lookahead size.
+
+    Choose the best candidate from these and recurse with the same lookahead size.
+-}
+
+optimizePenalty penalty choiceset lookback lookahead input =
+    let run partPrefix window further
+            | isNothing partPrefix = Nothing
+            | null window          = partPrefix
+            | otherwise            =
+                let doStep = optimizePenaltyWindowStep penalty choiceset lookback (fromJust partPrefix) window
+                    fix_one = head $ fromJust doStep
+                    nextPrefix = Just $ fromJust partPrefix ++ [fix_one]
+                    nextWindow | null further = tail window
+                               | otherwise    = tail window ++ [head further]
+                    nextFurther | null further = []
+                                | otherwise = tail further
+                    recurse_other = run nextPrefix nextWindow nextFurther
+                    stepResult | isNothing doStep = Nothing
+                               | isNothing recurse_other = Nothing
+                               | otherwise = recurse_other
+                 in stepResult
+     in run (Just []) (take lookahead input) (drop lookahead input)
+
+optimizePenaltyWindowStep :: Ord a1 => ([a2] -> a1) -> (a3 -> [a2]) -> Int -> [a2] -> [a3] -> Maybe [a2]
+optimizePenaltyWindowStep penalty choiceset lookBackLength lookBack window =
+    let trimLookBack | length lookBack <= lookBackLength = lookBack
+                     | otherwise = drop (length lookBack - lookBackLength) lookBack
+        bound_x = optimizePenaltyGreedyPrefixUpperBound Nothing penalty choiceset trimLookBack window
+        bound   = penalty $ fromJust bound_x
+        result | isNothing bound_x = Nothing
+               | otherwise = optimizePenaltyWindowStep' bound penalty choiceset lookBackLength trimLookBack window
+     in result
+
+optimizePenaltyWindowStep' :: Ord a1 => a1 -> ([a2] -> a1) -> (a3 -> [a2]) -> p -> [a2] -> [a3] -> Maybe [a2]
+optimizePenaltyWindowStep' _ _ _ _ _ [] = Just []
+optimizePenaltyWindowStep' penaltyBound penalty choiceset lookBackLength lookBack window@(w:ws) =
+    let bound_x = optimizePenaltyGreedyPrefixUpperBound (Just penaltyBound) penalty choiceset lookBack window
+        bound   = penalty $ fromJust bound_x
+        choices = [c | c <- choiceset w
+                     , let p = penalty (lookBack ++ [c])
+                     , p <= bound ]
+        candidates = sortOn penaltyWithPrefix $ withStrategy (parList rpar)
+                            [c : cs |  c <- choices
+                                    , let cs0 = optimizePenaltyWindowStep' penaltyBound penalty choiceset lookBackLength (lookBack ++ [c]) ws
+                                    , isJust cs0 -- check whether there is at least a solution now that we fixed c
+                                    , let cs = fromJust cs0] 
+        penaltyWithPrefix cx = penalty $ lookBack ++ cx
+        result | isNothing bound_x = Nothing
+               | null candidates   = Nothing
+               | otherwise         = Just $ head candidates
+     in result
