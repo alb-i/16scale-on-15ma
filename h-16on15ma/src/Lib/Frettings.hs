@@ -14,15 +14,16 @@ myPenaltyRating :: [[PlayedStringInfo]] -> Double
 myPenaltyRating = penaltyRating myFrettingPreferences
 
 -- | returns candidate frettings for a given sequence of pitches
-getChordFretCandidates :: Tuning {-^ guitar tuning -} -> [Int] {-^ pitches -} -> [[PlayedStringInfo]]
-getChordFretCandidates (Tuning ts _) [] = [[Unplayed | _ <- [1..length ts]]]
-getChordFretCandidates t (p:ps) = [combineFrettings a b | a <- getPitchFretCandidates t p
-                                                        , b <- getChordFretCandidates t ps
-                                                        , isFrettingCompatibleWith a b]
-                                                         
+getChordFretCandidates :: Tuning {-^ guitar tuning -} -> ([PlayedStringInfo] -> Bool) {-^ test whether the fretting is overall possible to do -} -> [Int] {-^ pitches -} -> [[PlayedStringInfo]]
+getChordFretCandidates (Tuning ts _) _ [] = [[Unplayed | _ <- [1..length ts]]]
+getChordFretCandidates t testPossible (p:ps) = [r | a <- getPitchFretCandidates t p
+                                                  , b <- getChordFretCandidates t testPossible ps
+                                                  , isFrettingCompatibleWith a b
+                                                  , let r = combineFrettings a b
+                                                  , testPossible r]
 
 -- | returns candidate frettings for a given pitch
-getPitchFretCandidates :: Tuning {-^ guitar tuning -} -> Int {-^ pitch -} -> [[PlayedStringInfo]]
+getPitchFretCandidates :: Tuning {-^ guitar tuning -}  -> Int {-^ pitch -} -> [[PlayedStringInfo]]
 getPitchFretCandidates (Tuning t maxFret) pitch = map playOnNthString usableStrings
      where nbrStrings = length t
            usableStrings = filter mayUseString [0..nbrStrings-1]
@@ -184,7 +185,7 @@ normalizePlayedStringInfoList x = normalizeTo n x
                fixLength n [] = map (const Unplayed) [1..n]
                fixLength 0 _  = []
                fixLength n (x:xs) = x : fixLength (n-1) xs
-
+ 
 
 -- | my personal fretting style
 myFrettingPreferences :: FrettingPreferences
@@ -194,11 +195,12 @@ myFrettingPreferences = FrettingPreferences
      , successionPartialPenaltyRating = frettingChangePenalty
      , successionMomentumPartialPenaltyRating = frettingChangeMomentumPenalty
      , penaltyRating = penaltyRating
+     , penaltyLookback = 2
      }
   where penaltyRating' [] = 0.0
         penaltyRating' [x] = frettingPenalty x
         penaltyRating' [x,y] = frettingPenalty x + frettingPenalty y + frettingChangePenalty x y
-        penaltyRating' (x:(y:(z:zs))) = frettingPenalty x + frettingChangePenalty x y + frettingChangeMomentumPenalty x y z
+        penaltyRating' (x:xs@(y:(z:zs))) = (frettingPenalty x + frettingChangePenalty x y + frettingChangeMomentumPenalty x y z) + penaltyRating' xs
         penaltyRating = penaltyRating' . normalizePlayedStringInfoList
         possible fretting = let playedStrings = map getFret $ filter isFretted fretting
                                 is_possible [] = True
@@ -304,3 +306,6 @@ myIsPossible = isPossible myFrettingPreferences
 myPartialPenaltyRating :: [PlayedStringInfo] -> Double
 myPartialPenaltyRating = partialPenaltyRating myFrettingPreferences
 
+-- | returns all chord fretting candidates with respect to what myFrettingPreferences deems possible
+myChordFretCandidates :: Tuning -> [Int] -> [[PlayedStringInfo]]
+myChordFretCandidates t = getChordFretCandidates t (isPossible myFrettingPreferences) 

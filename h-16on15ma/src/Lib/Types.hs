@@ -54,6 +54,7 @@ data FrettingPreferences = FrettingPreferences
     , successionPartialPenaltyRating :: [PlayedStringInfo] -> [PlayedStringInfo] -> Double -- ^ Given two (partial) frettings, how hard \/ ugly is it to move from the first to the second one
     , successionMomentumPartialPenaltyRating :: [PlayedStringInfo] -> [PlayedStringInfo] -> [PlayedStringInfo] -> Double -- ^ Given three (partial) frettings, how ugly is the change in movement from the first \/ second to the second \/ third fretting
     , penaltyRating :: [[PlayedStringInfo]] -> Double -- ^ penalty for a given sequence of frettings
+    , penaltyLookback :: Int -- ^ how many tailing elements of @xs@ affect the penalty for @xs ++ [x]@? Negative value indicates that all elements of @xs@ have an impact on adding @x@
     }
 
 -- | Information on how to play a given string together with context information on the other strings around
