@@ -1,4 +1,9 @@
+{-# LANGUAGE DeriveGeneric, DeriveAnyClass #-}
+
 module Lib.Types where
+
+import GHC.Generics (Generic)
+import Control.DeepSeq
 
 
 {-| defines the style in which a note or chord is played
@@ -6,7 +11,7 @@ module Lib.Types where
 data StyleModifier = Normal -- ^ just normal picking or plucking
                   | PalmMute -- ^ use palm mute
                   | Squeak   -- ^ make it squeal (usually with pick-harmonics)
-     deriving (Eq, Ord, Show)
+     deriving (Eq, Ord, Show, Generic, NFData)
 
 {-| defines whether and how a specific string on the guitar shall be played 
 -}
@@ -14,7 +19,7 @@ data PlayedStringInfo = Unplayed -- ^ the string is not played \/ plucked \/ pic
                       | Muted    -- ^ the string is played but the fingers mute it, normally depcited by X in a tab
                       | Fret -- ^ the string is played
                          Int -- ^ indicates where the string is fretted, 0 = open string
-     deriving (Eq, Ord)
+     deriving (Eq, Ord, Generic, NFData)
 
 instance Show PlayedStringInfo where
      show Unplayed = "-"
@@ -31,7 +36,7 @@ data Duration = UnpreciseDuration -- ^ no duration is given
               | Duration -- ^ note length
                       Int -- ^ numerator of note length, usually 1 
                       Int -- ^ denominator of note length, usually 8 or 16
-     deriving (Eq, Ord, Show)
+     deriving (Eq, Ord, Show, Generic, NFData)
 
 -- | type representing an element in a guitar tab
 data TabElement = Chord {-^ strummed chord \/ note -}
@@ -40,12 +45,12 @@ data TabElement = Chord {-^ strummed chord \/ note -}
                     Duration {-^ how long? -}
                 | Rest {-^ a rest -} Duration {-^ how long? -}
                 | Bar {-^ a bar -} String {-^ info what kind of bar -}
-     deriving (Eq, Ord, Show)
+     deriving (Eq, Ord, Show, Generic, NFData)
 
 -- | defines a (guitar) tuning (and the number of frets available)
 data Tuning = Tuning [Int] -- ^ list of the pitches that correspond to the strings, lowest string goes first
                       Int  -- ^ highest fret the instrument has
-     deriving (Eq, Ord, Show)
+     deriving (Eq, Ord, Show, Generic, NFData)
 
 -- | this data structure encapsulates personal preferences \/ abilities for choosing fingerings
 data FrettingPreferences = FrettingPreferences
@@ -72,4 +77,4 @@ data MorePlayedStringInfo = MorePlayedStringInfo
      , i_nbrMutedAbove :: Maybe Int -- ^ if there are played strings above, then this is the nbr of muted strings inbetween
      , i_lowestFretPlayed :: Maybe Int -- ^ this is the lowest fret that has to be played together with this (open strings do not count here)
      , i_highestFretPlayed :: Maybe Int -- ^ this is the highest fret that has to be played together with this
-     } deriving (Eq, Ord, Show)
+     } deriving (Eq, Ord, Show, Generic, NFData)

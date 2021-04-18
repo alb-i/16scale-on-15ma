@@ -5,7 +5,7 @@ import Lib.Types
 import Lib.Tunings
 import Lib.Frettings
 import Lib.Tabs
-
+import Lib.Pitches
 
 
 

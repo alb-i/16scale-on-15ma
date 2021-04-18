@@ -3,6 +3,7 @@ module Helpers where
 import Data.Maybe ( fromJust, isNothing, isJust )
 import Data.List (sortOn)
 import Control.Parallel.Strategies
+import Control.Monad
 
 
 {- | checks whether the head of a list fits a given pattern
@@ -49,6 +50,16 @@ optimizePenaltyGreedyPrefixUpperBound bound penalty choiceset prefix (x:xs) =
              possibilities  = dropWhile isNothing applied
           in if null possibilities then Nothing else head possibilities
 
+optimizePenaltyPointWiseGreedy penalty choiceset input =
+    let maybeBestChoices = [if null choices then Nothing else Just $ head choices
+                              | x <- input
+                              , let choices = sortOn chordPenalty $ choiceset x]
+        chordPenalty x = penalty [x]
+        result | any isNothing maybeBestChoices = Nothing 
+               | otherwise = Just $ map fromJust maybeBestChoices
+      in result
+
+
 {- | Implements a heuristic for optimizing the penalty with a lookahead.
 
   Plan for a lookahead heuristic:
@@ -82,30 +93,36 @@ optimizePenalty penalty choiceset lookback lookahead input =
                  in stepResult
      in run (Just []) (take lookahead input) (drop lookahead input)
 
-optimizePenaltyWindowStep :: Ord a1 => ([a2] -> a1) -> (a3 -> [a2]) -> Int -> [a2] -> [a3] -> Maybe [a2]
+--optimizePenaltyWindowStep :: (Ord a1, NFData a2, NFData a1) => ([a2] -> a1) -> (a3 -> [a2]) -> Int -> [a2] -> [a3] -> Maybe [a2]
 optimizePenaltyWindowStep penalty choiceset lookBackLength lookBack window =
     let trimLookBack | length lookBack <= lookBackLength = lookBack
                      | otherwise = drop (length lookBack - lookBackLength) lookBack
-        bound_x = optimizePenaltyGreedyPrefixUpperBound Nothing penalty choiceset trimLookBack window
+        bound_x = --optimizePenaltyGreedyPrefixUpperBound Nothing penalty choiceset trimLookBack window
+                  liftM2 (++) (Just trimLookBack) $ optimizePenaltyPointWiseGreedy penalty choiceset window -- a little bit faster
         bound   = penalty $ fromJust bound_x
         result | isNothing bound_x = Nothing
                | otherwise = optimizePenaltyWindowStep' bound penalty choiceset lookBackLength trimLookBack window
      in result
 
-optimizePenaltyWindowStep' :: Ord a1 => a1 -> ([a2] -> a1) -> (a3 -> [a2]) -> p -> [a2] -> [a3] -> Maybe [a2]
+--optimizePenaltyWindowStep' :: (Ord a1, NFData a2, NFData a1) => a1 -> ([a2] -> a1) -> (a3 -> [a2]) -> p -> [a2] -> [a3] -> Maybe [a2]
 optimizePenaltyWindowStep' _ _ _ _ _ [] = Just []
 optimizePenaltyWindowStep' penaltyBound penalty choiceset lookBackLength lookBack window@(w:ws) =
     let bound_x = optimizePenaltyGreedyPrefixUpperBound (Just penaltyBound) penalty choiceset lookBack window
         bound   = penalty $ fromJust bound_x
-        choices = [c | c <- choiceset w
+        choices = --withStrategy (parList rpar)
+                  [c | c <- choiceset w
                      , let p = penalty (lookBack ++ [c])
                      , p <= bound ]
-        candidates = sortOn penaltyWithPrefix $ withStrategy (parList rpar)
-                            [c : cs |  c <- choices
+        prj1 (x,_) = x
+        prj2 (_,y) = y
+        candidates = map prj2 $ sortOn prj1 candidates'
+        candidates' = --withStrategy (parList rpar) 
+                      [penaltyWithPrefix (c : cs) 
+                                    |  c <- choices
                                     , let cs0 = optimizePenaltyWindowStep' penaltyBound penalty choiceset lookBackLength (lookBack ++ [c]) ws
                                     , isJust cs0 -- check whether there is at least a solution now that we fixed c
                                     , let cs = fromJust cs0] 
-        penaltyWithPrefix cx = penalty $ lookBack ++ cx
+        penaltyWithPrefix cx = (penalty $ lookBack ++ cx, cx)
         result | isNothing bound_x = Nothing
                | null candidates   = Nothing
                | otherwise         = Just $ head candidates
